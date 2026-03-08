@@ -1,0 +1,16 @@
+services:
+  tcpserver:
+    build:
+      context: .
+      dockerfile: Dockerfile.server
+    ports:
+      - "3000:3000"
+
+  tcpclient:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    environment:
+      TCP_CHAT_SERVER_HOST: tcpserver
+    depends_on:
+      - tcpserver

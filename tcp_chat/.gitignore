@@ -1,0 +1,30 @@
+### Git ###
+.git
+
+### Go build artifacts ###
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+### Vendor (if used) ###
+vendor/
+
+### Logs and temp files ###
+*.log
+*.tmp
+*.swp
+*.swo
+
+### IDE/editor ###
+.vscode/
+.idea/
+*.iml
+
+### Misc ###
+*.md
+!README.md

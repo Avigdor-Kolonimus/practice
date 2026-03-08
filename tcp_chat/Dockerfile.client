@@ -1,0 +1,18 @@
+FROM golang:1.26.0-alpine AS builder
+
+WORKDIR /app
+
+COPY go.mod go.sum* ./
+RUN go mod download
+
+COPY . .
+RUN CGO_ENABLED=0 go build -o tcpclient ./cmd/tcpclient
+
+FROM alpine:latest
+
+WORKDIR /app
+
+COPY --from=builder /app/tcpclient .
+COPY config/practice/conn.json config/practice/conn.json
+
+CMD ["./tcpclient"]
