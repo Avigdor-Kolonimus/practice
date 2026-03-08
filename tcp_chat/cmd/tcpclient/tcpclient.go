@@ -20,7 +20,7 @@ func main() {
 	if host == "" {
 		host = "localhost"
 	}
-	addr := fmt.Sprintf("%s:%d", host, config.Port)
+	addr := net.JoinHostPort(host, fmt.Sprint(config.Port))
 
 	// Connect to the TCP chat server
 	conn, err := net.Dial("tcp", addr)
@@ -29,7 +29,7 @@ func main() {
 	}
 	defer conn.Close()
 
-	fmt.Println(fmt.Sprintf("Connected to chat server on %s", addr))
+	fmt.Printf("Connected to chat server on %s\n", addr)
 
 	pid := os.Getpid()
 	text := fmt.Sprintf("Hi everyone, I am %d, waiting for the broadcast\n", pid)
