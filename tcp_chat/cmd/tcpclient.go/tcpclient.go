@@ -16,20 +16,14 @@ func main() {
 		log.Fatalf("Failed load server config: %v", err)
 	}
 
-	host := os.Getenv("TCP_CHAT_SERVER_HOST")
-	if host == "" {
-		host = "localhost"
-	}
-	addr := net.JoinHostPort(host, fmt.Sprint(config.Port))
-
 	// Connect to the TCP chat server
-	conn, err := net.Dial("tcp", addr)
+	conn, err := net.Dial("tcp", fmt.Sprintf("localhost:%d", config.Port))
 	if err != nil {
 		log.Fatalf("Failed to connect to server: %v", err)
 	}
 	defer conn.Close()
 
-	fmt.Printf("Connected to chat server on %s\n", addr)
+	fmt.Printf("Connected to chat server on localhost:%d\n", config.Port)
 
 	pid := os.Getpid()
 	text := fmt.Sprintf("Hi everyone, I am %d, waiting for the broadcast\n", pid)
