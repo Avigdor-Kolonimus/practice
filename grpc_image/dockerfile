@@ -1,0 +1,40 @@
+# =========================
+# Build stage
+# =========================
+FROM golang:1.26-alpine AS builder
+
+WORKDIR /app
+
+RUN apk add --no-cache git
+
+# Go modules
+COPY go.mod go.sum ./
+RUN go mod download
+
+# Copy the whole project
+COPY . .
+
+# Build static Linux binary for the gRPC server
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
+    go build -o /app/grpcimagesrv ./cmd/grpcimage
+
+# =========================
+# Runtime stage
+# =========================
+FROM alpine:3.20
+
+WORKDIR /app
+
+# Copy binary
+COPY --from=builder /app/grpcimagesrv /app/grpcimagesrv
+
+# Directories used by the app
+RUN mkdir -p /app/download /app/source
+
+# Copy watermark file into the image if you want default watermark
+COPY source/watermark.png /app/source/watermark.png
+
+# Your server listens on :8087
+EXPOSE 8087
+
+ENTRYPOINT ["/app/grpcimagesrv"]

@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  grpcimage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: grpcimage-server
+    ports:
+      - "8087:8087"
+    volumes:
+      # Persist processed images on host
+      - ./download:/app/download
+      # Optionally override watermark from host
+      - ./source:/app/source
+    restart: unless-stopped
