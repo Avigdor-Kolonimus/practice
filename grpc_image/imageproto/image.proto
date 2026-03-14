@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+package imageproto;
+
+option go_package = "grpc_image/imageproto";
+
+message DownloadImagesRequest {
+    ImageInfo info = 1;
+    bytes image = 2;
+}
+
+message ImageInfo {
+    string compress = 1; 
+    string watermark = 2; 
+    string format = 3; 
+    repeated int32 width = 4; 
+    repeated int32 height = 5;
+}
+
+message DownloadImagesResponse {
+    repeated string storage_path = 1; 
+    string error = 2;
+}
+
+service ImageService {
+    rpc DownloadImages(stream DownloadImagesRequest) returns (DownloadImagesResponse);
+}
