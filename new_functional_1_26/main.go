@@ -17,4 +17,10 @@ func main() {
 	exp.Exphpke()
 	exp.ExphpkeSenderRecipient()
 	exp.ExphpkeKEM()
+
+	fmt.Println("buf.peek")
+	exp.PeekBuffer()
+
+	fmt.Println("signal.NotifyContext")
+	exp.NotifyContext()
 }
