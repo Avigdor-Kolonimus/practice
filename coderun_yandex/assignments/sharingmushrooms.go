@@ -9,11 +9,11 @@ import (
 )
 
 func validateFirstLineInput(n int) bool {
-	return n >= 2 && n <= 100000
+	return n >= 2 && n <= 100_000
 }
 
 func validateWeightInput(n int) bool {
-	return n >= 1 && n <= 1000
+	return n >= 1 && n <= 1_000
 }
 
 // https://coderun.yandex.ru/selections/algorithm-training-september-2025/problems/mushroom-sharing/description

@@ -11,5 +11,11 @@ func main() {
 	// cy.SharingMushrooms()
 
 	fmt.Println("MomsReands - assignment 2")
-	cy.MomsReands()
+	// cy.MomsReands()
+
+	fmt.Println("Cybersecurity - assignment 3")
+	// cy.Cybersecurity()
+
+	fmt.Println("QualifyingContest - assignment 4")
+	cy.QualifyingContest()
 }
