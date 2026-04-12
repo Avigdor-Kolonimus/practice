@@ -24,7 +24,13 @@ func main() {
 	// cy.IncrementalScoreboard()
 
 	fmt.Println("PlusesMinusesQuestions - assignment 6")
-	cy.PlusesMinusesQuestions()
+	// cy.PlusesMinusesQuestions()
+
+	fmt.Println("BallOnTheStairs - assignment 11")
+	// cy.BallOnTheStairs()
+
+	fmt.Println("Hike - assignment 12")
+	cy.Hike()
 
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
@@ -37,4 +43,16 @@ func main() {
 
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
+
+	fmt.Println("Sapper - problem 63")
+	// prb.Sapper()
+
+	fmt.Println("SplittingIntoTerms - problem 426")
+	// prb.SplittingIntoTerms()
+
+	fmt.Println("Numbers - problem 44")
+	// prb.Numbers()
+
+	fmt.Println("CastleIf - problem 58")
+	// prb.CastleIf()
 }
