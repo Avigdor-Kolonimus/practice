@@ -63,8 +63,6 @@ func PlusesMinusesQuestions() {
 		line = strings.TrimRight(line, "\r\n")
 		lCount := len(line)
 		if lCount != m {
-			writer.WriteString(strconv.Itoa(lCount))
-			writer.WriteString(line)
 			panic("matrix line count does not match m")
 		}
 
