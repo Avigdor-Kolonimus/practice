@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	cy "coderun_yandex/assignments"
-	// prb "coderun_yandex/problems"
+	prb "coderun_yandex/problems"
 )
 
 func main() {
@@ -30,7 +30,13 @@ func main() {
 	// cy.BallOnTheStairs()
 
 	fmt.Println("Hike - assignment 12")
-	cy.Hike()
+	// cy.Hike()
+
+	fmt.Println("Ladder - assignment 17")
+	cy.Ladder()
+
+	fmt.Println("PlayingWithMatches - assignment 18")
+	// cy.PlayingWithMatches()
 
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
@@ -52,6 +58,15 @@ func main() {
 
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
+
+	fmt.Println("CastleIf - problem 51")
+	// prb.WordAppearanceNumber()
+
+	fmt.Println("DictionarySynonyms - problem 52")
+	// prb.DictionarySynonyms()
+
+	fmt.Println("DictionarySynonyms - problem 54")
+	prb.PhoneNumbers()
 
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
