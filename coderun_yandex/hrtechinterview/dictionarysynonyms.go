@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/dictionary-synonyms
-// DictionarySynonyms - problem 52
+// https://coderun.yandex.ru/selections/hr-tech-interview/problems/dictionary-synonyms
+// DictionarySynonyms - problem 1
 func DictionarySynonyms() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -4,7 +4,8 @@ import (
 	"fmt"
 
 	cy "coderun_yandex/assignments"
-	prb "coderun_yandex/problems"
+	// prb "coderun_yandex/problems"
+	hti "coderun_yandex/hrtechinterview"
 )
 
 func main() {
@@ -26,6 +27,12 @@ func main() {
 	fmt.Println("PlusesMinusesQuestions - assignment 6")
 	// cy.PlusesMinusesQuestions()
 
+	fmt.Println("FiveInARow - assignment 7")
+	// cy.FiveInARow()
+
+	fmt.Println("SplitLine - assignment 8")
+	cy.SplitLine()
+
 	fmt.Println("BallOnTheStairs - assignment 11")
 	// cy.BallOnTheStairs()
 
@@ -33,7 +40,7 @@ func main() {
 	// cy.Hike()
 
 	fmt.Println("Ladder - assignment 17")
-	cy.Ladder()
+	// cy.Ladder()
 
 	fmt.Println("PlayingWithMatches - assignment 18")
 	// cy.PlayingWithMatches()
@@ -43,9 +50,6 @@ func main() {
 
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
-
-	fmt.Println("ShortestPathLength - problem 12")
-	// prb.ShortestPathLength()
 
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
@@ -62,12 +66,30 @@ func main() {
 	fmt.Println("CastleIf - problem 51")
 	// prb.WordAppearanceNumber()
 
-	fmt.Println("DictionarySynonyms - problem 52")
-	// prb.DictionarySynonyms()
+	fmt.Println("PhoneNumbers - problem 54")
+	// prb.PhoneNumbers()
 
-	fmt.Println("DictionarySynonyms - problem 54")
-	prb.PhoneNumbers()
+	fmt.Println("Metro - problem 57")
+	// prb.Metro()
 
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
+
+	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
+	// hti.DictionarySynonyms()
+
+	fmt.Println("NearestNumber - hr-tech-interview problem 2")
+	// hti.NearestNumber()
+
+	fmt.Println("Polyglots - hr-tech-interview problem 3")
+	// hti.Polyglots()
+
+	fmt.Println("CorrectBracketSequence - hr-tech-interview problem 5")
+	// hti.CorrectBracketSequence()
+
+	fmt.Println("ShortestPathLength - hr-tech-interview problem 9")
+	// hti.ShortestPathLength()
+
+	fmt.Println("TreeHeight - hr-tech-interview problem 10")
+	hti.TreeHeight()
 }
