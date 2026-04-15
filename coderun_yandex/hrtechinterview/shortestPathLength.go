@@ -42,8 +42,8 @@ func bfs(matrix [][]int, n, start, end int) int {
 	return dist[endIndex]
 }
 
-// https://coderun.yandex.ru/problem/shortest-path-length
-// ShortestPathLength - problem 3
+// https://coderun.yandex.ru/selections/hr-tech-interview/problems/shortest-path-length
+// ShortestPathLength - problem 9
 func ShortestPathLength() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

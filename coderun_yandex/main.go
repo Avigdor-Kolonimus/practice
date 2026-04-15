@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 
-	cy "coderun_yandex/assignments"
+	// cy "coderun_yandex/assignments"
 	// prb "coderun_yandex/problems"
+	hti "coderun_yandex/hrtechinterview"
 )
 
 func main() {
@@ -26,20 +27,35 @@ func main() {
 	fmt.Println("PlusesMinusesQuestions - assignment 6")
 	// cy.PlusesMinusesQuestions()
 
+	fmt.Println("FiveInARow - assignment 7")
+	// cy.FiveInARow()
+
+	fmt.Println("SplitLine - assignment 8")
+	// cy.SplitLine()
+
+	fmt.Println("NewRegulations - assignment 9")
+	// cy.NewRegulations()
+
 	fmt.Println("BallOnTheStairs - assignment 11")
 	// cy.BallOnTheStairs()
 
+	fmt.Println("ScheduleforWeightedIntervals - assignment 13")
+	// cy.ScheduleforWeightedIntervals()
+
 	fmt.Println("Hike - assignment 12")
-	cy.Hike()
+	// cy.Hike()
+
+	fmt.Println("Ladder - assignment 17")
+	// cy.Ladder()
+
+	fmt.Println("PlayingWithMatches - assignment 18")
+	// cy.PlayingWithMatches()
 
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
 
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
-
-	fmt.Println("ShortestPathLength - problem 12")
-	// prb.ShortestPathLength()
 
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
@@ -53,6 +69,48 @@ func main() {
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
 
+	fmt.Println("CastleIf - problem 51")
+	// prb.WordAppearanceNumber()
+
+	fmt.Println("PhoneNumbers - problem 54")
+	// prb.PhoneNumbers()
+
+	fmt.Println("Metro - problem 57")
+	// prb.Metro()
+
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
+
+	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
+	// hti.DictionarySynonyms()
+
+	fmt.Println("NearestNumber - hr-tech-interview problem 2")
+	// hti.NearestNumber()
+
+	fmt.Println("Polyglots - hr-tech-interview problem 3")
+	// hti.Polyglots()
+
+	fmt.Println("LargestProductTwoNumbers - hr-tech-interview problem 4")
+	// hti.LargestProductTwoNumbers()
+
+	fmt.Println("CorrectBracketSequence - hr-tech-interview problem 5")
+	// hti.CorrectBracketSequence()
+
+	fmt.Println("Tourism - hr-tech-interview problem 6")
+	// hti.Tourism()
+
+	fmt.Println("SumOfNumbers - hr-tech-interview problem 7")
+	// hti.SumOfNumbers()
+
+	fmt.Println("SearchInDepth - hr-tech-interview problem 8")
+	// hti.SearchInDepth()
+
+	fmt.Println("ShortestPathLength - hr-tech-interview problem 9")
+	// hti.ShortestPathLength()
+
+	fmt.Println("TreeHeight - hr-tech-interview problem 10")
+	// hti.TreeHeight()
+
+	fmt.Println("MinimumOfTheSegment - hr-tech-interview problem 11")
+	hti.MinimumOfTheSegment()
 }
