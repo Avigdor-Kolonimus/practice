@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	cy "coderun_yandex/assignments"
+	// cy "coderun_yandex/assignments"
 	// prb "coderun_yandex/problems"
 	hti "coderun_yandex/hrtechinterview"
 )
@@ -31,10 +31,16 @@ func main() {
 	// cy.FiveInARow()
 
 	fmt.Println("SplitLine - assignment 8")
-	cy.SplitLine()
+	// cy.SplitLine()
+
+	fmt.Println("NewRegulations - assignment 9")
+	// cy.NewRegulations()
 
 	fmt.Println("BallOnTheStairs - assignment 11")
 	// cy.BallOnTheStairs()
+
+	fmt.Println("ScheduleforWeightedIntervals - assignment 13")
+	// cy.ScheduleforWeightedIntervals()
 
 	fmt.Println("Hike - assignment 12")
 	// cy.Hike()
@@ -84,12 +90,27 @@ func main() {
 	fmt.Println("Polyglots - hr-tech-interview problem 3")
 	// hti.Polyglots()
 
+	fmt.Println("LargestProductTwoNumbers - hr-tech-interview problem 4")
+	// hti.LargestProductTwoNumbers()
+
 	fmt.Println("CorrectBracketSequence - hr-tech-interview problem 5")
 	// hti.CorrectBracketSequence()
+
+	fmt.Println("Tourism - hr-tech-interview problem 6")
+	// hti.Tourism()
+
+	fmt.Println("SumOfNumbers - hr-tech-interview problem 7")
+	// hti.SumOfNumbers()
+
+	fmt.Println("SearchInDepth - hr-tech-interview problem 8")
+	// hti.SearchInDepth()
 
 	fmt.Println("ShortestPathLength - hr-tech-interview problem 9")
 	// hti.ShortestPathLength()
 
 	fmt.Println("TreeHeight - hr-tech-interview problem 10")
-	hti.TreeHeight()
+	// hti.TreeHeight()
+
+	fmt.Println("MinimumOfTheSegment - hr-tech-interview problem 11")
+	hti.MinimumOfTheSegment()
 }
