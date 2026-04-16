@@ -5,7 +5,8 @@ import (
 
 	// cy "coderun_yandex/assignments"
 	// prb "coderun_yandex/problems"
-	hti "coderun_yandex/hrtechinterview"
+	bi "coderun_yandex/backendinterview"
+	// hti "coderun_yandex/hrtechinterview"
 )
 
 func main() {
@@ -36,6 +37,9 @@ func main() {
 	fmt.Println("NewRegulations - assignment 9")
 	// cy.NewRegulations()
 
+	fmt.Println("ListView - assignment 10")
+	// cy.ListView()
+
 	fmt.Println("BallOnTheStairs - assignment 11")
 	// cy.BallOnTheStairs()
 
@@ -44,6 +48,9 @@ func main() {
 
 	fmt.Println("Hike - assignment 12")
 	// cy.Hike()
+
+	fmt.Println("Dictionary - assignment 14")
+	// cy.Dictionary()
 
 	fmt.Println("Ladder - assignment 17")
 	// cy.Ladder()
@@ -112,5 +119,17 @@ func main() {
 	// hti.TreeHeight()
 
 	fmt.Println("MinimumOfTheSegment - hr-tech-interview problem 11")
-	hti.MinimumOfTheSegment()
+	// hti.MinimumOfTheSegment()
+
+	fmt.Println("NumberWordsText - backend-interview problem 1")
+	// bi.NumberWordsText()
+
+	fmt.Println("PointsAndSegments - backend-interview problem 5")
+	// bi.PointsAndSegments()
+
+	fmt.Println("GoodLine - backend-interview problem 6")
+	// bi.GoodLine()
+
+	fmt.Println("ThreeBlocksRow - backend-interview problem 7")
+	bi.ThreeBlocksRow()
 }
