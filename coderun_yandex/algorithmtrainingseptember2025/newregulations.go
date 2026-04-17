@@ -1,4 +1,4 @@
-package assignments
+package algorithmtrainingseptember2025
 
 import (
 	"bufio"

@@ -3,59 +3,66 @@ package main
 import (
 	"fmt"
 
-	// cy "coderun_yandex/assignments"
+	cy "coderun_yandex/algorithmtrainingseptember2025"
 	// prb "coderun_yandex/problems"
-	bi "coderun_yandex/backendinterview"
+	// bi "coderun_yandex/backendinterview"
 	// hti "coderun_yandex/hrtechinterview"
+	q "coderun_yandex/quickstart"
 )
 
 func main() {
-	fmt.Println("SharingMushrooms - assignment 1")
+	fmt.Println("SharingMushrooms - algorithm-training-september-2025 problem 1")
 	// cy.SharingMushrooms()
 
-	fmt.Println("MomsReands - assignment 2")
+	fmt.Println("MomsReands - algorithm-training-september-2025 problem 2")
 	// cy.MomsReands()
 
-	fmt.Println("Cybersecurity - assignment 3")
+	fmt.Println("Cybersecurity - algorithm-training-september-2025 problem 3")
 	// cy.Cybersecurity()
 
-	fmt.Println("QualifyingContest - assignment 4")
+	fmt.Println("QualifyingContest - algorithm-training-september-2025 problem 4")
 	// cy.QualifyingContest()
 
-	fmt.Println("IncrementalScoreboard - assignment 5")
+	fmt.Println("IncrementalScoreboard - algorithm-training-september-2025 problem 5")
 	// cy.IncrementalScoreboard()
 
-	fmt.Println("PlusesMinusesQuestions - assignment 6")
+	fmt.Println("PlusesMinusesQuestions - algorithm-training-september-2025 problem 6")
 	// cy.PlusesMinusesQuestions()
 
-	fmt.Println("FiveInARow - assignment 7")
+	fmt.Println("FiveInARow - algorithm-training-september-2025 problem 7")
 	// cy.FiveInARow()
 
-	fmt.Println("SplitLine - assignment 8")
+	fmt.Println("SplitLine - algorithm-training-september-2025 problem 8")
 	// cy.SplitLine()
 
-	fmt.Println("NewRegulations - assignment 9")
+	fmt.Println("NewRegulations - algorithm-training-september-2025 problem 9")
 	// cy.NewRegulations()
 
-	fmt.Println("ListView - assignment 10")
+	fmt.Println("ListView - algorithm-training-september-2025 problem 10")
 	// cy.ListView()
 
-	fmt.Println("BallOnTheStairs - assignment 11")
+	fmt.Println("BallOnTheStairs - algorithm-training-september-2025 problem 11")
 	// cy.BallOnTheStairs()
 
-	fmt.Println("ScheduleforWeightedIntervals - assignment 13")
+	fmt.Println("ScheduleforWeightedIntervals - algorithm-training-september-2025 problem 13")
 	// cy.ScheduleforWeightedIntervals()
 
-	fmt.Println("Hike - assignment 12")
+	fmt.Println("Hike - algorithm-training-september-2025 problem 12")
 	// cy.Hike()
 
-	fmt.Println("Dictionary - assignment 14")
+	fmt.Println("Dictionary - algorithm-training-september-2025 problem 14")
 	// cy.Dictionary()
 
-	fmt.Println("Ladder - assignment 17")
+	fmt.Println("Tower - algorithm-training-september-2025 problem 15")
+	// cy.Tower()
+
+	fmt.Println("CollectCoins - algorithm-training-september-2025 problem 16")
+	cy.CollectCoins()
+
+	fmt.Println("Ladder - algorithm-training-september-2025 problem 17")
 	// cy.Ladder()
 
-	fmt.Println("PlayingWithMatches - assignment 18")
+	fmt.Println("PlayingWithMatches - algorithm-training-september-2025 problem 18")
 	// cy.PlayingWithMatches()
 
 	fmt.Println("MedianOutOfThree - problem 1")
@@ -131,5 +138,17 @@ func main() {
 	// bi.GoodLine()
 
 	fmt.Println("ThreeBlocksRow - backend-interview problem 7")
-	bi.ThreeBlocksRow()
+	// bi.ThreeBlocksRow()
+
+	fmt.Println("BeautifulLine - backend-interview problem 9")
+	// bi.BeautifulLine()
+
+	fmt.Println("HistogramAndRectangle - backend-interview problem 10")
+	// bi.HistogramAndRectangle()
+
+	fmt.Println("SeasonTasks - quickstart problem 1")
+	// q.SeasonTasks()
+
+	fmt.Println("Triangle - quickstart problem 2")
+	q.Triangle()
 }
