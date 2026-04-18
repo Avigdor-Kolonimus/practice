@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	cy "coderun_yandex/algorithmtrainingseptember2025"
+	// cy "coderun_yandex/algorithmtrainingseptember2025"
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
 	// hti "coderun_yandex/hrtechinterview"
@@ -57,13 +57,19 @@ func main() {
 	// cy.Tower()
 
 	fmt.Println("CollectCoins - algorithm-training-september-2025 problem 16")
-	cy.CollectCoins()
+	// cy.CollectCoins()
 
 	fmt.Println("Ladder - algorithm-training-september-2025 problem 17")
 	// cy.Ladder()
 
 	fmt.Println("PlayingWithMatches - algorithm-training-september-2025 problem 18")
 	// cy.PlayingWithMatches()
+
+	fmt.Println("ChainInTheTable - algorithm-training-september-2025 problem 19")
+	// cy.ChainInTheTable()
+
+	fmt.Println("Masquerade - algorithm-training-september-2025 problem 20")
+	// cy.Masquerade()
 
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
@@ -150,5 +156,17 @@ func main() {
 	// q.SeasonTasks()
 
 	fmt.Println("Triangle - quickstart problem 2")
-	q.Triangle()
+	// q.Triangle()
+
+	fmt.Println("Triangle - quickstart problem 3")
+	// q.MoreYourNeighbors()
+
+	fmt.Println("CalculateTags - quickstart problem 4")
+	// q.CalculateTags()
+
+	fmt.Println("QuadraticEquation - quickstart problem 5")
+	// q.QuadraticEquation()
+
+	fmt.Println("OpenCalculator - quickstart problem 6")
+	q.OpenCalculator()
 }
