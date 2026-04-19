@@ -168,5 +168,26 @@ func main() {
 	// q.QuadraticEquation()
 
 	fmt.Println("OpenCalculator - quickstart problem 6")
-	q.OpenCalculator()
+	// q.OpenCalculator()
+
+	fmt.Println("OpenCalculator - quickstart problem 8")
+	// q.ListGrowing()
+
+	fmt.Println("OpenCalculator - quickstart problem 9")
+	// q.MatrixOperations()
+
+	fmt.Println("GcdAndLcm - quickstart problem 10")
+	// q.GcdAndLcm()
+
+	fmt.Println("SymmetricSequence - quickstart problem 13")
+	// q.SymmetricSequence()
+
+	fmt.Println("SymmetricSequence - quickstart problem 14")
+	// q.LargestProductThreeNumbers()
+
+	fmt.Println("DetermineTypeSequence - quickstart problem 15")
+	// q.DetermineTypeSequence()
+
+	fmt.Println("ImprovingAcademicPerformance - quickstart problem 16")
+	q.ImprovingAcademicPerformance()
 }
