@@ -7,7 +7,8 @@ import (
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
 	// hti "coderun_yandex/hrtechinterview"
-	q "coderun_yandex/quickstart"
+	clb "coderun_yandex/codelifebalance"
+	// q "coderun_yandex/quickstart"
 )
 
 func main() {
@@ -189,5 +190,20 @@ func main() {
 	// q.DetermineTypeSequence()
 
 	fmt.Println("ImprovingAcademicPerformance - quickstart problem 16")
-	q.ImprovingAcademicPerformance()
+	// q.ImprovingAcademicPerformance()
+
+	fmt.Println("Cafe - code-life-balance problem 1")
+	// clb.Cafe()
+
+	fmt.Println("DeadBattery - code-life-balance problem 3")
+	// clb.DeadBattery()
+
+	fmt.Println("GcdAndLcmYandex - code-life-balance problem 4")
+	// clb.GcdAndLcmYandex()
+
+	fmt.Println("PairwiseXor - code-life-balance problem 6")
+	// clb.PairwiseXor()
+
+	fmt.Println("StylishClothes - code-life-balance problem 8")
+	clb.StylishClothes()
 }
