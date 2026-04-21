@@ -7,8 +7,9 @@ import (
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
 	// hti "coderun_yandex/hrtechinterview"
-	clb "coderun_yandex/codelifebalance"
+	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
+	e "coderun_yandex/eserajim"
 )
 
 func main() {
@@ -205,5 +206,20 @@ func main() {
 	// clb.PairwiseXor()
 
 	fmt.Println("StylishClothes - code-life-balance problem 8")
-	clb.StylishClothes()
+	// clb.StylishClothes()
+
+	fmt.Println("WorkSchedule - code-life-balance problem 8")
+	// clb.WorkSchedule()
+
+	fmt.Println("SweetsWanted - eserajim problem 1")
+	// e.SweetsWanted()
+
+	fmt.Println("TriangleSimilarity - eserajim problem 2")
+	// e.TriangleSimilarity()
+
+	fmt.Println("BoardWithCoins - eserajim problem 2")
+	e.BoardWithCoins()
+
+	fmt.Println("KSegments - eserajim problem 5")
+	// e.KSegments()
 }
