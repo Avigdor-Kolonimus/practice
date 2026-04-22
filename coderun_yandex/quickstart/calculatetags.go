@@ -1,4 +1,4 @@
-package assignments
+package quickstart
 
 import (
 	"bufio"
@@ -7,13 +7,13 @@ import (
 	"strings"
 )
 
-func validateLadderInput(n int) bool {
-	return n >= 1 && n <= 150
+func validateCalculateTagsInput(n int) bool {
+	return n >= 1 && n <= 35
 }
 
-// https://coderun.yandex.ru/selections/algorithm-training-september-2025/problems/ladder
-// Ladder - assignment 17
-func Ladder() {
+// https://coderun.yandex.ru/selections/quickstart/problems/calculate-tags
+// CalculateTags - assignment 4
+func CalculateTags() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
 	defer writer.Flush()
@@ -29,19 +29,21 @@ func Ladder() {
 	if err != nil {
 		panic(err)
 	}
-	if !validateLadderInput(n) {
+	if !validateCalculateTagsInput(n) {
 		panic("number N out of range")
 	}
 
-	dp := make([]int, n+1)
-	dp[0] = 1
+	sum := 1
+	if n != 1 {
+		prev, cur := 1, 1
+		sum = 2
 
-	for i := 1; i <= n; i++ {
-		for j := n; j >= i; j-- {
-			dp[j] += dp[j-i]
+		for i := 3; i <= n; i++ {
+			prev, cur = cur, prev+cur
+			sum += cur
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(dp[n]))
+	writer.WriteString(strconv.Itoa(sum))
 	writer.WriteByte('\n')
 }
