@@ -9,7 +9,8 @@ import (
 	// hti "coderun_yandex/hrtechinterview"
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
-	e "coderun_yandex/eserajim"
+	// e "coderun_yandex/eserajim"
+	b "coderun_yandex/backend"
 )
 
 func main() {
@@ -218,8 +219,26 @@ func main() {
 	// e.TriangleSimilarity()
 
 	fmt.Println("BoardWithCoins - eserajim problem 2")
-	e.BoardWithCoins()
+	// e.BoardWithCoins()
 
 	fmt.Println("KSegments - eserajim problem 5")
 	// e.KSegments()
+
+	fmt.Println("Recipes - backend problem 10")
+	// b.Recipes()
+
+	fmt.Println("ServerError - backend problem 24")
+	// b.ServerError()
+
+	fmt.Println("DayofweekYaIntern - backend problem 32")
+	// b.DayofweekYaIntern()
+
+	fmt.Println("TradingYaIntern - backend problem 40")
+	// b.TradingYaIntern()
+
+	fmt.Println("CalendarFormatting - backend problem 43")
+	// b.CalendarFormatting()
+
+	fmt.Println("MergeJSONs2 - backend problem 50")
+	b.MergeJSONs2()
 }
