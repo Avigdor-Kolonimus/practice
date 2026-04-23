@@ -10,7 +10,8 @@ import (
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
-	b "coderun_yandex/backend"
+	// b "coderun_yandex/backend"
+	sb2024 "coderun_yandex/summerbackend2024"
 )
 
 func main() {
@@ -240,5 +241,23 @@ func main() {
 	// b.CalendarFormatting()
 
 	fmt.Println("MergeJSONs2 - backend problem 50")
-	b.MergeJSONs2()
+	// b.MergeJSONs2()
+
+	fmt.Println("RocksAndJewels - backend problem 52")
+	// b.RocksAndJewels()
+
+	fmt.Println("SortingReverseOrder - backend problem 53")
+	// b.SortingReverseOrder()
+
+	fmt.Println("SubstringGraph - backend problem 54")
+	// b.SubstringGraph()
+
+	fmt.Println("CoupleOfLetters - 2024-summer-backend problem 13")
+	// sb2024.CoupleOfLetters()
+
+	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
+	// sb2024.BiggestSquare()
+
+	fmt.Println("Combo - 2024-summer-backend problem 27")
+	sb2024.Combo()
 }
