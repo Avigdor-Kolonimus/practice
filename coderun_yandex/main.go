@@ -11,7 +11,8 @@ import (
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
 	// b "coderun_yandex/backend"
-	sb2024 "coderun_yandex/summerbackend2024"
+	// sb2024 "coderun_yandex/summerbackend2024"
+	sc2025 "coderun_yandex/summercommon2025"
 )
 
 func main() {
@@ -259,5 +260,23 @@ func main() {
 	// sb2024.BiggestSquare()
 
 	fmt.Println("Combo - 2024-summer-backend problem 27")
-	sb2024.Combo()
+	// sb2024.Combo()
+
+	fmt.Println("Combo - 2024-summer-backend problem 30")
+	// sb2024.Tableau()
+
+	fmt.Println("Tiles - 2024-summer-backend problem 31")
+	// sb2024.Tiles()
+
+	fmt.Println("Tiles - 2025-summer-common problem 3")
+	// sc2025.CommotionInTheGuard()
+
+	fmt.Println("Stairs - 2025-summer-common problem 4")
+	// sc2025.Stairs()
+
+	fmt.Println("ErasedLeaderboard - 2025-summer-common problem 5")
+	// sc2025.ErasedLeaderboard()
+
+	fmt.Println("FirstSeedRandomGarden - 2025-summer-common problem 7")
+	sc2025.FirstSeedRandomGarden()
 }
