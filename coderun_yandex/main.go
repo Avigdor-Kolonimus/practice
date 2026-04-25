@@ -278,5 +278,20 @@ func main() {
 	// sc2025.ErasedLeaderboard()
 
 	fmt.Println("FirstSeedRandomGarden - 2025-summer-common problem 7")
-	sc2025.FirstSeedRandomGarden()
+	// sc2025.FirstSeedRandomGarden()
+
+	fmt.Println("FavoriteMelodies - 2025-summer-common problem 8")
+	// sc2025.FavoriteMelodies()
+
+	fmt.Println("SheepWolf - 2025-summer-common problem 11")
+	// sc2025.SheepWolf()
+
+	fmt.Println("ThreeLetterBallad - 2025-summer-common problem 15")
+	// sc2025.ThreeLetterBallad()
+
+	fmt.Println("ProbWin - 2025-summer-common problem 16")
+	// sc2025.ProbWin()
+
+	fmt.Println("CityWallDestruction - 2025-summer-common problem 17")
+	sc2025.CityWallDestruction()
 }
