@@ -12,7 +12,8 @@ import (
 	// e "coderun_yandex/eserajim"
 	// b "coderun_yandex/backend"
 	// sb2024 "coderun_yandex/summerbackend2024"
-	sc2025 "coderun_yandex/summercommon2025"
+	// sc2025 "coderun_yandex/summercommon2025"
+	wc2025 "coderun_yandex/wintercommon2025"
 )
 
 func main() {
@@ -293,5 +294,23 @@ func main() {
 	// sc2025.ProbWin()
 
 	fmt.Println("CityWallDestruction - 2025-summer-common problem 17")
-	sc2025.CityWallDestruction()
+	// sc2025.CityWallDestruction()
+
+	fmt.Println("BrokenRing - 2025-summer-common problem 19")
+	// sc2025.BrokenRing()
+
+	fmt.Println("Cryptogram - 2025-summer-common problem 20")
+	// sc2025.Cryptogram()
+
+	fmt.Println("ThermalPanels - 2025-winter-common problem 1")
+	// wc2025.ThermalPanels()
+
+	fmt.Println("CalibratingMagicAltimeter - 2025-winter-common problem 2")
+	// wc2025.CalibratingMagicAltimeter()
+
+	fmt.Println("RouteToCodePeak - 2025-winter-common problem 5")
+	// wc2025.RouteToCodePeak()
+
+	fmt.Println("LocationOrientation - 2025-winter-common problem 6")
+	wc2025.LocationOrientation()
 }
