@@ -312,5 +312,23 @@ func main() {
 	// wc2025.RouteToCodePeak()
 
 	fmt.Println("LocationOrientation - 2025-winter-common problem 6")
-	wc2025.LocationOrientation()
+	// wc2025.LocationOrientation()
+
+	fmt.Println("DataShards - 2025-winter-common problem 7")
+	// wc2025.DataShards()
+
+	fmt.Println("NumbersInCrystals - 2025-winter-common problem 8")
+	// wc2025.NumbersInCrystals()
+
+	fmt.Println("GlitchChallenge - 2025-winter-common problem 9")
+	// wc2025.GlitchChallenge()
+
+	fmt.Println("LabyrinthUnderMountain - 2025-winter-common problem 10")
+	// wc2025.LabyrinthUnderMountain()
+
+	fmt.Println("LordsTrap - 2025-winter-common problem 11")
+	// wc2025.LordsTrap()
+
+	fmt.Println("LastTunnel - 2025-winter-common problem 12")
+	wc2025.LastTunnel()
 }
