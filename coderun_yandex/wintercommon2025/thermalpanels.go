@@ -42,7 +42,7 @@ func solveThermalPanels(R, B int) (int, int) {
 			continue
 		}
 
-		// Проверяем оба варианта: (W-2, H-2) = (d, B/d) и (B/d, d)
+		// (W-2, H-2) = (d, B/d) и (B/d, d)
 		for _, w := range []int{B/d + 2, d + 2} {
 			h := sum - w
 			if (w-2)*(h-2) == B && w >= h {
