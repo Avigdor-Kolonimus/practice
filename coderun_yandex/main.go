@@ -13,7 +13,8 @@ import (
 	// b "coderun_yandex/backend"
 	// sb2024 "coderun_yandex/summerbackend2024"
 	// sc2025 "coderun_yandex/summercommon2025"
-	wc2025 "coderun_yandex/wintercommon2025"
+	// wc2025 "coderun_yandex/wintercommon2025"
+	yi "coderun_yandex/yandexinterview"
 )
 
 func main() {
@@ -330,5 +331,23 @@ func main() {
 	// wc2025.LordsTrap()
 
 	fmt.Println("LastTunnel - 2025-winter-common problem 12")
-	wc2025.LastTunnel()
+	// wc2025.LastTunnel()
+
+	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
+	// wc2025.LandOfArchitecturalStorms()
+
+	fmt.Println("ProtectiveField - 2025-winter-common problem 17")
+	// wc2025.ProtectiveField()
+
+	fmt.Println("DigitalBridges - 2025-winter-common problem 18")
+	// wc2025.DigitalBridges()
+
+	fmt.Println("ConversationWithGolem - 2025-winter-common problem 19")
+	// wc2025.ConversationWithGolem()
+
+	fmt.Println("SolarProcessor - 2025-winter-common problem 20")
+	// wc2025.SolarProcessor()
+
+	fmt.Println("ConsecutiveOnes - yandex-interview problem 3")
+	yi.ConsecutiveOnes()
 }
