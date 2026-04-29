@@ -10,7 +10,11 @@ import (
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
-	b "coderun_yandex/backend"
+	// b "coderun_yandex/backend"
+	// sb2024 "coderun_yandex/summerbackend2024"
+	// sc2025 "coderun_yandex/summercommon2025"
+	// wc2025 "coderun_yandex/wintercommon2025"
+	yi "coderun_yandex/yandexinterview"
 )
 
 func main() {
@@ -103,6 +107,15 @@ func main() {
 
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
+
+	fmt.Println("Diplomas - problem 225")
+	// prb.Diplomas()
+
+	fmt.Println("PedigreeCountingLevels - problem 243")
+	// prb.PedigreeCountingLevels()
+
+	fmt.Println("DecoratingTree - problem 623")
+	// prb.DecoratingTree()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -240,5 +253,113 @@ func main() {
 	// b.CalendarFormatting()
 
 	fmt.Println("MergeJSONs2 - backend problem 50")
-	b.MergeJSONs2()
+	// b.MergeJSONs2()
+
+	fmt.Println("RocksAndJewels - backend problem 52")
+	// b.RocksAndJewels()
+
+	fmt.Println("SortingReverseOrder - backend problem 53")
+	// b.SortingReverseOrder()
+
+	fmt.Println("SubstringGraph - backend problem 54")
+	// b.SubstringGraph()
+
+	fmt.Println("CoupleOfLetters - 2024-summer-backend problem 13")
+	// sb2024.CoupleOfLetters()
+
+	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
+	// sb2024.BiggestSquare()
+
+	fmt.Println("Combo - 2024-summer-backend problem 27")
+	// sb2024.Combo()
+
+	fmt.Println("Combo - 2024-summer-backend problem 30")
+	// sb2024.Tableau()
+
+	fmt.Println("Tiles - 2024-summer-backend problem 31")
+	// sb2024.Tiles()
+
+	fmt.Println("Tiles - 2025-summer-common problem 3")
+	// sc2025.CommotionInTheGuard()
+
+	fmt.Println("Stairs - 2025-summer-common problem 4")
+	// sc2025.Stairs()
+
+	fmt.Println("ErasedLeaderboard - 2025-summer-common problem 5")
+	// sc2025.ErasedLeaderboard()
+
+	fmt.Println("FirstSeedRandomGarden - 2025-summer-common problem 7")
+	// sc2025.FirstSeedRandomGarden()
+
+	fmt.Println("FavoriteMelodies - 2025-summer-common problem 8")
+	// sc2025.FavoriteMelodies()
+
+	fmt.Println("SheepWolf - 2025-summer-common problem 11")
+	// sc2025.SheepWolf()
+
+	fmt.Println("ThreeLetterBallad - 2025-summer-common problem 15")
+	// sc2025.ThreeLetterBallad()
+
+	fmt.Println("ProbWin - 2025-summer-common problem 16")
+	// sc2025.ProbWin()
+
+	fmt.Println("CityWallDestruction - 2025-summer-common problem 17")
+	// sc2025.CityWallDestruction()
+
+	fmt.Println("BrokenRing - 2025-summer-common problem 19")
+	// sc2025.BrokenRing()
+
+	fmt.Println("Cryptogram - 2025-summer-common problem 20")
+	// sc2025.Cryptogram()
+
+	fmt.Println("ThermalPanels - 2025-winter-common problem 1")
+	// wc2025.ThermalPanels()
+
+	fmt.Println("CalibratingMagicAltimeter - 2025-winter-common problem 2")
+	// wc2025.CalibratingMagicAltimeter()
+
+	fmt.Println("RouteToCodePeak - 2025-winter-common problem 5")
+	// wc2025.RouteToCodePeak()
+
+	fmt.Println("LocationOrientation - 2025-winter-common problem 6")
+	// wc2025.LocationOrientation()
+
+	fmt.Println("DataShards - 2025-winter-common problem 7")
+	// wc2025.DataShards()
+
+	fmt.Println("NumbersInCrystals - 2025-winter-common problem 8")
+	// wc2025.NumbersInCrystals()
+
+	fmt.Println("GlitchChallenge - 2025-winter-common problem 9")
+	// wc2025.GlitchChallenge()
+
+	fmt.Println("LabyrinthUnderMountain - 2025-winter-common problem 10")
+	// wc2025.LabyrinthUnderMountain()
+
+	fmt.Println("LordsTrap - 2025-winter-common problem 11")
+	// wc2025.LordsTrap()
+
+	fmt.Println("LastTunnel - 2025-winter-common problem 12")
+	// wc2025.LastTunnel()
+
+	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
+	// wc2025.LandOfArchitecturalStorms()
+
+	fmt.Println("ProtectiveField - 2025-winter-common problem 17")
+	// wc2025.ProtectiveField()
+
+	fmt.Println("DigitalBridges - 2025-winter-common problem 18")
+	// wc2025.DigitalBridges()
+
+	fmt.Println("ConversationWithGolem - 2025-winter-common problem 19")
+	// wc2025.ConversationWithGolem()
+
+	fmt.Println("SolarProcessor - 2025-winter-common problem 20")
+	// wc2025.SolarProcessor()
+
+	fmt.Println("ConsecutiveOnes - yandex-interview problem 3")
+	// yi.ConsecutiveOnes()
+
+	fmt.Println("InterestingJourney - yandex-interview problem 5")
+	yi.InterestingJourney()
 }
