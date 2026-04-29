@@ -108,6 +108,15 @@ func main() {
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
 
+	fmt.Println("Diplomas - problem 225")
+	// prb.Diplomas()
+
+	fmt.Println("PedigreeCountingLevels - problem 243")
+	// prb.PedigreeCountingLevels()
+
+	fmt.Println("DecoratingTree - problem 623")
+	// prb.DecoratingTree()
+
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
 
@@ -349,5 +358,8 @@ func main() {
 	// wc2025.SolarProcessor()
 
 	fmt.Println("ConsecutiveOnes - yandex-interview problem 3")
-	yi.ConsecutiveOnes()
+	// yi.ConsecutiveOnes()
+
+	fmt.Println("InterestingJourney - yandex-interview problem 5")
+	yi.InterestingJourney()
 }
