@@ -90,9 +90,6 @@ func main() {
 	fmt.Println("Sapper - problem 63")
 	// prb.Sapper()
 
-	fmt.Println("SplittingIntoTerms - problem 426")
-	// prb.SplittingIntoTerms()
-
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
 
@@ -108,11 +105,29 @@ func main() {
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
 
+	fmt.Println("NumberDifferentNumbers - problem 64")
+	// prb.NumberDifferentNumbers()
+
+	fmt.Println("Pyramid - problem 70")
+	// prb.Pyramid()
+
+	fmt.Println("BinarySearch - problem 224")
+	// prb.BinarySearch()
+
 	fmt.Println("Diplomas - problem 225")
 	// prb.Diplomas()
 
+	fmt.Println("Wires - problem 230")
+	// prb.Wires()
+
 	fmt.Println("PedigreeCountingLevels - problem 243")
 	// prb.PedigreeCountingLevels()
+
+	fmt.Println("SplittingIntoTerms - problem 426")
+	// prb.SplittingIntoTerms()
+
+	fmt.Println("Snowballs - problem 618")
+	// prb.Snowballs()
 
 	fmt.Println("DecoratingTree - problem 623")
 	// prb.DecoratingTree()
@@ -356,6 +371,9 @@ func main() {
 
 	fmt.Println("SolarProcessor - 2025-winter-common problem 20")
 	// wc2025.SolarProcessor()
+
+	fmt.Println("Anagrams - yandex-interview problem 2")
+	// yi.Anagrams()
 
 	fmt.Println("ConsecutiveOnes - yandex-interview problem 3")
 	// yi.ConsecutiveOnes()
