@@ -87,8 +87,8 @@ func main() {
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
 
-	fmt.Println("Sapper - problem 63")
-	// prb.Sapper()
+	fmt.Println("TwoHorses - problem 43")
+	// prb.TwoHorses()
 
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
@@ -105,11 +105,17 @@ func main() {
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
 
+	fmt.Println("Sapper - problem 63")
+	// prb.Sapper()
+
 	fmt.Println("NumberDifferentNumbers - problem 64")
 	// prb.NumberDifferentNumbers()
 
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
+
+	fmt.Println("Substring - problem 75")
+	// prb.Substring()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
@@ -122,6 +128,12 @@ func main() {
 
 	fmt.Println("PedigreeCountingLevels - problem 243")
 	// prb.PedigreeCountingLevels()
+
+	fmt.Println("Hipuy - problem 251")
+	// prb.Hipuy()
+
+	fmt.Println("PyramidSorting - problem 252")
+	// prb.PyramidSorting()
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
@@ -378,6 +390,12 @@ func main() {
 	fmt.Println("ConsecutiveOnes - yandex-interview problem 3")
 	// yi.ConsecutiveOnes()
 
+	fmt.Println("GeneratingBracketSequences - yandex-interview problem 4")
+	// yi.GeneratingBracketSequences()
+
 	fmt.Println("InterestingJourney - yandex-interview problem 5")
-	yi.InterestingJourney()
+	// yi.InterestingJourney()
+
+	fmt.Println("RemovingDuplicates - yandex-interview problem 6")
+	yi.RemovingDuplicates()
 }
