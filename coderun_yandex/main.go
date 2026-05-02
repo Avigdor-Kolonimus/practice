@@ -84,8 +84,23 @@ func main() {
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
 
+	fmt.Println("PrintTheRouteOfTheMaximumCost - problem 3")
+	// prb.PrintTheRouteOfTheMaximumCost()
+
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
+
+	fmt.Println("SpeleologistWay - problem 15")
+	// prb.SpeleologistWay()
+
+	fmt.Println("NvpWithResponseRecovery - problem 28")
+	// prb.NvpWithResponseRecovery()
+
+	fmt.Println("LevensteinDistance - problem 33")
+	// prb.LevensteinDistance()
+
+	fmt.Println("FirstVertex - problem 39")
+	// prb.FirstVertex()
 
 	fmt.Println("TwoHorses - problem 43")
 	// prb.TwoHorses()
@@ -116,6 +131,9 @@ func main() {
 
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
+
+	fmt.Println("RectangleSum - problem 95")
+	// prb.RectangleSum()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
