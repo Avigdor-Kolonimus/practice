@@ -126,14 +126,29 @@ func main() {
 	fmt.Println("NumberDifferentNumbers - problem 64")
 	// prb.NumberDifferentNumbers()
 
+	fmt.Println("Keyboard - problem 69")
+	// prb.Keyboard()
+
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
 
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
 
+	fmt.Println("MedianUnion - problem 80")
+	// prb.MedianUnion()
+
+	fmt.Println("DepthAddedElements - problem 86")
+	// prb.DepthAddedElements()
+
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
+
+	fmt.Println("DrunkardGame - problem 100")
+	// prb.DrunkardGame()
+
+	fmt.Println("Cubes - problem 199")
+	// prb.Cubes()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
