@@ -126,6 +126,9 @@ func main() {
 	fmt.Println("NumberDifferentNumbers - problem 64")
 	// prb.NumberDifferentNumbers()
 
+	fmt.Println("IntersectionSets - problem 65")
+	// prb.IntersectionSets()
+
 	fmt.Println("Keyboard - problem 69")
 	// prb.Keyboard()
 
@@ -146,6 +149,9 @@ func main() {
 
 	fmt.Println("DrunkardGame - problem 100")
 	// prb.DrunkardGame()
+
+	fmt.Println("Arrangementlaptops - problem 181")
+	// prb.Arrangementlaptops()
 
 	fmt.Println("Cubes - problem 199")
 	// prb.Cubes()
