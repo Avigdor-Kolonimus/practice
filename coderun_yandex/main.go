@@ -144,6 +144,18 @@ func main() {
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
 
+	fmt.Println("ForkConclusion - problem 87")
+	// prb.ForkConclusion()
+
+	fmt.Println("BranchesConclusion - problem 88")
+	// prb.BranchesConclusion()
+
+	fmt.Println("AvlBalance - problem 89")
+	// prb.AvlBalance()
+
+	fmt.Println("Histogram - problem 91")
+	// prb.Histogram()
+
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
@@ -171,8 +183,17 @@ func main() {
 	fmt.Println("Hipuy - problem 251")
 	// prb.Hipuy()
 
+	fmt.Println("SortingOfWagonsLite - problem 250")
+	// prb.SortingOfWagonsLite()
+
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
+
+	fmt.Println("Tetramino - problem 397")
+	// prb.Tetramino()
+
+	fmt.Println("CalcExpression - problem 402")
+	// prb.CalcExpression()
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
