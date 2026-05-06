@@ -162,6 +162,12 @@ func main() {
 	fmt.Println("DrunkardGame - problem 100")
 	// prb.DrunkardGame()
 
+	fmt.Println("DecWithErrorProtection - problem 101")
+	// prb.DecWithErrorProtection()
+
+	fmt.Println("Grasshopper - problem 104")
+	// prb.Grasshopper()
+
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
 
@@ -177,8 +183,20 @@ func main() {
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
 
+	fmt.Println("LeafConclusion - problem 242")
+	// prb.LeafConclusion()
+
 	fmt.Println("PedigreeCountingLevels - problem 243")
 	// prb.PedigreeCountingLevels()
+
+	fmt.Println("MinimumRectangle - problem 247")
+	// prb.MinimumRectangle()
+
+	fmt.Println("StackProtectionFromErrors - problem 248")
+	// prb.StackProtectionFromErrors()
+
+	fmt.Println("PostfixEntry - problem 249")
+	// prb.PostfixEntry()
 
 	fmt.Println("Hipuy - problem 251")
 	// prb.Hipuy()
