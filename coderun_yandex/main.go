@@ -99,6 +99,9 @@ func main() {
 	fmt.Println("LevensteinDistance - problem 33")
 	// prb.LevensteinDistance()
 
+	fmt.Println("BuyingTickets - problem 37")
+	// prb.BuyingTickets()
+
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
 
@@ -135,11 +138,17 @@ func main() {
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
 
+	fmt.Println("BankAccounts - problem 72")
+	// prb.BankAccounts()
+
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
 
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
+
+	fmt.Println("CashRegisters - problem 82")
+	// prb.CashRegisters()
 
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
@@ -159,11 +168,20 @@ func main() {
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
+	fmt.Println("GreatLinelandMigration - problem 98")
+	// prb.GreatLinelandMigration()
+
+	fmt.Println("QueueWithErrorProtection - problem 99")
+	// prb.QueueWithErrorProtection()
+
 	fmt.Println("DrunkardGame - problem 100")
 	// prb.DrunkardGame()
 
 	fmt.Println("DecWithErrorProtection - problem 101")
 	// prb.DecWithErrorProtection()
+
+	fmt.Println("Conditioner - problem 102")
+	// prb.Conditioner()
 
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
