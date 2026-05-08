@@ -99,6 +99,9 @@ func main() {
 	fmt.Println("LevensteinDistance - problem 33")
 	// prb.LevensteinDistance()
 
+	fmt.Println("SpaceScavenger - problem 34")
+	// prb.SpaceScavenger()
+
 	fmt.Println("BuyingTickets - problem 37")
 	// prb.BuyingTickets()
 
@@ -192,6 +195,15 @@ func main() {
 	fmt.Println("Cubes - problem 199")
 	// prb.Cubes()
 
+	fmt.Println("AlienGenome - problem 200")
+	// prb.AlienGenome()
+
+	fmt.Println("AngryPigs - problem 203")
+	// prb.AngryPigs()
+
+	fmt.Println("CityOfChe - problem 211")
+	// prb.CityOfChe()
+
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
 
@@ -206,6 +218,9 @@ func main() {
 
 	fmt.Println("PedigreeCountingLevels - problem 243")
 	// prb.PedigreeCountingLevels()
+
+	fmt.Println("CollectorDiego - problem 245")
+	// prb.CollectorDiego()
 
 	fmt.Println("MinimumRectangle - problem 247")
 	// prb.MinimumRectangle()
@@ -234,8 +249,14 @@ func main() {
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
 
+	fmt.Println("ClosetPlay - problem 616")
+	// prb.ClosetPlay()
+
 	fmt.Println("Snowballs - problem 618")
 	// prb.Snowballs()
+
+	fmt.Println("NewYearFair - problem 619")
+	// prb.NewYearFair()
 
 	fmt.Println("DecoratingTree - problem 623")
 	// prb.DecoratingTree()
