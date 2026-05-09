@@ -84,8 +84,20 @@ func main() {
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
 
+	fmt.Println("CheapestWay - problem 2")
+	// prb.CheapestWay()
+
 	fmt.Println("PrintTheRouteOfTheMaximumCost - problem 3")
 	// prb.PrintTheRouteOfTheMaximumCost()
+
+	fmt.Println("NopWithResponseRecovery - problem 6")
+	// prb.NopWithResponseRecovery()
+
+	fmt.Println("ConnectivityComponents - problem 8")
+	// prb.ConnectivityComponents()
+
+	fmt.Println("Cheating - problem 9")
+	// prb.Cheating()
 
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
@@ -375,11 +387,14 @@ func main() {
 	fmt.Println("TriangleSimilarity - eserajim problem 2")
 	// e.TriangleSimilarity()
 
-	fmt.Println("BoardWithCoins - eserajim problem 2")
+	fmt.Println("BoardWithCoins - eserajim problem 4")
 	// e.BoardWithCoins()
 
 	fmt.Println("KSegments - eserajim problem 5")
 	// e.KSegments()
+
+	fmt.Println("LinearPostman - eserajim problem 6")
+	// e.LinearPostman()
 
 	fmt.Println("Recipes - backend problem 10")
 	// b.Recipes()
