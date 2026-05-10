@@ -78,10 +78,11 @@ func Cheating() {
 			stack = stack[:len(stack)-1]
 
 			for _, to := range graph[v] {
-				if color[to] == 0 {
+				switch color[to] {
+				case 0:
 					color[to] = -color[v]
 					stack = append(stack, to)
-				} else if color[to] == color[v] {
+				case color[v]:
 					writer.WriteString("NO")
 					writer.WriteByte('\n')
 

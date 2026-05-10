@@ -78,6 +78,9 @@ func main() {
 	fmt.Println("Masquerade - algorithm-training-september-2025 problem 20")
 	// cy.Masquerade()
 
+	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
+	// cy.ShelfOfDiscord()
+
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
 
@@ -98,6 +101,12 @@ func main() {
 
 	fmt.Println("Cheating - problem 9")
 	// prb.Cheating()
+
+	fmt.Println("CycleSearch - problem 11")
+	// prb.CycleSearch()
+
+	fmt.Println("ThePathInTheGraph - problem 13")
+	// prb.ThePathInTheGraph()
 
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
