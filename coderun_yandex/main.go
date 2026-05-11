@@ -81,6 +81,9 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
+	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
+	// cy.Banner()
+
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
 
@@ -116,6 +119,9 @@ func main() {
 
 	fmt.Println("NvpWithResponseRecovery - problem 28")
 	// prb.NvpWithResponseRecovery()
+
+	fmt.Println("KnightMove2 - problem 32")
+	// prb.KnightMove2()
 
 	fmt.Println("LevensteinDistance - problem 33")
 	// prb.LevensteinDistance()
@@ -212,6 +218,9 @@ func main() {
 
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
+
+	fmt.Println("SystemOfLinearQquations2 - problem 188")
+	// prb.SystemOfLinearQquations2()
 
 	fmt.Println("Cubes - problem 199")
 	// prb.Cubes()
