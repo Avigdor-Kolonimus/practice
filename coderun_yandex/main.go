@@ -81,6 +81,9 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
+	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
+	// cy.PickUpPoint()
+
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
 
@@ -147,6 +150,9 @@ func main() {
 	fmt.Println("PhoneNumbers - problem 54")
 	// prb.PhoneNumbers()
 
+	fmt.Println("EquationRoot - problem 55")
+	// prb.EquationRoot()
+
 	fmt.Println("Metro - problem 57")
 	// prb.Metro()
 
@@ -173,6 +179,9 @@ func main() {
 
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
+
+	fmt.Println("Square - problem 78")
+	// prb.Square()
 
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
