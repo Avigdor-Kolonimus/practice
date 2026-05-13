@@ -78,14 +78,44 @@ func main() {
 	fmt.Println("Masquerade - algorithm-training-september-2025 problem 20")
 	// cy.Masquerade()
 
+	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
+	// cy.ShelfOfDiscord()
+
+	fmt.Println("CurrencyExchange - problem 24")
+	// prb.CurrencyExchange()
+
+	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
+	// cy.PickUpPoint()
+
+	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
+	// cy.Banner()
+
 	fmt.Println("MedianOutOfThree - problem 1")
 	// prb.MedianOutOfThree()
 
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
 
+	fmt.Println("CheapestWay - problem 2")
+	// prb.CheapestWay()
+
 	fmt.Println("PrintTheRouteOfTheMaximumCost - problem 3")
 	// prb.PrintTheRouteOfTheMaximumCost()
+
+	fmt.Println("NopWithResponseRecovery - problem 6")
+	// prb.NopWithResponseRecovery()
+
+	fmt.Println("ConnectivityComponents - problem 8")
+	// prb.ConnectivityComponents()
+
+	fmt.Println("Cheating - problem 9")
+	// prb.Cheating()
+
+	fmt.Println("CycleSearch - problem 11")
+	// prb.CycleSearch()
+
+	fmt.Println("ThePathInTheGraph - problem 13")
+	// prb.ThePathInTheGraph()
 
 	fmt.Println("Fleas - problem 14")
 	// prb.Fleas()
@@ -96,8 +126,20 @@ func main() {
 	fmt.Println("NvpWithResponseRecovery - problem 28")
 	// prb.NvpWithResponseRecovery()
 
+	fmt.Println("KnightMove2 - problem 32")
+	// prb.KnightMove2()
+
 	fmt.Println("LevensteinDistance - problem 33")
 	// prb.LevensteinDistance()
+
+	fmt.Println("SpaceScavenger - problem 34")
+	// prb.SpaceScavenger()
+
+	fmt.Println("BuyingTickets - problem 37")
+	// prb.BuyingTickets()
+
+	fmt.Println("RoomArea - problem 38")
+	// prb.RoomArea()
 
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
@@ -113,6 +155,9 @@ func main() {
 
 	fmt.Println("PhoneNumbers - problem 54")
 	// prb.PhoneNumbers()
+
+	fmt.Println("EquationRoot - problem 55")
+	// prb.EquationRoot()
 
 	fmt.Println("Metro - problem 57")
 	// prb.Metro()
@@ -135,11 +180,20 @@ func main() {
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
 
+	fmt.Println("BankAccounts - problem 72")
+	// prb.BankAccounts()
+
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
 
+	fmt.Println("Square - problem 78")
+	// prb.Square()
+
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
+
+	fmt.Println("CashRegisters - problem 82")
+	// prb.CashRegisters()
 
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
@@ -159,20 +213,44 @@ func main() {
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
+	fmt.Println("GreatLinelandMigration - problem 98")
+	// prb.GreatLinelandMigration()
+
+	fmt.Println("QueueWithErrorProtection - problem 99")
+	// prb.QueueWithErrorProtection()
+
 	fmt.Println("DrunkardGame - problem 100")
 	// prb.DrunkardGame()
 
 	fmt.Println("DecWithErrorProtection - problem 101")
 	// prb.DecWithErrorProtection()
 
+	fmt.Println("Conditioner - problem 102")
+	// prb.Conditioner()
+
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
+
+	fmt.Println("ExactlyOneOccur - problem 148")
+	// prb.ExactlyOneOccur()
 
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
 
+	fmt.Println("SystemOfLinearQquations2 - problem 188")
+	// prb.SystemOfLinearQquations2()
+
 	fmt.Println("Cubes - problem 199")
 	// prb.Cubes()
+
+	fmt.Println("AlienGenome - problem 200")
+	// prb.AlienGenome()
+
+	fmt.Println("AngryPigs - problem 203")
+	// prb.AngryPigs()
+
+	fmt.Println("CityOfChe - problem 211")
+	// prb.CityOfChe()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
@@ -188,6 +266,9 @@ func main() {
 
 	fmt.Println("PedigreeCountingLevels - problem 243")
 	// prb.PedigreeCountingLevels()
+
+	fmt.Println("CollectorDiego - problem 245")
+	// prb.CollectorDiego()
 
 	fmt.Println("MinimumRectangle - problem 247")
 	// prb.MinimumRectangle()
@@ -216,8 +297,14 @@ func main() {
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
 
+	fmt.Println("ClosetPlay - problem 616")
+	// prb.ClosetPlay()
+
 	fmt.Println("Snowballs - problem 618")
 	// prb.Snowballs()
+
+	fmt.Println("NewYearFair - problem 619")
+	// prb.NewYearFair()
 
 	fmt.Println("DecoratingTree - problem 623")
 	// prb.DecoratingTree()
@@ -336,11 +423,14 @@ func main() {
 	fmt.Println("TriangleSimilarity - eserajim problem 2")
 	// e.TriangleSimilarity()
 
-	fmt.Println("BoardWithCoins - eserajim problem 2")
+	fmt.Println("BoardWithCoins - eserajim problem 4")
 	// e.BoardWithCoins()
 
 	fmt.Println("KSegments - eserajim problem 5")
 	// e.KSegments()
+
+	fmt.Println("LinearPostman - eserajim problem 6")
+	// e.LinearPostman()
 
 	fmt.Println("Recipes - backend problem 10")
 	// b.Recipes()
