@@ -81,6 +81,9 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
+	fmt.Println("CurrencyExchange - problem 24")
+	// prb.CurrencyExchange()
+
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
@@ -134,6 +137,9 @@ func main() {
 
 	fmt.Println("BuyingTickets - problem 37")
 	// prb.BuyingTickets()
+
+	fmt.Println("RoomArea - problem 38")
+	// prb.RoomArea()
 
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
@@ -224,6 +230,9 @@ func main() {
 
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
+
+	fmt.Println("ExactlyOneOccur - problem 148")
+	// prb.ExactlyOneOccur()
 
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
