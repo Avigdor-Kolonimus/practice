@@ -81,8 +81,11 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
-	fmt.Println("CurrencyExchange - problem 24")
-	// prb.CurrencyExchange()
+	fmt.Println("CurrencyExchange - algorithm-training-september-2025 problem 24")
+	// cy.CurrencyExchange()
+
+	fmt.Println("Ancestor - algorithm-training-september-2025 problem 25")
+	// cy.Ancestor()
 
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
@@ -126,6 +129,9 @@ func main() {
 	fmt.Println("NvpWithResponseRecovery - problem 28")
 	// prb.NvpWithResponseRecovery()
 
+	fmt.Println("NumberOfTriangles - problem 29")
+	// prb.NumberOfTriangles()
+
 	fmt.Println("KnightMove2 - problem 32")
 	// prb.KnightMove2()
 
@@ -149,6 +155,9 @@ func main() {
 
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
+
+	fmt.Println("FrequentWord - problem 50")
+	// prb.FrequentWord()
 
 	fmt.Println("CastleIf - problem 51")
 	// prb.WordAppearanceNumber()
