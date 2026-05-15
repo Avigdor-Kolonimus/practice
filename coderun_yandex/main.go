@@ -87,6 +87,9 @@ func main() {
 	fmt.Println("Ancestor - algorithm-training-september-2025 problem 25")
 	// cy.Ancestor()
 
+	fmt.Println("SuperstringGravity - algorithm-training-september-2025 problem 27")
+	// cy.SuperstringGravity()
+
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
@@ -173,6 +176,9 @@ func main() {
 
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
+
+	fmt.Println("CupCowcakeThrowing - problem 60")
+	// prb.CupCowcakeThrowing()
 
 	fmt.Println("Sapper - problem 63")
 	// prb.Sapper()
@@ -305,6 +311,9 @@ func main() {
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
+
+	fmt.Println("InfinitySum - problem 583")
+	// prb.InfinitySum()
 
 	fmt.Println("ClosetPlay - problem 616")
 	// prb.ClosetPlay()
