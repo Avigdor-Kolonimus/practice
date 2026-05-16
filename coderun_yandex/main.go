@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	// atl "coderun_yandex/atolstikov"
 	// cy "coderun_yandex/algorithmtrainingseptember2025"
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
@@ -93,6 +94,9 @@ func main() {
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
+	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
+	// cy.PotholeRepair()
+
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
 
@@ -129,6 +133,9 @@ func main() {
 	fmt.Println("SpeleologistWay - problem 15")
 	// prb.SpeleologistWay()
 
+	fmt.Println("SumOfCubes - problem 27")
+	// prb.SumOfCubes()
+
 	fmt.Println("NvpWithResponseRecovery - problem 28")
 	// prb.NvpWithResponseRecovery()
 
@@ -152,6 +159,9 @@ func main() {
 
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
+
+	fmt.Println("Troop - problem 41")
+	// prb.Troop()
 
 	fmt.Println("TwoHorses - problem 43")
 	// prb.TwoHorses()
@@ -584,4 +594,7 @@ func main() {
 
 	fmt.Println("RemovingDuplicates - yandex-interview problem 6")
 	yi.RemovingDuplicates()
+
+	fmt.Println("InfinitySum - atolstikov problem 11")
+	// atl.InfinitySum()
 }
