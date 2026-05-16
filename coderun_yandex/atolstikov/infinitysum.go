@@ -1,4 +1,4 @@
-package problems
+package atolstikov
 
 import (
 	"bufio"
@@ -48,8 +48,8 @@ func pow(base, exp int64) int64 {
 	return res
 }
 
-// https://coderun.yandex.ru/problem/infinity-sum
-// InfinitySum - problem 583
+// https://coderun.yandex.ru/selections/atolstikov/problems/infinity-sum
+// InfinitySum - problem 11
 func InfinitySum() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
