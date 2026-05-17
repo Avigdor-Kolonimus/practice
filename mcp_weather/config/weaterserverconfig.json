@@ -1,0 +1,5 @@
+{
+    "requestTimeout":8,
+    "toolTimeout":10,
+    "cacheTTL":3600
+}
