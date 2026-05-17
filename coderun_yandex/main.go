@@ -256,8 +256,14 @@ func main() {
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
 
+	fmt.Println("A1FindMostFrequent - problem 147")
+	// prb.A1FindMostFrequent()
+
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
+
+	fmt.Println("PermutationYaIntern - problem 158")
+	// prb.PermutationYaIntern()
 
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
