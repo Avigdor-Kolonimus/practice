@@ -1,4 +1,4 @@
-package problems
+package newyearadventures
 
 import (
 	"bufio"
@@ -12,8 +12,8 @@ func validateSnowballsInput(t int) bool {
 	return t >= 1 && t <= 10
 }
 
-// https://coderun.yandex.ru/problem/snowballs
-// Snowballs - problem 618
+// https://coderun.yandex.ru/selections/new-year-adventures/problems/snowballs
+// Snowballs - problem 6
 func Snowballs() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -1,4 +1,4 @@
-package problems
+package winterintern2024
 
 import (
 	"bufio"
@@ -20,8 +20,8 @@ func checkBoard(board [8][8]bool, i, j int) bool {
 	return board[i][j]
 }
 
-// https://coderun.yandex.ru/problem/tetramino
-// Tetramino - problem 397
+// https://coderun.yandex.ru/selections/winter-intern-2024/problems/tetramino
+// Tetramino - problem 5
 func Tetramino() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

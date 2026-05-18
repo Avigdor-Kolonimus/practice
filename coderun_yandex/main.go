@@ -11,10 +11,14 @@ import (
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
+	// mg "coderun_yandex/mgustokashin"
 	// b "coderun_yandex/backend"
+	// ai2023 "coderun_yandex/autumnintern2023"
+	// wi2024 "coderun_yandex/winterintern2024"
 	// sb2024 "coderun_yandex/summerbackend2024"
 	// sc2025 "coderun_yandex/summercommon2025"
 	// wc2025 "coderun_yandex/wintercommon2025"
+	// nya "coderun_yandex/newyearadventures"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -319,26 +323,14 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("Tetramino - problem 397")
-	// prb.Tetramino()
-
-	fmt.Println("CalcExpression - problem 402")
-	// prb.CalcExpression()
+	fmt.Println("MediansYaIntern - problem 311")
+	// prb.MediansYaIntern()
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
 
-	fmt.Println("ClosetPlay - problem 616")
-	// prb.ClosetPlay()
-
-	fmt.Println("Snowballs - problem 618")
-	// prb.Snowballs()
-
-	fmt.Println("NewYearFair - problem 619")
-	// prb.NewYearFair()
-
-	fmt.Println("DecoratingTree - problem 623")
-	// prb.DecoratingTree()
+	fmt.Println("AverageInWindow - problem 443")
+	// prb.AverageInWindow()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -600,4 +592,25 @@ func main() {
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
+
+	fmt.Println("BuildASquare - mgustokashin problem 7")
+	// mg.BuildASquare()
+
+	fmt.Println("CalcExpression - autumn-intern-2023 problem 2")
+	// ai2023.CalcExpression()
+
+	fmt.Println("Tetramino - winter-intern-2024 problem 5")
+	// wi2024.Tetramino()
+
+	fmt.Println("DecoratingTree - new-year-adventures problem 2")
+	// nya.DecoratingTree()
+
+	fmt.Println("NewYearFair - new-year-adventures problem 5")
+	// nya.NewYearFair()
+
+	fmt.Println("Snowballs - new-year-adventures problem 6")
+	// nya.Snowballs()
+
+	fmt.Println("ClosetPlay - new-year-adventures problem 8")
+	// nya.ClosetPlay()
 }
