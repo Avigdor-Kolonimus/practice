@@ -1,4 +1,4 @@
-package problems
+package autumnintern2023
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/calc-expression
-// CalcExpression - problem 402
+// https://coderun.yandex.ru/selections/autumn-intern-2023/problems/calc-expression
+// CalcExpression - problem 2
 func CalcExpression() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

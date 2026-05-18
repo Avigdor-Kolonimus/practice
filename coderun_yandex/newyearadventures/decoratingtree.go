@@ -1,4 +1,4 @@
-package problems
+package newyearadventures
 
 import (
 	"bufio"
@@ -11,8 +11,8 @@ func validateDecoratingTreeInput(k int) bool {
 	return k >= 1 && k <= 25
 }
 
-// https://coderun.yandex.ru/problem/decorating-tree
-// DecoratingTree - problem 623
+// https://coderun.yandex.ru/selections/new-year-adventures/problems/decorating-tree
+// DecoratingTree - problem 2
 func DecoratingTree() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -1,4 +1,4 @@
-package problems
+package newyearadventures
 
 import (
 	"bufio"
@@ -17,8 +17,8 @@ func checkClosetPlay(a, b [26]int) bool {
 	return true
 }
 
-// https://coderun.yandex.ru/problem/closet_play
-// ClosetPlay - problem 616
+// https://coderun.yandex.ru/selections/new-year-adventures/problems/closet_play
+// ClosetPlay - problem 8
 func ClosetPlay() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
