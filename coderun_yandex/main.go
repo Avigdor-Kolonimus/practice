@@ -602,8 +602,14 @@ func main() {
 	fmt.Println("Tetramino - winter-intern-2024 problem 5")
 	// wi2024.Tetramino()
 
+	fmt.Println("ChaCha - new-year-adventures problem 1")
+	// nya.ChaCha()
+
 	fmt.Println("DecoratingTree - new-year-adventures problem 2")
 	// nya.DecoratingTree()
+
+	fmt.Println("NewYearFruits - new-year-adventures problem 3")
+	// nya.NewYearFruits()
 
 	fmt.Println("NewYearFair - new-year-adventures problem 5")
 	// nya.NewYearFair()
@@ -613,4 +619,7 @@ func main() {
 
 	fmt.Println("ClosetPlay - new-year-adventures problem 8")
 	// nya.ClosetPlay()
+
+	fmt.Println("NewYearFruits2 - new-year-adventures problem 9")
+	// nya.NewYearFruits2()
 }
