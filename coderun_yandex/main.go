@@ -599,6 +599,9 @@ func main() {
 	fmt.Println("CalcExpression - autumn-intern-2023 problem 2")
 	// ai2023.CalcExpression()
 
+	fmt.Println("Round - winter-intern-2024 problem 4")
+	// wi2024.Round()
+
 	fmt.Println("Tetramino - winter-intern-2024 problem 5")
 	// wi2024.Tetramino()
 
@@ -611,11 +614,17 @@ func main() {
 	fmt.Println("NewYearFruits - new-year-adventures problem 3")
 	// nya.NewYearFruits()
 
+	fmt.Println("PostcardEquation - new-year-adventures problem 4")
+	// nya.PostcardEquation()
+
 	fmt.Println("NewYearFair - new-year-adventures problem 5")
 	// nya.NewYearFair()
 
 	fmt.Println("Snowballs - new-year-adventures problem 6")
 	// nya.Snowballs()
+
+	fmt.Println("NewYearGreeting - new-year-adventures problem 7")
+	// nya.NewYearGreeting()
 
 	fmt.Println("ClosetPlay - new-year-adventures problem 8")
 	// nya.ClosetPlay()
