@@ -1,4 +1,4 @@
-package problems
+package newyearadventures
 
 import (
 	"bufio"
@@ -18,8 +18,8 @@ func dfsNewYearFair(v int, g [][]int, used []bool) {
 	}
 }
 
-// https://coderun.yandex.ru/problem/new-year-fair
-// NewYearFair - problem 619
+// https://coderun.yandex.ru/selections/new-year-adventures/problems/new-year-fair
+// NewYearFair - problem 5
 func NewYearFair() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

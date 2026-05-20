@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	// atl "coderun_yandex/atolstikov"
 	// cy "coderun_yandex/algorithmtrainingseptember2025"
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
@@ -10,10 +11,14 @@ import (
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
+	// mg "coderun_yandex/mgustokashin"
 	// b "coderun_yandex/backend"
+	// ai2023 "coderun_yandex/autumnintern2023"
+	// wi2024 "coderun_yandex/winterintern2024"
 	// sb2024 "coderun_yandex/summerbackend2024"
 	// sc2025 "coderun_yandex/summercommon2025"
 	// wc2025 "coderun_yandex/wintercommon2025"
+	// nya "coderun_yandex/newyearadventures"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -81,11 +86,20 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
-	fmt.Println("CurrencyExchange - problem 24")
-	// prb.CurrencyExchange()
+	fmt.Println("CurrencyExchange - algorithm-training-september-2025 problem 24")
+	// cy.CurrencyExchange()
+
+	fmt.Println("Ancestor - algorithm-training-september-2025 problem 25")
+	// cy.Ancestor()
+
+	fmt.Println("SuperstringGravity - algorithm-training-september-2025 problem 27")
+	// cy.SuperstringGravity()
 
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
+
+	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
+	// cy.PotholeRepair()
 
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
@@ -123,8 +137,14 @@ func main() {
 	fmt.Println("SpeleologistWay - problem 15")
 	// prb.SpeleologistWay()
 
+	fmt.Println("SumOfCubes - problem 27")
+	// prb.SumOfCubes()
+
 	fmt.Println("NvpWithResponseRecovery - problem 28")
 	// prb.NvpWithResponseRecovery()
+
+	fmt.Println("NumberOfTriangles - problem 29")
+	// prb.NumberOfTriangles()
 
 	fmt.Println("KnightMove2 - problem 32")
 	// prb.KnightMove2()
@@ -144,11 +164,17 @@ func main() {
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
 
+	fmt.Println("Troop - problem 41")
+	// prb.Troop()
+
 	fmt.Println("TwoHorses - problem 43")
 	// prb.TwoHorses()
 
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
+
+	fmt.Println("FrequentWord - problem 50")
+	// prb.FrequentWord()
 
 	fmt.Println("CastleIf - problem 51")
 	// prb.WordAppearanceNumber()
@@ -164,6 +190,9 @@ func main() {
 
 	fmt.Println("CastleIf - problem 58")
 	// prb.CastleIf()
+
+	fmt.Println("CupCowcakeThrowing - problem 60")
+	// prb.CupCowcakeThrowing()
 
 	fmt.Println("Sapper - problem 63")
 	// prb.Sapper()
@@ -231,8 +260,14 @@ func main() {
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
 
+	fmt.Println("A1FindMostFrequent - problem 147")
+	// prb.A1FindMostFrequent()
+
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
+
+	fmt.Println("PermutationYaIntern - problem 158")
+	// prb.PermutationYaIntern()
 
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
@@ -288,26 +323,14 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("Tetramino - problem 397")
-	// prb.Tetramino()
-
-	fmt.Println("CalcExpression - problem 402")
-	// prb.CalcExpression()
+	fmt.Println("MediansYaIntern - problem 311")
+	// prb.MediansYaIntern()
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
 
-	fmt.Println("ClosetPlay - problem 616")
-	// prb.ClosetPlay()
-
-	fmt.Println("Snowballs - problem 618")
-	// prb.Snowballs()
-
-	fmt.Println("NewYearFair - problem 619")
-	// prb.NewYearFair()
-
-	fmt.Println("DecoratingTree - problem 623")
-	// prb.DecoratingTree()
+	fmt.Println("AverageInWindow - problem 443")
+	// prb.AverageInWindow()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -566,4 +589,46 @@ func main() {
 
 	fmt.Println("RemovingDuplicates - yandex-interview problem 6")
 	yi.RemovingDuplicates()
+
+	fmt.Println("InfinitySum - atolstikov problem 11")
+	// atl.InfinitySum()
+
+	fmt.Println("BuildASquare - mgustokashin problem 7")
+	// mg.BuildASquare()
+
+	fmt.Println("CalcExpression - autumn-intern-2023 problem 2")
+	// ai2023.CalcExpression()
+
+	fmt.Println("Round - winter-intern-2024 problem 4")
+	// wi2024.Round()
+
+	fmt.Println("Tetramino - winter-intern-2024 problem 5")
+	// wi2024.Tetramino()
+
+	fmt.Println("ChaCha - new-year-adventures problem 1")
+	// nya.ChaCha()
+
+	fmt.Println("DecoratingTree - new-year-adventures problem 2")
+	// nya.DecoratingTree()
+
+	fmt.Println("NewYearFruits - new-year-adventures problem 3")
+	// nya.NewYearFruits()
+
+	fmt.Println("PostcardEquation - new-year-adventures problem 4")
+	// nya.PostcardEquation()
+
+	fmt.Println("NewYearFair - new-year-adventures problem 5")
+	// nya.NewYearFair()
+
+	fmt.Println("Snowballs - new-year-adventures problem 6")
+	// nya.Snowballs()
+
+	fmt.Println("NewYearGreeting - new-year-adventures problem 7")
+	// nya.NewYearGreeting()
+
+	fmt.Println("ClosetPlay - new-year-adventures problem 8")
+	// nya.ClosetPlay()
+
+	fmt.Println("NewYearFruits2 - new-year-adventures problem 9")
+	// nya.NewYearFruits2()
 }
