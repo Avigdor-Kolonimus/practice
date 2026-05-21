@@ -86,6 +86,9 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
+	fmt.Println("FromDeadEndToDeadEnd - algorithm-training-september-2025 problem 22")
+	// cy.FromDeadEndToDeadEnd()
+
 	fmt.Println("CurrencyExchange - algorithm-training-september-2025 problem 24")
 	// cy.CurrencyExchange()
 
@@ -98,8 +101,14 @@ func main() {
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
+	fmt.Println("FriendshipWon - algorithm-training-september-2025 problem 34")
+	// cy.FriendshipWon()
+
 	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
 	// cy.PotholeRepair()
+
+	fmt.Println("BonusesFromTheBoss - algorithm-training-september-2025 problem 38")
+	// cy.BonusesFromTheBoss()
 
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
