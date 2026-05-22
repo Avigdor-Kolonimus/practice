@@ -230,6 +230,9 @@ func main() {
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
 
+	fmt.Println("MedianUnion2 - problem 81")
+	// prb.MedianUnion2()
+
 	fmt.Println("CashRegisters - problem 82")
 	// prb.CashRegisters()
 
@@ -305,6 +308,9 @@ func main() {
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
 
+	fmt.Println("SecondMaximum - problem 240")
+	// prb.SecondMaximum()
+
 	fmt.Println("LeafConclusion - problem 242")
 	// prb.LeafConclusion()
 
@@ -337,6 +343,9 @@ func main() {
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
+
+	fmt.Println("QueenAmount - problem 432")
+	// prb.QueenAmount()
 
 	fmt.Println("AverageInWindow - problem 443")
 	// prb.AverageInWindow()
