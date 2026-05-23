@@ -515,7 +515,13 @@ func main() {
 	fmt.Println("Tiles - 2024-summer-backend problem 31")
 	// sb2024.Tiles()
 
-	fmt.Println("Tiles - 2025-summer-common problem 3")
+	fmt.Println("SolveCoderunWelcome - 2025-summer-common problem 1")
+	// sc2025.SolveCoderunWelcome(9, 8)
+
+	fmt.Println("SolveBridgeToThePalace - 2025-summer-common problem 2")
+	// sc2025.SolveBridgeToThePalace(5, []int{2, 0, -3, 3, 6})
+
+	fmt.Println("CommotionInTheGuard - 2025-summer-common problem 3")
 	// sc2025.CommotionInTheGuard()
 
 	fmt.Println("Stairs - 2025-summer-common problem 4")
@@ -523,6 +529,9 @@ func main() {
 
 	fmt.Println("ErasedLeaderboard - 2025-summer-common problem 5")
 	// sc2025.ErasedLeaderboard()
+
+	fmt.Println("SolveChoosePrimes - 2025-summer-common problem 6")
+	// sc2025.SolveChoosePrimes(5)
 
 	fmt.Println("FirstSeedRandomGarden - 2025-summer-common problem 7")
 	// sc2025.FirstSeedRandomGarden()
