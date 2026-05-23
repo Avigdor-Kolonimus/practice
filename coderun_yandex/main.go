@@ -86,6 +86,9 @@ func main() {
 	fmt.Println("ShelfOfDiscord - algorithm-training-september-2025 problem 21")
 	// cy.ShelfOfDiscord()
 
+	fmt.Println("FromDeadEndToDeadEnd - algorithm-training-september-2025 problem 22")
+	// cy.FromDeadEndToDeadEnd()
+
 	fmt.Println("CurrencyExchange - algorithm-training-september-2025 problem 24")
 	// cy.CurrencyExchange()
 
@@ -98,8 +101,14 @@ func main() {
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
+	fmt.Println("FriendshipWon - algorithm-training-september-2025 problem 34")
+	// cy.FriendshipWon()
+
 	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
 	// cy.PotholeRepair()
+
+	fmt.Println("BonusesFromTheBoss - algorithm-training-september-2025 problem 38")
+	// cy.BonusesFromTheBoss()
 
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
@@ -221,6 +230,9 @@ func main() {
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
 
+	fmt.Println("MedianUnion2 - problem 81")
+	// prb.MedianUnion2()
+
 	fmt.Println("CashRegisters - problem 82")
 	// prb.CashRegisters()
 
@@ -296,6 +308,9 @@ func main() {
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
 
+	fmt.Println("SecondMaximum - problem 240")
+	// prb.SecondMaximum()
+
 	fmt.Println("LeafConclusion - problem 242")
 	// prb.LeafConclusion()
 
@@ -328,6 +343,9 @@ func main() {
 
 	fmt.Println("SplittingIntoTerms - problem 426")
 	// prb.SplittingIntoTerms()
+
+	fmt.Println("QueenAmount - problem 432")
+	// prb.QueenAmount()
 
 	fmt.Println("AverageInWindow - problem 443")
 	// prb.AverageInWindow()
@@ -497,7 +515,13 @@ func main() {
 	fmt.Println("Tiles - 2024-summer-backend problem 31")
 	// sb2024.Tiles()
 
-	fmt.Println("Tiles - 2025-summer-common problem 3")
+	fmt.Println("SolveCoderunWelcome - 2025-summer-common problem 1")
+	// sc2025.SolveCoderunWelcome(9, 8)
+
+	fmt.Println("SolveBridgeToThePalace - 2025-summer-common problem 2")
+	// sc2025.SolveBridgeToThePalace(5, []int{2, 0, -3, 3, 6})
+
+	fmt.Println("CommotionInTheGuard - 2025-summer-common problem 3")
 	// sc2025.CommotionInTheGuard()
 
 	fmt.Println("Stairs - 2025-summer-common problem 4")
@@ -505,6 +529,9 @@ func main() {
 
 	fmt.Println("ErasedLeaderboard - 2025-summer-common problem 5")
 	// sc2025.ErasedLeaderboard()
+
+	fmt.Println("SolveChoosePrimes - 2025-summer-common problem 6")
+	// sc2025.SolveChoosePrimes(5)
 
 	fmt.Println("FirstSeedRandomGarden - 2025-summer-common problem 7")
 	// sc2025.FirstSeedRandomGarden()
