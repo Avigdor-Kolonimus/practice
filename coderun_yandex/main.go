@@ -8,6 +8,7 @@ import (
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
 	// hti "coderun_yandex/hrtechinterview"
+	dgi "coderun_yandex/devgointerview"
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
@@ -539,8 +540,17 @@ func main() {
 	fmt.Println("FavoriteMelodies - 2025-summer-common problem 8")
 	// sc2025.FavoriteMelodies()
 
+	fmt.Println("SolveLanguageBarier - 2025-summer-common problem 9")
+	// sc2025.SolveLanguageBarier(2, []string{"abac", "abacab", "aba", "abaa"})
+
+	fmt.Println("SolveSuddenStorm - 2025-summer-common problem 10")
+	// sc2025.SolveSuddenStorm(6, 6, []int{12, 10, 3, 5, 7, 9}, []int{2, 3, 1, 4, 2, 1})
+
 	fmt.Println("SheepWolf - 2025-summer-common problem 11")
 	// sc2025.SheepWolf()
+
+	fmt.Println("SolveBinaryForest - 2025-summer-common problem 13")
+	// sc2025.SolveBinaryForest(7, []int{0, 0, 0, 1, 0, 1, 1}, 6, []int{0, 0, 1, 1, 0, 1})
 
 	fmt.Println("ThreeLetterBallad - 2025-summer-common problem 15")
 	// sc2025.ThreeLetterBallad()
@@ -562,6 +572,9 @@ func main() {
 
 	fmt.Println("CalibratingMagicAltimeter - 2025-winter-common problem 2")
 	// wc2025.CalibratingMagicAltimeter()
+
+	fmt.Println("Equipment - 2025-winter-common problem 3")
+	// wc2025.Equipment()
 
 	fmt.Println("RouteToCodePeak - 2025-winter-common problem 5")
 	// wc2025.RouteToCodePeak()
@@ -658,4 +671,7 @@ func main() {
 
 	fmt.Println("NewYearFruits2 - new-year-adventures problem 9")
 	// nya.NewYearFruits2()
+
+	fmt.Println("ExtraShares - dev-go-interview problem 15")
+	dgi.ExtraShares()
 }
