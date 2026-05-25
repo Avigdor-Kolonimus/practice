@@ -108,6 +108,9 @@ func main() {
 	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
 	// cy.PotholeRepair()
 
+	fmt.Println("PlanningTheSeries - algorithm-training-september-2025 problem 37")
+	// cy.PlanningTheSeries()
+
 	fmt.Println("BonusesFromTheBoss - algorithm-training-september-2025 problem 38")
 	// cy.BonusesFromTheBoss()
 
@@ -549,8 +552,14 @@ func main() {
 	fmt.Println("SheepWolf - 2025-summer-common problem 11")
 	// sc2025.SheepWolf()
 
+	fmt.Println("Chase - 2025-summer-common problem 12")
+	// sc2025.Chase()
+
 	fmt.Println("SolveBinaryForest - 2025-summer-common problem 13")
 	// sc2025.SolveBinaryForest(7, []int{0, 0, 0, 1, 0, 1, 1}, 6, []int{0, 0, 1, 1, 0, 1})
+
+	fmt.Println("SolutionPlayingField - 2025-summer-common problem 14")
+	// sc2025.SolutionPlayingField(2)
 
 	fmt.Println("ThreeLetterBallad - 2025-summer-common problem 15")
 	// sc2025.ThreeLetterBallad()
@@ -560,6 +569,9 @@ func main() {
 
 	fmt.Println("CityWallDestruction - 2025-summer-common problem 17")
 	// sc2025.CityWallDestruction()
+
+	fmt.Println("SolutionDigitalCivilizationLegacy - 2025-summer-common problem 18")
+	// sc2025.SolutionDigitalCivilizationLegacy(5,6)
 
 	fmt.Println("BrokenRing - 2025-summer-common problem 19")
 	// sc2025.BrokenRing()
