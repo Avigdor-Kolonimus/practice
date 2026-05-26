@@ -102,6 +102,9 @@ func main() {
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
+	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
+	// cy.TransportTaxes()
+
 	fmt.Println("FriendshipWon - algorithm-training-september-2025 problem 34")
 	// cy.FriendshipWon()
 
@@ -185,6 +188,9 @@ func main() {
 
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
+
+	fmt.Println("ToyMaze - problem 45")
+	// prb.ToyMaze()
 
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
@@ -683,6 +689,9 @@ func main() {
 
 	fmt.Println("NewYearFruits2 - new-year-adventures problem 9")
 	// nya.NewYearFruits2()
+
+	fmt.Println("DirectDelivery - dev-go-interview problem 1")
+	// dgi.DirectDelivery()
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
