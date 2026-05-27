@@ -105,6 +105,9 @@ func main() {
 	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
 	// cy.TransportTaxes()
 
+	fmt.Println("QueueOfCandidates - algorithm-training-september-2025 problem 33")
+	// cy.QueueOfCandidates()
+
 	fmt.Println("FriendshipWon - algorithm-training-september-2025 problem 34")
 	// cy.FriendshipWon()
 
@@ -140,6 +143,9 @@ func main() {
 
 	fmt.Println("Cheating - problem 9")
 	// prb.Cheating()
+
+	fmt.Println("TopologicalSorting - problem 10")
+	// prb.TopologicalSorting()
 
 	fmt.Println("CycleSearch - problem 11")
 	// prb.CycleSearch()
@@ -692,6 +698,9 @@ func main() {
 
 	fmt.Println("DirectDelivery - dev-go-interview problem 1")
 	// dgi.DirectDelivery()
+
+	fmt.Println("LeaderTariffHistory - dev-go-interview problem 2")
+	// dgi.LeaderTariffHistory()
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
