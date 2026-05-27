@@ -8,6 +8,7 @@ import (
 	// prb "coderun_yandex/problems"
 	// bi "coderun_yandex/backendinterview"
 	// hti "coderun_yandex/hrtechinterview"
+	dgi "coderun_yandex/devgointerview"
 	// clb "coderun_yandex/codelifebalance"
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
@@ -101,11 +102,20 @@ func main() {
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
+	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
+	// cy.TransportTaxes()
+
+	fmt.Println("QueueOfCandidates - algorithm-training-september-2025 problem 33")
+	// cy.QueueOfCandidates()
+
 	fmt.Println("FriendshipWon - algorithm-training-september-2025 problem 34")
 	// cy.FriendshipWon()
 
 	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
 	// cy.PotholeRepair()
+
+	fmt.Println("PlanningTheSeries - algorithm-training-september-2025 problem 37")
+	// cy.PlanningTheSeries()
 
 	fmt.Println("BonusesFromTheBoss - algorithm-training-september-2025 problem 38")
 	// cy.BonusesFromTheBoss()
@@ -133,6 +143,9 @@ func main() {
 
 	fmt.Println("Cheating - problem 9")
 	// prb.Cheating()
+
+	fmt.Println("TopologicalSorting - problem 10")
+	// prb.TopologicalSorting()
 
 	fmt.Println("CycleSearch - problem 11")
 	// prb.CycleSearch()
@@ -181,6 +194,9 @@ func main() {
 
 	fmt.Println("Numbers - problem 44")
 	// prb.Numbers()
+
+	fmt.Println("ToyMaze - problem 45")
+	// prb.ToyMaze()
 
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
@@ -539,8 +555,23 @@ func main() {
 	fmt.Println("FavoriteMelodies - 2025-summer-common problem 8")
 	// sc2025.FavoriteMelodies()
 
+	fmt.Println("SolveLanguageBarier - 2025-summer-common problem 9")
+	// sc2025.SolveLanguageBarier(2, []string{"abac", "abacab", "aba", "abaa"})
+
+	fmt.Println("SolveSuddenStorm - 2025-summer-common problem 10")
+	// sc2025.SolveSuddenStorm(6, 6, []int{12, 10, 3, 5, 7, 9}, []int{2, 3, 1, 4, 2, 1})
+
 	fmt.Println("SheepWolf - 2025-summer-common problem 11")
 	// sc2025.SheepWolf()
+
+	fmt.Println("Chase - 2025-summer-common problem 12")
+	// sc2025.Chase()
+
+	fmt.Println("SolveBinaryForest - 2025-summer-common problem 13")
+	// sc2025.SolveBinaryForest(7, []int{0, 0, 0, 1, 0, 1, 1}, 6, []int{0, 0, 1, 1, 0, 1})
+
+	fmt.Println("SolutionPlayingField - 2025-summer-common problem 14")
+	// sc2025.SolutionPlayingField(2)
 
 	fmt.Println("ThreeLetterBallad - 2025-summer-common problem 15")
 	// sc2025.ThreeLetterBallad()
@@ -550,6 +581,9 @@ func main() {
 
 	fmt.Println("CityWallDestruction - 2025-summer-common problem 17")
 	// sc2025.CityWallDestruction()
+
+	fmt.Println("SolutionDigitalCivilizationLegacy - 2025-summer-common problem 18")
+	// sc2025.SolutionDigitalCivilizationLegacy(5,6)
 
 	fmt.Println("BrokenRing - 2025-summer-common problem 19")
 	// sc2025.BrokenRing()
@@ -562,6 +596,9 @@ func main() {
 
 	fmt.Println("CalibratingMagicAltimeter - 2025-winter-common problem 2")
 	// wc2025.CalibratingMagicAltimeter()
+
+	fmt.Println("Equipment - 2025-winter-common problem 3")
+	// wc2025.Equipment()
 
 	fmt.Println("RouteToCodePeak - 2025-winter-common problem 5")
 	// wc2025.RouteToCodePeak()
@@ -658,4 +695,13 @@ func main() {
 
 	fmt.Println("NewYearFruits2 - new-year-adventures problem 9")
 	// nya.NewYearFruits2()
+
+	fmt.Println("DirectDelivery - dev-go-interview problem 1")
+	// dgi.DirectDelivery()
+
+	fmt.Println("LeaderTariffHistory - dev-go-interview problem 2")
+	// dgi.LeaderTariffHistory()
+
+	fmt.Println("ExtraShares - dev-go-interview problem 15")
+	dgi.ExtraShares()
 }
