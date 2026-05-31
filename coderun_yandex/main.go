@@ -105,6 +105,9 @@ func main() {
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
 
+	fmt.Println("ParseTree - algorithm-training-september-2025 problem 29")
+	// cy.ParseTree()
+
 	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
 	// cy.TransportTaxes()
 
@@ -161,6 +164,9 @@ func main() {
 
 	fmt.Println("SpeleologistWay - problem 15")
 	// prb.SpeleologistWay()
+
+	fmt.Println("Metro2 - problem 16")
+	// prb.Metro2()
 
 	fmt.Println("Avto - problem 26")
 	// prb.Avto()
@@ -710,6 +716,9 @@ func main() {
 
 	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
 	// dgi.RoverWithTwoCompartments()
+
+	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
+	// dgi.IncomeDuringRushHour()
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
