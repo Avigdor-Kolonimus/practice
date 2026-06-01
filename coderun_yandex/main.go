@@ -168,6 +168,15 @@ func main() {
 	fmt.Println("Metro2 - problem 16")
 	// prb.Metro2()
 
+	fmt.Println("Conveyor - problem 17")
+	// prb.Conveyor()
+
+	fmt.Println("TheValueOfAnArithmeticExpression - problem 18")
+	// prb.TheValueOfAnArithmeticExpression()
+
+	fmt.Println("TheValueOfABooleanExpression - problem 19")
+	// prb.TheValueOfABooleanExpression()
+
 	fmt.Println("Avto - problem 26")
 	// prb.Avto()
 
