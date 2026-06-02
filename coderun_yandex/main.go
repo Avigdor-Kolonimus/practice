@@ -219,6 +219,9 @@ func main() {
 	fmt.Println("ToyMaze - problem 45")
 	// prb.ToyMaze()
 
+	fmt.Println("StudentsAndLectures - problem 48")
+	// prb.StudentsAndLectures()
+
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
 
@@ -315,6 +318,9 @@ func main() {
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
 
+	fmt.Println("Checkers - problem 155")
+	// prb.Checkers()
+
 	fmt.Println("PermutationYaIntern - problem 158")
 	// prb.PermutationYaIntern()
 
@@ -383,6 +389,9 @@ func main() {
 
 	fmt.Println("QueenAmount - problem 432")
 	// prb.QueenAmount()
+
+	fmt.Println("TicTacToe - problem 436")
+	// prb.TicTacToe()
 
 	fmt.Println("AverageInWindow - problem 443")
 	// prb.AverageInWindow()
