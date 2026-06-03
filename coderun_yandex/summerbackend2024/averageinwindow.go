@@ -1,4 +1,4 @@
-package problems
+package summerbackend2024
 
 import (
 	"bufio"
@@ -30,8 +30,8 @@ func checkAverageInWindow(a []int, k int, mid float64) bool {
 	return false
 }
 
-// https://coderun.yandex.ru/problem/average-in-window
-// AverageInWindow - problem 443
+// https://coderun.yandex.ru/selections/2024-summer-backend/problems/average-in-window
+// AverageInWindow - problem 14
 func AverageInWindow() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -1,4 +1,4 @@
-package problems
+package summerbackend2024
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/tic-tac-toe
-// TicTacToe - problem 436
+// https://coderun.yandex.ru/selections/2024-summer-backend/problems/tic-tac-toe
+// TicTacToe - problem 29
 func TicTacToe() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
