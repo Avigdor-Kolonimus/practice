@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/a-1-find-most-frequent
-// A1FindMostFrequent - problem 147
+// https://coderun.yandex.ru/selections/backend/problems/a-1-find-most-frequent
+// A1FindMostFrequent - problem 42
 func A1FindMostFrequent() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

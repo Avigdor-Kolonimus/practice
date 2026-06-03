@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -13,8 +13,8 @@ type PointCheckers struct {
 	y int
 }
 
-// https://coderun.yandex.ru/problem/checkers
-// Checkers - problem 155
+// https://coderun.yandex.ru/selections/backend/problems/checkers
+// Checkers - problem 31
 func Checkers() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

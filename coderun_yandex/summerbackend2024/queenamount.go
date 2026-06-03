@@ -1,4 +1,4 @@
-package problems
+package summerbackend2024
 
 import (
 	"bufio"
@@ -9,8 +9,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/queen-amount
-// QueenAmount - problem 432
+// https://coderun.yandex.ru/selections/2024-summer-backend/problems/queen-amount
+// QueenAmount - problem 28
 func QueenAmount() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
