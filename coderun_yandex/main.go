@@ -90,6 +90,9 @@ func main() {
 	fmt.Println("FromDeadEndToDeadEnd - algorithm-training-september-2025 problem 22")
 	// cy.FromDeadEndToDeadEnd()
 
+	fmt.Println("Advertisement - algorithm-training-september-2025 problem 23")
+	// cy.Advertisement()
+
 	fmt.Println("CurrencyExchange - algorithm-training-september-2025 problem 24")
 	// cy.CurrencyExchange()
 
@@ -101,6 +104,9 @@ func main() {
 
 	fmt.Println("PickUpPoint - algorithm-training-september-2025 problem 28")
 	// cy.PickUpPoint()
+
+	fmt.Println("ParseTree - algorithm-training-september-2025 problem 29")
+	// cy.ParseTree()
 
 	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
 	// cy.TransportTaxes()
@@ -159,6 +165,21 @@ func main() {
 	fmt.Println("SpeleologistWay - problem 15")
 	// prb.SpeleologistWay()
 
+	fmt.Println("Metro2 - problem 16")
+	// prb.Metro2()
+
+	fmt.Println("Conveyor - problem 17")
+	// prb.Conveyor()
+
+	fmt.Println("TheValueOfAnArithmeticExpression - problem 18")
+	// prb.TheValueOfAnArithmeticExpression()
+
+	fmt.Println("TheValueOfABooleanExpression - problem 19")
+	// prb.TheValueOfABooleanExpression()
+
+	fmt.Println("Avto - problem 26")
+	// prb.Avto()
+
 	fmt.Println("SumOfCubes - problem 27")
 	// prb.SumOfCubes()
 
@@ -197,6 +218,9 @@ func main() {
 
 	fmt.Println("ToyMaze - problem 45")
 	// prb.ToyMaze()
+
+	fmt.Println("StudentsAndLectures - problem 48")
+	// prb.StudentsAndLectures()
 
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
@@ -288,17 +312,14 @@ func main() {
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
 
-	fmt.Println("A1FindMostFrequent - problem 147")
-	// prb.A1FindMostFrequent()
-
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
 
-	fmt.Println("PermutationYaIntern - problem 158")
-	// prb.PermutationYaIntern()
-
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
+
+	fmt.Println("Details - problem 186")
+	// prb.Details()
 
 	fmt.Println("SystemOfLinearQquations2 - problem 188")
 	// prb.SystemOfLinearQquations2()
@@ -323,6 +344,9 @@ func main() {
 
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
+
+	fmt.Println("SeatingArrangements - problem 235")
+	// prb.SeatingArrangements()
 
 	fmt.Println("SecondMaximum - problem 240")
 	// prb.SecondMaximum()
@@ -354,16 +378,7 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("MediansYaIntern - problem 311")
-	// prb.MediansYaIntern()
-
-	fmt.Println("SplittingIntoTerms - problem 426")
-	// prb.SplittingIntoTerms()
-
-	fmt.Println("QueenAmount - problem 432")
-	// prb.QueenAmount()
-
-	fmt.Println("AverageInWindow - problem 443")
+	fmt.Println("AverageInWindow - problem 14")
 	// prb.AverageInWindow()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
@@ -495,11 +510,23 @@ func main() {
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
+	fmt.Println("Checkers - backend problem 31")
+	// b.Checkers()
+
 	fmt.Println("DayofweekYaIntern - backend problem 32")
 	// b.DayofweekYaIntern()
 
+	fmt.Println("MediansYaIntern - backend problem 36")
+	// b.MediansYaIntern()
+
+	fmt.Println("PermutationYaIntern - backend problem 39")
+	// b.PermutationYaIntern()
+
 	fmt.Println("TradingYaIntern - backend problem 40")
 	// b.TradingYaIntern()
+
+	fmt.Println("A1FindMostFrequent - backend problem 42")
+	// b.A1FindMostFrequent()
 
 	fmt.Println("CalendarFormatting - backend problem 43")
 	// b.CalendarFormatting()
@@ -516,14 +543,29 @@ func main() {
 	fmt.Println("SubstringGraph - backend problem 54")
 	// b.SubstringGraph()
 
+	fmt.Println("GCD - 2024-summer-backend problem 9")
+	// sb2024.GCD()
+
 	fmt.Println("CoupleOfLetters - 2024-summer-backend problem 13")
 	// sb2024.CoupleOfLetters()
+
+	fmt.Println("AverageInWindow - 2024-summer-backend problem 14")
+	// sb2024.AverageInWindow()
+
+	fmt.Println("SplittingIntoTerms - 2024-summer-backend problem 15")
+	// sb2024.SplittingIntoTerms()
 
 	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
 	// sb2024.BiggestSquare()
 
 	fmt.Println("Combo - 2024-summer-backend problem 27")
 	// sb2024.Combo()
+
+	fmt.Println("QueenAmount - 2024-summer-backend problem 28")
+	// sb2024.QueenAmount()
+
+	fmt.Println("TicTacToe - 2024-summer-backend problem 29")
+	// sb2024.TicTacToe()
 
 	fmt.Println("Combo - 2024-summer-backend problem 30")
 	// sb2024.Tableau()
@@ -701,6 +743,12 @@ func main() {
 
 	fmt.Println("LeaderTariffHistory - dev-go-interview problem 2")
 	// dgi.LeaderTariffHistory()
+
+	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
+	// dgi.RoverWithTwoCompartments()
+
+	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
+	// dgi.IncomeDuringRushHour()
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()

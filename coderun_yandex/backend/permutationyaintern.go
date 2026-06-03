@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -9,8 +9,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/permutation-ya-intern
-// PermutationYaIntern - problem 158
+// https://coderun.yandex.ru/selections/backend/problems/permutation-ya-intern
+// PermutationYaIntern - problem 39
 func PermutationYaIntern() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -45,8 +45,8 @@ func (h *MinHeap) Pop() interface{} {
 	return x
 }
 
-// https://coderun.yandex.ru/problem/medians-ya-intern
-// MediansYaIntern - problem 311
+// https://coderun.yandex.ru/selections/backend/problems/medians-ya-intern
+// MediansYaIntern - problem 36
 func MediansYaIntern() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

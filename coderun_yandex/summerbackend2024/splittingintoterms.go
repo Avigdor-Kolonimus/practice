@@ -1,4 +1,4 @@
-package problems
+package summerbackend2024
 
 import (
 	"bufio"
@@ -34,8 +34,8 @@ func generateLine(writer *bufio.Writer, lines []int, n, max int) {
 	}
 }
 
-// https://coderun.yandex.ru/problem/splitting-into-terms
-// SplittingIntoTerms - problem 426
+// https://coderun.yandex.ru/selections/2024-summer-backend/problems/splitting-into-terms
+// SplittingIntoTerms - problem 15
 func SplittingIntoTerms() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
