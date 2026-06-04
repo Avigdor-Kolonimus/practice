@@ -510,11 +510,17 @@ func main() {
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
+	fmt.Println("BusesYaIntern - backend problem 30")
+	// b.BusesYaIntern()
+
 	fmt.Println("Checkers - backend problem 31")
 	// b.Checkers()
 
 	fmt.Println("DayofweekYaIntern - backend problem 32")
 	// b.DayofweekYaIntern()
+
+	fmt.Println("KolyaAndDataCenters - backend problem 35")
+	// b.KolyaAndDataCenters()
 
 	fmt.Println("MediansYaIntern - backend problem 36")
 	// b.MediansYaIntern()
@@ -524,6 +530,9 @@ func main() {
 
 	fmt.Println("TradingYaIntern - backend problem 40")
 	// b.TradingYaIntern()
+
+	fmt.Println("WarehousesWorkingIntervals - backend problem 41")
+	// b.WarehousesWorkingIntervals()
 
 	fmt.Println("A1FindMostFrequent - backend problem 42")
 	// b.A1FindMostFrequent()
