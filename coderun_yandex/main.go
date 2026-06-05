@@ -552,6 +552,9 @@ func main() {
 	fmt.Println("SubstringGraph - backend problem 54")
 	// b.SubstringGraph()
 
+	fmt.Println("SuperMarathon - 2024-summer-backend problem 3")
+	// sb2024.SuperMarathon()
+
 	fmt.Println("GCD - 2024-summer-backend problem 9")
 	// sb2024.GCD()
 
@@ -563,6 +566,9 @@ func main() {
 
 	fmt.Println("SplittingIntoTerms - 2024-summer-backend problem 15")
 	// sb2024.SplittingIntoTerms()
+
+	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
+	// sb2024.TwoTeams()
 
 	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
 	// sb2024.BiggestSquare()
@@ -581,6 +587,9 @@ func main() {
 
 	fmt.Println("Tiles - 2024-summer-backend problem 31")
 	// sb2024.Tiles()
+
+	fmt.Println("FairDivision - 2024-summer-backend problem 32")
+	// sb2024.FairDivision()
 
 	fmt.Println("SolveCoderunWelcome - 2025-summer-common problem 1")
 	// sc2025.SolveCoderunWelcome(9, 8)
