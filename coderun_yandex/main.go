@@ -723,8 +723,17 @@ func main() {
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
 
+	fmt.Println("RunManhattan - mgustokashin problem 2")
+	// mg.RunManhattan()
+
+	fmt.Println("MayaScript - mgustokashin problem 3")
+	// mg.MayaScript()
+
 	fmt.Println("GoblinsAndChess - mgustokashin problem 4")
 	// mg.GoblinsAndChess()
+
+	fmt.Println("Buses - mgustokashin problem 5")
+	// mg.Buses()
 
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
