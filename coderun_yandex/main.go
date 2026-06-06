@@ -177,6 +177,9 @@ func main() {
 	fmt.Println("TheValueOfABooleanExpression - problem 19")
 	// prb.TheValueOfABooleanExpression()
 
+	fmt.Println("CommercialCalculator - problem 25")
+	// prb.CommercialCalculator()
+
 	fmt.Println("Avto - problem 26")
 	// prb.Avto()
 
@@ -197,6 +200,9 @@ func main() {
 
 	fmt.Println("SpaceScavenger - problem 34")
 	// prb.SpaceScavenger()
+
+	fmt.Println("CuttingOfBars - problem 36")
+	// prb.CuttingOfBars()
 
 	fmt.Println("BuyingTickets - problem 37")
 	// prb.BuyingTickets()
@@ -716,6 +722,9 @@ func main() {
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
+
+	fmt.Println("GoblinsAndChess - mgustokashin problem 4")
+	// mg.GoblinsAndChess()
 
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
