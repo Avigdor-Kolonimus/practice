@@ -94,7 +94,8 @@ func PyramidSorting() {
 	heapSort(arr)
 
 	for i := range n {
-		writer.WriteString(strconv.Itoa(arr[i]) + " ")
+		writer.WriteString(strconv.Itoa(arr[i]))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

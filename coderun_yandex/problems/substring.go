@@ -80,6 +80,8 @@ func Substring() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(bestLen) + " " + strconv.Itoa(bestL+1))
+	writer.WriteString(strconv.Itoa(bestLen))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(bestL + 1))
 	writer.WriteByte('\n')
 }

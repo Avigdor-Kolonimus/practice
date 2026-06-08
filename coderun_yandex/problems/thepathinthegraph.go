@@ -124,7 +124,8 @@ func ThePathInTheGraph() {
 	}
 
 	for _, v := range path {
-		writer.WriteString(strconv.Itoa(v+1) + " ")
+		writer.WriteString(strconv.Itoa(v + 1))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

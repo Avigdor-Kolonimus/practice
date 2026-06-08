@@ -78,7 +78,8 @@ func NewYearFruits2() {
 	}
 
 	for _, x := range ans {
-		writer.WriteString(strconv.Itoa(x) + " ")
+		writer.WriteString(strconv.Itoa(x))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

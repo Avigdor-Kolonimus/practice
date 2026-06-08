@@ -62,6 +62,7 @@ func Cryptogram() {
 		a := input.readIntArray(n)
 
 		answer := calculateCryptogramAnswer(n, k, a)
-		output.WriteString(strconv.Itoa(answer) + "\n")
+		output.WriteString(strconv.Itoa(answer))
+		output.WriteByte('\n')
 	}
 }

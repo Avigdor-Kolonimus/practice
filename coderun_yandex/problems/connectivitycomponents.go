@@ -113,7 +113,8 @@ func ConnectivityComponents() {
 		writer.WriteByte('\n')
 
 		for _, v := range comp {
-			writer.WriteString(strconv.Itoa(v) + " ")
+			writer.WriteString(strconv.Itoa(v))
+			writer.WriteByte(' ')
 		}
 		writer.WriteByte('\n')
 	}

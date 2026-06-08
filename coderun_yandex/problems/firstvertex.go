@@ -79,7 +79,8 @@ func FirstVertex() {
 	// output
 	for i := 1; i <= n; i++ {
 		if visited[i] {
-			writer.WriteString(strconv.Itoa(i) + " ")
+			writer.WriteString(strconv.Itoa(i))
+			writer.WriteByte(' ')
 		}
 	}
 	writer.WriteByte('\n')
