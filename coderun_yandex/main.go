@@ -13,6 +13,7 @@ import (
 	// q "coderun_yandex/quickstart"
 	// e "coderun_yandex/eserajim"
 	// mg "coderun_yandex/mgustokashin"
+	rv "coderun_yandex/relizarov"
 	// b "coderun_yandex/backend"
 	// ai2023 "coderun_yandex/autumnintern2023"
 	// wi2024 "coderun_yandex/winterintern2024"
@@ -341,6 +342,9 @@ func main() {
 
 	fmt.Println("CityOfChe - problem 211")
 	// prb.CityOfChe()
+
+	fmt.Println("BeautyAboveAll - problem 212")
+	// prb.BeautyAboveAll()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
@@ -774,6 +778,9 @@ func main() {
 	fmt.Println("NewYearFruits2 - new-year-adventures problem 9")
 	// nya.NewYearFruits2()
 
+	fmt.Println("PartyPizza - new-year-adventures problem 10")
+	// nya.PartyPizza()
+
 	fmt.Println("DirectDelivery - dev-go-interview problem 1")
 	// dgi.DirectDelivery()
 
@@ -788,4 +795,7 @@ func main() {
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
+
+	fmt.Println("EditingARoute - relizarov problem 1")
+	rv.EditingARoute()
 }

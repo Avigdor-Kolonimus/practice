@@ -57,7 +57,8 @@ func ErasedLeaderboard() {
 
 	answer := solveErasedLeaderboard(n, m, coins)
 	for _, v := range answer {
-		writer.WriteString(strconv.Itoa(v) + " ")
+		writer.WriteString(strconv.Itoa(v))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

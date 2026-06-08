@@ -59,6 +59,8 @@ func Arrangementlaptops() {
 	}
 
 	// enough one output
-	writer.WriteString(strconv.Itoa(t1) + " " + strconv.Itoa(t2))
+	writer.WriteString(strconv.Itoa(t1))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(t2))
 	writer.WriteByte('\n')
 }
