@@ -232,7 +232,7 @@ func main() {
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
 
-	fmt.Println("CastleIf - problem 51")
+	fmt.Println("WordAppearanceNumber - problem 51")
 	// prb.WordAppearanceNumber()
 
 	fmt.Println("PhoneNumbers - problem 54")
@@ -318,6 +318,9 @@ func main() {
 
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
+
+	fmt.Println("Game - problem 107")
+	// prb.Game()
 
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
@@ -562,6 +565,9 @@ func main() {
 	fmt.Println("SubstringGraph - backend problem 54")
 	// b.SubstringGraph()
 
+	fmt.Println("BallsAndBaskets - 2024-summer-backend problem 1")
+	// sb2024.BallsAndBaskets()
+
 	fmt.Println("SuperMarathon - 2024-summer-backend problem 3")
 	// sb2024.SuperMarathon()
 
@@ -600,6 +606,9 @@ func main() {
 
 	fmt.Println("FairDivision - 2024-summer-backend problem 32")
 	// sb2024.FairDivision()
+
+	fmt.Println("CreteCycle2 - 2024-summer-backend problem 34")
+	// sb2024.CreteCycle2()
 
 	fmt.Println("SolveCoderunWelcome - 2025-summer-common problem 1")
 	// sc2025.SolveCoderunWelcome(9, 8)
