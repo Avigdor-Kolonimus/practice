@@ -93,7 +93,8 @@ func CommotionInTheGuard() {
 		// swap
 		position[x], position[y] = position[y], position[x]
 
-		writer.WriteString(strconv.Itoa(answer) + " ")
+		writer.WriteString(strconv.Itoa(answer))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

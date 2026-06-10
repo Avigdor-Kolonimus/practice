@@ -127,7 +127,8 @@ func CycleSearch() {
 	writer.WriteByte('\n')
 
 	for _, x := range cycle {
-		writer.WriteString(strconv.Itoa(x+1) + " ")
+		writer.WriteString(strconv.Itoa(x + 1))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

@@ -56,7 +56,8 @@ func Stairs() {
 
 	answer := solveStairs(n, stairs)
 	for _, v := range answer {
-		writer.WriteString(strconv.Itoa(v) + " ")
+		writer.WriteString(strconv.Itoa(v))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

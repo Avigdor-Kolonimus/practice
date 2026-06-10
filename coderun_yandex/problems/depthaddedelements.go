@@ -84,7 +84,8 @@ func DepthAddedElements() {
 	}
 
 	for i := 0; i < len(result); i++ {
-		writer.WriteString(strconv.Itoa(result[i]) + " ")
+		writer.WriteString(strconv.Itoa(result[i]))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

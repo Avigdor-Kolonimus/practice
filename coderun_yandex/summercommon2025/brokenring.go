@@ -82,7 +82,8 @@ func BrokenRing() {
 		b := input.readIntArray(n)
 
 		answer := calculateBrokenRingAnswer(n, a, b)
-		output.WriteString(strconv.Itoa(answer) + "\n")
+		output.WriteString(strconv.Itoa(answer))
+		output.WriteByte('\n')
 	}
 }
 

@@ -9,16 +9,20 @@ import (
 	"strings"
 )
 
-func dfsPedigreeCountingLevels(height map[string]int, children map[string][]string, node string, h int) {
-	height[node] = h
+func dfsDescendants(desc map[string]int, children map[string][]string, node string) int {
+	size := 1
 	for _, child := range children[node] {
-		dfsPedigreeCountingLevels(height, children, child, h+1)
+		size += dfsDescendants(desc, children, child)
 	}
+
+	desc[node] = size - 1
+
+	return size
 }
 
-// https://coderun.yandex.ru/problem/pedigree-counting-levels
-// PedigreeCountingLevels - problem 243
-func PedigreeCountingLevels() {
+// https://coderun.yandex.ru/problem/pedigree-number-of-descendants
+// PedigreeNumberOfDescendants - problem 90
+func PedigreeNumberOfDescendants() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
 	defer writer.Flush()
@@ -74,8 +78,8 @@ func PedigreeCountingLevels() {
 		panic("root not found")
 	}
 
-	height := make(map[string]int)
-	dfsPedigreeCountingLevels(height, children, root, 0)
+	desc := make(map[string]int)
+	dfsDescendants(desc, children, root)
 
 	names := make([]string, 0, len(all))
 	for name := range all {
@@ -86,7 +90,7 @@ func PedigreeCountingLevels() {
 	for _, name := range names {
 		writer.WriteString(name)
 		writer.WriteByte(' ')
-		writer.WriteString(strconv.Itoa(height[name]))
+		writer.WriteString(strconv.Itoa(desc[name]))
 		writer.WriteByte('\n')
 	}
 }
