@@ -80,6 +80,12 @@ func MinimumRectangle() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(minX) + " " + strconv.Itoa(minY) + " " + strconv.Itoa(maxX) + " " + strconv.Itoa(maxY))
+	writer.WriteString(strconv.Itoa(minX))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(minY))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(maxX))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(maxY))
 	writer.WriteByte('\n')
 }
