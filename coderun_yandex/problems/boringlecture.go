@@ -34,7 +34,9 @@ func BoringLecture() {
 	for c := 'a'; c <= 'z'; c++ {
 		if count[c] > 0 {
 			// a: 44
-			writer.WriteString(string(c) + ": " + strconv.FormatInt(count[c], 10))
+			writer.WriteString(string(c))
+			writer.WriteString(": ")
+			writer.WriteString(strconv.FormatInt(count[c], 10))
 			writer.WriteByte('\n')
 		}
 	}

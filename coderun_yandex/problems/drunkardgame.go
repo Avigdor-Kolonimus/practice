@@ -102,9 +102,11 @@ func DrunkardGame() {
 	if player1.Size() > 0 && player2.Size() > 0 {
 		writer.WriteString("botva")
 	} else if player1.Size() == 0 {
-		writer.WriteString("second " + strconv.Itoa(steps))
+		writer.WriteString("second ")
+		writer.WriteString(strconv.Itoa(steps))
 	} else {
-		writer.WriteString("first " + strconv.Itoa(steps))
+		writer.WriteString("first ")
+		writer.WriteString(strconv.Itoa(steps))
 	}
 	writer.WriteByte('\n')
 }

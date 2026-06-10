@@ -21,6 +21,7 @@ import (
 	// sc2025 "coderun_yandex/summercommon2025"
 	// wc2025 "coderun_yandex/wintercommon2025"
 	// nya "coderun_yandex/newyearadventures"
+	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -294,6 +295,9 @@ func main() {
 
 	fmt.Println("AvlBalance - problem 89")
 	// prb.AvlBalance()
+
+	fmt.Println("PedigreeNumberOfDescendants - problem 90")
+	// prb.PedigreeNumberOfDescendants()
 
 	fmt.Println("Histogram - problem 91")
 	// prb.Histogram()
@@ -679,6 +683,9 @@ func main() {
 	fmt.Println("Equipment - 2025-winter-common problem 3")
 	// wc2025.Equipment()
 
+	fmt.Println("Artifacts - 2025-winter-common problem 4")
+	// wc2025.Artifacts()
+
 	fmt.Println("RouteToCodePeak - 2025-winter-common problem 5")
 	// wc2025.RouteToCodePeak()
 
@@ -807,4 +814,7 @@ func main() {
 
 	fmt.Println("EditingARoute - relizarov problem 1")
 	rv.EditingARoute()
+
+	fmt.Println("DominoPlacement - algorithm-training-march-2026 problem 1")
+	atm2026.DominoPlacement()
 }
