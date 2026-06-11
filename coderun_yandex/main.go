@@ -816,5 +816,14 @@ func main() {
 	rv.EditingARoute()
 
 	fmt.Println("DominoPlacement - algorithm-training-march-2026 problem 1")
-	atm2026.DominoPlacement()
+	// atm2026.DominoPlacement()
+
+	fmt.Println("StandingWave - algorithm-training-march-2026 problem 2")
+	// atm2026.StandingWave()
+
+	fmt.Println("Ahaha - algorithm-training-march-2026 problem 3")
+	// atm2026.Ahaha()
+
+	fmt.Println("SheetPacking - algorithm-training-march-2026 problem 4")
+	atm2026.SheetPacking()
 }
