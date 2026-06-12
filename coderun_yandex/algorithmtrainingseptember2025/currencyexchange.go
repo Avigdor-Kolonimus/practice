@@ -139,6 +139,8 @@ func CurrencyExchange() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(bestI) + " " + strconv.Itoa(bestJ))
+	writer.WriteString(strconv.Itoa(bestI))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(bestJ))
 	writer.WriteByte('\n')
 }
