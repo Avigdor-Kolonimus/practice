@@ -825,5 +825,14 @@ func main() {
 	// atm2026.Ahaha()
 
 	fmt.Println("SheetPacking - algorithm-training-march-2026 problem 4")
-	atm2026.SheetPacking()
+	// atm2026.SheetPacking()
+
+	fmt.Println("Rebus - algorithm-training-march-2026 problem 5")
+	// atm2026.Rebus()
+
+	fmt.Println("ExamInTheBunker - algorithm-training-march-2026 problem 6")
+	// atm2026.ExamInTheBunker()
+
+	fmt.Println("TabletopBasketball - algorithm-training-march-2026 problem 7")
+	atm2026.TabletopBasketball()
 }
