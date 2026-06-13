@@ -834,5 +834,20 @@ func main() {
 	// atm2026.ExamInTheBunker()
 
 	fmt.Println("TabletopBasketball - algorithm-training-march-2026 problem 7")
-	atm2026.TabletopBasketball()
+	// atm2026.TabletopBasketball()
+
+	fmt.Println("PairedKPrefixes - algorithm-training-march-2026 problem 8")
+	// atm2026.PairedKPrefixes()
+
+	fmt.Println("RoverSearch - algorithm-training-march-2026 problem 9")
+	// atm2026.RoverSearch()
+
+	fmt.Println("NonOverlappingSubstrings - algorithm-training-march-2026 problem 10")
+	// atm2026.NonOverlappingSubstrings()
+
+	fmt.Println("LargeAndDivisibleByThree - algorithm-training-march-2026 problem 11")
+	// atm2026.LargeAndDivisibleByThree()
+
+	fmt.Println("ShipPlacement - algorithm-training-march-2026 problem 24")
+	atm2026.ShipPlacement()
 }
