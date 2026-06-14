@@ -816,5 +816,47 @@ func main() {
 	rv.EditingARoute()
 
 	fmt.Println("DominoPlacement - algorithm-training-march-2026 problem 1")
-	atm2026.DominoPlacement()
+	// atm2026.DominoPlacement()
+
+	fmt.Println("StandingWave - algorithm-training-march-2026 problem 2")
+	// atm2026.StandingWave()
+
+	fmt.Println("Ahaha - algorithm-training-march-2026 problem 3")
+	// atm2026.Ahaha()
+
+	fmt.Println("SheetPacking - algorithm-training-march-2026 problem 4")
+	// atm2026.SheetPacking()
+
+	fmt.Println("Rebus - algorithm-training-march-2026 problem 5")
+	// atm2026.Rebus()
+
+	fmt.Println("ExamInTheBunker - algorithm-training-march-2026 problem 6")
+	// atm2026.ExamInTheBunker()
+
+	fmt.Println("TabletopBasketball - algorithm-training-march-2026 problem 7")
+	// atm2026.TabletopBasketball()
+
+	fmt.Println("PairedKPrefixes - algorithm-training-march-2026 problem 8")
+	// atm2026.PairedKPrefixes()
+
+	fmt.Println("RoverSearch - algorithm-training-march-2026 problem 9")
+	// atm2026.RoverSearch()
+
+	fmt.Println("NonOverlappingSubstrings - algorithm-training-march-2026 problem 10")
+	// atm2026.NonOverlappingSubstrings()
+
+	fmt.Println("LargeAndDivisibleByThree - algorithm-training-march-2026 problem 11")
+	// atm2026.LargeAndDivisibleByThree()
+
+	fmt.Println("BracketShift - algorithm-training-march-2026 problem 21")
+	// atm2026.BracketShift()
+
+	fmt.Println("TestTrainingSessions - algorithm-training-march-2026 problem 22")
+	// atm2026.TestTrainingSessions()
+
+	fmt.Println("Balls - algorithm-training-march-2026 problem 23")
+	// atm2026.Balls()
+
+	fmt.Println("ShipPlacement - algorithm-training-march-2026 problem 24")
+	atm2026.ShipPlacement()
 }
