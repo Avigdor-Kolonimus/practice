@@ -848,6 +848,15 @@ func main() {
 	fmt.Println("LargeAndDivisibleByThree - algorithm-training-march-2026 problem 11")
 	// atm2026.LargeAndDivisibleByThree()
 
+	fmt.Println("OutOfSorts - algorithm-training-march-2026 problem 12")
+	// atm2026.OutOfSorts()
+
+	fmt.Println("DanceSchool - algorithm-training-march-2026 problem 13")
+	// atm2026.DanceSchool()
+
+	fmt.Println("CandySubsegment - algorithm-training-march-2026 problem 14")
+	// atm2026.CandySubsegment()
+
 	fmt.Println("CellColoring - algorithm-training-march-2026 problem 15")
 	// atm2026.CellColoring()
 
