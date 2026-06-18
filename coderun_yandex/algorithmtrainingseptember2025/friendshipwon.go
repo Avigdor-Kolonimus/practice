@@ -82,6 +82,10 @@ func FriendshipWon() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(bestDiff) + " " + strconv.Itoa(bestL) + " " + strconv.Itoa(bestR))
+	writer.WriteString(strconv.Itoa(bestDiff))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(bestL))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(bestR))
 	writer.WriteByte('\n')
 }
