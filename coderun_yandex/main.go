@@ -101,6 +101,9 @@ func main() {
 	fmt.Println("Ancestor - algorithm-training-september-2025 problem 25")
 	// cy.Ancestor()
 
+	fmt.Println("FeudalReform - algorithm-training-september-2025 problem 26")
+	// cy.FeudalReform()
+
 	fmt.Println("SuperstringGravity - algorithm-training-september-2025 problem 27")
 	// cy.SuperstringGravity()
 
@@ -109,6 +112,9 @@ func main() {
 
 	fmt.Println("ParseTree - algorithm-training-september-2025 problem 29")
 	// cy.ParseTree()
+
+	fmt.Println("FlightsBetweenOffices - algorithm-training-september-2025 problem 31")
+	// cy.FlightsBetweenOffices()
 
 	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
 	// cy.TransportTaxes()
@@ -305,6 +311,9 @@ func main() {
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
+	fmt.Println("BoringLecture - problem 96")
+	// prb.BoringLecture()
+
 	fmt.Println("GreatLinelandMigration - problem 98")
 	// prb.GreatLinelandMigration()
 
@@ -322,6 +331,9 @@ func main() {
 
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
+
+	fmt.Println("Calculator - problem 105")
+	// prb.Calculator()
 
 	fmt.Println("Game - problem 107")
 	// prb.Game()

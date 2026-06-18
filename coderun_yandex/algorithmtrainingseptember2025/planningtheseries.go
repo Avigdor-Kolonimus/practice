@@ -111,6 +111,8 @@ func PlanningTheSeries() {
 		cost += diff * impCoef[i]
 	}
 
-	writer.WriteString(strconv.Itoa(e) + " " + strconv.Itoa(cost))
+	writer.WriteString(strconv.Itoa(e))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(cost))
 	writer.WriteByte('\n')
 }
