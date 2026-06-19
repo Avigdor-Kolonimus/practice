@@ -113,6 +113,9 @@ func main() {
 	fmt.Println("ParseTree - algorithm-training-september-2025 problem 29")
 	// cy.ParseTree()
 
+	fmt.Println("InterviewSignUp - algorithm-training-september-2025 problem 30")
+	// cy.InterviewSignUp()
+
 	fmt.Println("FlightsBetweenOffices - algorithm-training-september-2025 problem 31")
 	// cy.FlightsBetweenOffices()
 
@@ -127,6 +130,9 @@ func main() {
 
 	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
 	// cy.PotholeRepair()
+
+	fmt.Println("RailwayCrossing - algorithm-training-september-2025 problem 36")
+	// cy.RailwayCrossing()
 
 	fmt.Println("PlanningTheSeries - algorithm-training-september-2025 problem 37")
 	// cy.PlanningTheSeries()
@@ -334,6 +340,9 @@ func main() {
 
 	fmt.Println("Calculator - problem 105")
 	// prb.Calculator()
+
+	fmt.Println("Pin - problem 106")
+	// prb.Pin()
 
 	fmt.Println("Game - problem 107")
 	// prb.Game()
