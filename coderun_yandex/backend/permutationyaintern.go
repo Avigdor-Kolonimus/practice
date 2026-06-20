@@ -100,6 +100,10 @@ func PermutationYaIntern() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(x) + " " + strconv.Itoa(y) + " " + strconv.Itoa(z))
+	writer.WriteString(strconv.Itoa(x))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(y))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(z))
 	writer.WriteByte('\n')
 }

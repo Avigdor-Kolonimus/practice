@@ -545,6 +545,9 @@ func main() {
 	fmt.Println("Recipes - backend problem 10")
 	// b.Recipes()
 
+	fmt.Println("PhoneFormatting - backend problem 23")
+	// b.PhoneFormatting()
+
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
@@ -577,6 +580,12 @@ func main() {
 
 	fmt.Println("CalendarFormatting - backend problem 43")
 	// b.CalendarFormatting()
+
+	fmt.Println("DiversityImprovement - backend problem 47")
+	// b.DiversityImprovement()
+
+	fmt.Println("DiversityScoring - backend problem 48")
+	// b.DiversityScoring()
 
 	fmt.Println("MergeJSONs2 - backend problem 50")
 	// b.MergeJSONs2()
