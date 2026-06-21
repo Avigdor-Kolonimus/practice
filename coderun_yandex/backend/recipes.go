@@ -280,7 +280,9 @@ func Recipes() {
 	writer.WriteByte('\n')
 
 	for name := range costs {
-		writer.WriteString(name + " " + strconv.Itoa(packages[name]))
+		writer.WriteString(name)
+		writer.WriteByte(' ')
+		writer.WriteString(strconv.Itoa(packages[name]))
 		writer.WriteByte('\n')
 	}
 

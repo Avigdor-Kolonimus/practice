@@ -101,6 +101,9 @@ func main() {
 	fmt.Println("Ancestor - algorithm-training-september-2025 problem 25")
 	// cy.Ancestor()
 
+	fmt.Println("FeudalReform - algorithm-training-september-2025 problem 26")
+	// cy.FeudalReform()
+
 	fmt.Println("SuperstringGravity - algorithm-training-september-2025 problem 27")
 	// cy.SuperstringGravity()
 
@@ -109,6 +112,12 @@ func main() {
 
 	fmt.Println("ParseTree - algorithm-training-september-2025 problem 29")
 	// cy.ParseTree()
+
+	fmt.Println("InterviewSignUp - algorithm-training-september-2025 problem 30")
+	// cy.InterviewSignUp()
+
+	fmt.Println("FlightsBetweenOffices - algorithm-training-september-2025 problem 31")
+	// cy.FlightsBetweenOffices()
 
 	fmt.Println("TransportTaxes - algorithm-training-september-2025 problem 32")
 	// cy.TransportTaxes()
@@ -121,6 +130,9 @@ func main() {
 
 	fmt.Println("PotholeRepair - algorithm-training-september-2025 problem 35")
 	// cy.PotholeRepair()
+
+	fmt.Println("RailwayCrossing - algorithm-training-september-2025 problem 36")
+	// cy.RailwayCrossing()
 
 	fmt.Println("PlanningTheSeries - algorithm-training-september-2025 problem 37")
 	// cy.PlanningTheSeries()
@@ -284,6 +296,9 @@ func main() {
 	fmt.Println("CashRegisters - problem 82")
 	// prb.CashRegisters()
 
+	fmt.Println("Security - problem 83")
+	// prb.Security()
+
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
 
@@ -305,6 +320,9 @@ func main() {
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
+	fmt.Println("BoringLecture - problem 96")
+	// prb.BoringLecture()
+
 	fmt.Println("GreatLinelandMigration - problem 98")
 	// prb.GreatLinelandMigration()
 
@@ -322,6 +340,12 @@ func main() {
 
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
+
+	fmt.Println("Calculator - problem 105")
+	// prb.Calculator()
+
+	fmt.Println("Pin - problem 106")
+	// prb.Pin()
 
 	fmt.Println("Game - problem 107")
 	// prb.Game()
@@ -344,6 +368,9 @@ func main() {
 	fmt.Println("AlienGenome - problem 200")
 	// prb.AlienGenome()
 
+	fmt.Println("Turtles - problem 202")
+	// prb.Turtles()
+
 	fmt.Println("AngryPigs - problem 203")
 	// prb.AngryPigs()
 
@@ -352,6 +379,9 @@ func main() {
 
 	fmt.Println("BeautyAboveAll - problem 212")
 	// prb.BeautyAboveAll()
+
+	fmt.Println("Triangles - problem 221")
+	// prb.Triangles()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
@@ -524,6 +554,9 @@ func main() {
 	fmt.Println("Recipes - backend problem 10")
 	// b.Recipes()
 
+	fmt.Println("PhoneFormatting - backend problem 23")
+	// b.PhoneFormatting()
+
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
@@ -556,6 +589,12 @@ func main() {
 
 	fmt.Println("CalendarFormatting - backend problem 43")
 	// b.CalendarFormatting()
+
+	fmt.Println("DiversityImprovement - backend problem 47")
+	// b.DiversityImprovement()
+
+	fmt.Println("DiversityScoring - backend problem 48")
+	// b.DiversityScoring()
 
 	fmt.Println("MergeJSONs2 - backend problem 50")
 	// b.MergeJSONs2()
