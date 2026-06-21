@@ -296,6 +296,9 @@ func main() {
 	fmt.Println("CashRegisters - problem 82")
 	// prb.CashRegisters()
 
+	fmt.Println("Security - problem 83")
+	// prb.Security()
+
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
 
@@ -365,6 +368,9 @@ func main() {
 	fmt.Println("AlienGenome - problem 200")
 	// prb.AlienGenome()
 
+	fmt.Println("Turtles - problem 202")
+	// prb.Turtles()
+
 	fmt.Println("AngryPigs - problem 203")
 	// prb.AngryPigs()
 
@@ -373,6 +379,9 @@ func main() {
 
 	fmt.Println("BeautyAboveAll - problem 212")
 	// prb.BeautyAboveAll()
+
+	fmt.Println("Triangles - problem 221")
+	// prb.Triangles()
 
 	fmt.Println("BinarySearch - problem 224")
 	// prb.BinarySearch()
