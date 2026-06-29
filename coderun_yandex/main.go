@@ -287,6 +287,9 @@ func main() {
 	fmt.Println("Square - problem 78")
 	// prb.Square()
 
+	fmt.Println("CleaningDay - problem 79")
+	// prb.CleaningDay()
+
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
 
@@ -374,6 +377,9 @@ func main() {
 	fmt.Println("AngryPigs - problem 203")
 	// prb.AngryPigs()
 
+	fmt.Println("ControlAccent - problem 205")
+	// prb.ControlAccent()
+
 	fmt.Println("CityOfChe - problem 211")
 	// prb.CityOfChe()
 
@@ -406,6 +412,9 @@ func main() {
 
 	fmt.Println("CollectorDiego - problem 245")
 	// prb.CollectorDiego()
+
+	fmt.Println("LiteOperatingSystems - problem 246")
+	// prb.LiteOperatingSystems()
 
 	fmt.Println("MinimumRectangle - problem 247")
 	// prb.MinimumRectangle()
