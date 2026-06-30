@@ -22,6 +22,8 @@ import (
 	// wc2025 "coderun_yandex/wintercommon2025"
 	// nya "coderun_yandex/newyearadventures"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
+	front "coderun_yandex/frontend"
+	mobdv "coderun_yandex/mobiledev"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -191,6 +193,9 @@ func main() {
 	fmt.Println("TheValueOfABooleanExpression - problem 19")
 	// prb.TheValueOfABooleanExpression()
 
+	fmt.Println("CorruptedXML - problem 21")
+	// prb.CorruptedXML()
+
 	fmt.Println("CommercialCalculator - problem 25")
 	// prb.CommercialCalculator()
 
@@ -205,6 +210,9 @@ func main() {
 
 	fmt.Println("NumberOfTriangles - problem 29")
 	// prb.NumberOfTriangles()
+
+	fmt.Println("AnExcitingGame - problem 31")
+	// prb.AnExcitingGame()
 
 	fmt.Println("KnightMove2 - problem 32")
 	// prb.KnightMove2()
@@ -344,14 +352,8 @@ func main() {
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
 
-	fmt.Println("Calculator - problem 105")
-	// prb.Calculator()
-
 	fmt.Println("Pin - problem 106")
 	// prb.Pin()
-
-	fmt.Println("Game - problem 107")
-	// prb.Game()
 
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
@@ -394,6 +396,9 @@ func main() {
 
 	fmt.Println("Diplomas - problem 225")
 	// prb.Diplomas()
+
+	fmt.Println("VeryEasyProblem - problem 228")
+	// prb.VeryEasyProblem()
 
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
@@ -506,10 +511,10 @@ func main() {
 	fmt.Println("OpenCalculator - quickstart problem 6")
 	// q.OpenCalculator()
 
-	fmt.Println("OpenCalculator - quickstart problem 8")
+	fmt.Println("ListGrowing - quickstart problem 8")
 	// q.ListGrowing()
 
-	fmt.Println("OpenCalculator - quickstart problem 9")
+	fmt.Println("MatrixOperations - quickstart problem 9")
 	// q.MatrixOperations()
 
 	fmt.Println("GcdAndLcm - quickstart problem 10")
@@ -934,4 +939,10 @@ func main() {
 
 	fmt.Println("ShipPlacement - algorithm-training-march-2026 problem 24")
 	atm2026.ShipPlacement()
+
+	fmt.Println("Calculator - frontend problem 4")
+	front.Calculator()
+
+	fmt.Println("Game - mobile-dev problem 28")
+	mobdv.Game()
 }
