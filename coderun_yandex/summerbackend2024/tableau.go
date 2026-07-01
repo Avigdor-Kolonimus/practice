@@ -83,6 +83,8 @@ func Tableau() {
 		}
 	}
 
-	writer.WriteString(bestPlayer + " " + strconv.Itoa(bestPoints))
+	writer.WriteString(bestPlayer)
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(bestPoints))
 	writer.WriteByte('\n')
 }

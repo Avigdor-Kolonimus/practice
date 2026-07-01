@@ -53,6 +53,8 @@ func Tiles() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(n) + " " + strconv.Itoa(m))
+	writer.WriteString(strconv.Itoa(n))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(m))
 	writer.WriteByte('\n')
 }

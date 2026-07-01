@@ -355,6 +355,9 @@ func main() {
 	fmt.Println("Pin - problem 106")
 	// prb.Pin()
 
+	fmt.Println("SymbolsSetMinSusbstr - problem 146")
+	// prb.SymbolsSetMinSusbstr()
+
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
 
@@ -439,8 +442,11 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("AverageInWindow - problem 14")
-	// prb.AverageInWindow()
+	fmt.Println("ProductEqualK - problem 298")
+	// prb.ProductEqualK()
+
+	fmt.Println("FunnyQueue - problem 573")
+	// prb.FunnyQueue()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -858,6 +864,9 @@ func main() {
 
 	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
 	// dgi.RoverWithTwoCompartments()
+
+	fmt.Println("RequestCounter - dev-go-interview problem 6")
+	// dgi.RequestCounter()
 
 	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
 	// dgi.IncomeDuringRushHour()
