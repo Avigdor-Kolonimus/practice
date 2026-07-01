@@ -84,6 +84,8 @@ func BiggestSquare() {
 
 	writer.WriteString(strconv.Itoa(x))
 	writer.WriteByte('\n')
-	writer.WriteString(strconv.Itoa(xi+1) + " " + strconv.Itoa(xj+1))
+	writer.WriteString(strconv.Itoa(xi + 1))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(xj + 1))
 	writer.WriteByte('\n')
 }

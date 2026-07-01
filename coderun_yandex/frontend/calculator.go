@@ -1,4 +1,4 @@
-package problems
+package frontend
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/calculator
-// Calculator - problem 105
+// https://coderun.yandex.ru/selections/frontend/problems/calculator
+// Calculator - problem 4
 func Calculator() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

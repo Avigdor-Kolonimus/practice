@@ -22,6 +22,8 @@ import (
 	// wc2025 "coderun_yandex/wintercommon2025"
 	// nya "coderun_yandex/newyearadventures"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
+	front "coderun_yandex/frontend"
+	mobdv "coderun_yandex/mobiledev"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -191,6 +193,9 @@ func main() {
 	fmt.Println("TheValueOfABooleanExpression - problem 19")
 	// prb.TheValueOfABooleanExpression()
 
+	fmt.Println("CorruptedXML - problem 21")
+	// prb.CorruptedXML()
+
 	fmt.Println("CommercialCalculator - problem 25")
 	// prb.CommercialCalculator()
 
@@ -205,6 +210,9 @@ func main() {
 
 	fmt.Println("NumberOfTriangles - problem 29")
 	// prb.NumberOfTriangles()
+
+	fmt.Println("AnExcitingGame - problem 31")
+	// prb.AnExcitingGame()
 
 	fmt.Println("KnightMove2 - problem 32")
 	// prb.KnightMove2()
@@ -287,6 +295,9 @@ func main() {
 	fmt.Println("Square - problem 78")
 	// prb.Square()
 
+	fmt.Println("CleaningDay - problem 79")
+	// prb.CleaningDay()
+
 	fmt.Println("MedianUnion - problem 80")
 	// prb.MedianUnion()
 
@@ -341,14 +352,11 @@ func main() {
 	fmt.Println("Grasshopper - problem 104")
 	// prb.Grasshopper()
 
-	fmt.Println("Calculator - problem 105")
-	// prb.Calculator()
-
 	fmt.Println("Pin - problem 106")
 	// prb.Pin()
 
-	fmt.Println("Game - problem 107")
-	// prb.Game()
+	fmt.Println("SymbolsSetMinSusbstr - problem 146")
+	// prb.SymbolsSetMinSusbstr()
 
 	fmt.Println("ExactlyOneOccur - problem 148")
 	// prb.ExactlyOneOccur()
@@ -374,6 +382,9 @@ func main() {
 	fmt.Println("AngryPigs - problem 203")
 	// prb.AngryPigs()
 
+	fmt.Println("ControlAccent - problem 205")
+	// prb.ControlAccent()
+
 	fmt.Println("CityOfChe - problem 211")
 	// prb.CityOfChe()
 
@@ -388,6 +399,9 @@ func main() {
 
 	fmt.Println("Diplomas - problem 225")
 	// prb.Diplomas()
+
+	fmt.Println("VeryEasyProblem - problem 228")
+	// prb.VeryEasyProblem()
 
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
@@ -407,6 +421,9 @@ func main() {
 	fmt.Println("CollectorDiego - problem 245")
 	// prb.CollectorDiego()
 
+	fmt.Println("LiteOperatingSystems - problem 246")
+	// prb.LiteOperatingSystems()
+
 	fmt.Println("MinimumRectangle - problem 247")
 	// prb.MinimumRectangle()
 
@@ -425,8 +442,11 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("AverageInWindow - problem 14")
-	// prb.AverageInWindow()
+	fmt.Println("ProductEqualK - problem 298")
+	// prb.ProductEqualK()
+
+	fmt.Println("FunnyQueue - problem 573")
+	// prb.FunnyQueue()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -497,10 +517,10 @@ func main() {
 	fmt.Println("OpenCalculator - quickstart problem 6")
 	// q.OpenCalculator()
 
-	fmt.Println("OpenCalculator - quickstart problem 8")
+	fmt.Println("ListGrowing - quickstart problem 8")
 	// q.ListGrowing()
 
-	fmt.Println("OpenCalculator - quickstart problem 9")
+	fmt.Println("MatrixOperations - quickstart problem 9")
 	// q.MatrixOperations()
 
 	fmt.Println("GcdAndLcm - quickstart problem 10")
@@ -845,6 +865,9 @@ func main() {
 	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
 	// dgi.RoverWithTwoCompartments()
 
+	fmt.Println("RequestCounter - dev-go-interview problem 6")
+	// dgi.RequestCounter()
+
 	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
 	// dgi.IncomeDuringRushHour()
 
@@ -925,4 +948,10 @@ func main() {
 
 	fmt.Println("ShipPlacement - algorithm-training-march-2026 problem 24")
 	atm2026.ShipPlacement()
+
+	fmt.Println("Calculator - frontend problem 4")
+	front.Calculator()
+
+	fmt.Println("Game - mobile-dev problem 28")
+	mobdv.Game()
 }
