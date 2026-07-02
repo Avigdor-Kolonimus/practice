@@ -142,7 +142,8 @@ func PointsAndSegments() {
 
 	// output
 	for i := 0; i < m; i++ {
-		writer.WriteString(strconv.Itoa(result[i]) + " ")
+		writer.WriteString(strconv.Itoa(result[i]))
+		writer.WriteByte(' ')
 	}
 	writer.WriteByte('\n')
 }

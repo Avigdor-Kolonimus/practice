@@ -95,6 +95,8 @@ func InfinitySum() {
 
 	g := gcd(numerator, denominator)
 
-	writer.WriteString(strconv.FormatInt(numerator/g, 10) + "/" + strconv.FormatInt(denominator/g, 10))
+	writer.WriteString(strconv.FormatInt(numerator/g, 10))
+	writer.WriteByte('/')
+	writer.WriteString(strconv.FormatInt(denominator/g, 10))
 	writer.WriteByte('\n')
 }

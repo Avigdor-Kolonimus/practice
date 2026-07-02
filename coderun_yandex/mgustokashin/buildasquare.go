@@ -70,11 +70,17 @@ func BuildASquare() {
 		x := points[0].x
 		y := points[0].y
 
-		writer.WriteString(strconv.Itoa(x+1) + " " + strconv.Itoa(y))
+		writer.WriteString(strconv.Itoa(x + 1))
+		writer.WriteByte(' ')
+		writer.WriteString(strconv.Itoa(y))
 		writer.WriteByte('\n')
-		writer.WriteString(strconv.Itoa(x) + " " + strconv.Itoa(y+1))
+		writer.WriteString(strconv.Itoa(x))
+		writer.WriteByte(' ')
+		writer.WriteString(strconv.Itoa(y + 1))
 		writer.WriteByte('\n')
-		writer.WriteString(strconv.Itoa(x+1) + " " + strconv.Itoa(y+1))
+		writer.WriteString(strconv.Itoa(x + 1))
+		writer.WriteByte(' ')
+		writer.WriteString(strconv.Itoa(y + 1))
 		writer.WriteByte('\n')
 
 		return
@@ -139,7 +145,9 @@ func BuildASquare() {
 	writer.WriteByte('\n')
 
 	for i := 0; i < bestCnt; i++ {
-		writer.WriteString(strconv.Itoa(best[i].x) + " " + strconv.Itoa(best[i].y))
+		writer.WriteString(strconv.Itoa(best[i].x))
+		writer.WriteByte(' ')
+		writer.WriteString(strconv.Itoa(best[i].y))
 		writer.WriteByte('\n')
 	}
 }
