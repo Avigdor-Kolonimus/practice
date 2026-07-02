@@ -24,6 +24,7 @@ import (
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/frontend"
 	mobdv "coderun_yandex/mobiledev"
+	sc2026 "coderun_yandex/summercommon2026"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -445,8 +446,14 @@ func main() {
 	fmt.Println("ProductEqualK - problem 298")
 	// prb.ProductEqualK()
 
+	fmt.Println("LuckyLumber - problem 416")
+	// prb.LuckyLumber()
+
 	fmt.Println("FunnyQueue - problem 573")
 	// prb.FunnyQueue()
+
+	fmt.Println("Number - problem 575")
+	// prb.Number()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -871,6 +878,9 @@ func main() {
 	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
 	// dgi.IncomeDuringRushHour()
 
+	fmt.Println("HonestGrowth - dev-go-interview problem 13")
+	dgi.HonestGrowth()
+
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
 
@@ -954,4 +964,19 @@ func main() {
 
 	fmt.Println("Game - mobile-dev problem 28")
 	mobdv.Game()
+
+	fmt.Println("BikeRental - 2026-summer-common problem 1")
+	sc2026.BikeRental()
+
+	fmt.Println("SummerBikeTour - 2026-summer-common problem 2")
+	// sc2026.SummerBikeTour()
+
+	fmt.Println("BehindTheScenes - 2026-summer-common problem 3")
+	// sc2026.BehindTheScenes()
+
+	fmt.Println("TheSolarSequence - 2026-summer-common problem 4")
+	// sc2026.TheSolarSequence()
+
+	fmt.Println("TheMapOfHotSpots - 2026-summer-common problem 5")
+	// sc2026.TheMapOfHotSpots()
 }

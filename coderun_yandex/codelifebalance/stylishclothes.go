@@ -114,6 +114,8 @@ func StylishClothes() {
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(bestShirt) + " " + strconv.Itoa(bestPants))
+	writer.WriteString(strconv.Itoa(bestShirt))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(bestPants))
 	writer.WriteByte('\n')
 }
