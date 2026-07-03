@@ -21,6 +21,7 @@ import (
 	// sc2025 "coderun_yandex/summercommon2025"
 	// wc2025 "coderun_yandex/wintercommon2025"
 	// nya "coderun_yandex/newyearadventures"
+	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/frontend"
 	mobdv "coderun_yandex/mobiledev"
@@ -145,9 +146,6 @@ func main() {
 
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
-
-	fmt.Println("MedianOutOfThree - problem 1")
-	// prb.MedianOutOfThree()
 
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
@@ -359,9 +357,6 @@ func main() {
 	fmt.Println("SymbolsSetMinSusbstr - problem 146")
 	// prb.SymbolsSetMinSusbstr()
 
-	fmt.Println("ExactlyOneOccur - problem 148")
-	// prb.ExactlyOneOccur()
-
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
 
@@ -442,15 +437,6 @@ func main() {
 
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
-
-	fmt.Println("ProductEqualK - problem 298")
-	// prb.ProductEqualK()
-
-	fmt.Println("LuckyLumber - problem 416")
-	// prb.LuckyLumber()
-
-	fmt.Println("FunnyQueue - problem 573")
-	// prb.FunnyQueue()
 
 	fmt.Println("Number - problem 575")
 	// prb.Number()
@@ -578,8 +564,23 @@ func main() {
 	fmt.Println("LinearPostman - eserajim problem 6")
 	// e.LinearPostman()
 
+	fmt.Println("ExactlyOneOccur - backend problem 2")
+	// b.ExactlyOneOccur()
+
+	fmt.Println("MedianOutOfThree - backend problem 6")
+	// b.MedianOutOfThree()
+
+	fmt.Println("ProductEqualK - backend problem 8")
+	// b.ProductEqualK()
+
+	fmt.Println("RandomSwaps - backend problem 9")
+	// b.RandomSwaps()
+
 	fmt.Println("Recipes - backend problem 10")
 	// b.Recipes()
+
+	fmt.Println("SquareAndCircle - backend problem 11")
+	// b.SquareAndCircle()
 
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
@@ -655,6 +656,9 @@ func main() {
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
+
+	fmt.Println("LuckyLumber - 2024-summer-backend problem 24")
+	// sb2024.LuckyLumber()
 
 	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
 	// sb2024.BiggestSquare()
@@ -872,14 +876,17 @@ func main() {
 	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
 	// dgi.RoverWithTwoCompartments()
 
-	fmt.Println("RequestCounter - dev-go-interview problem 6")
+	fmt.Println("RequestCounter - dev-go-interview problem 5")
 	// dgi.RequestCounter()
 
 	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
 	// dgi.IncomeDuringRushHour()
 
+	fmt.Println("NameDay - dev-go-interview problem 7")
+	// dgi.NameDay()
+
 	fmt.Println("HonestGrowth - dev-go-interview problem 13")
-	dgi.HonestGrowth()
+	// dgi.HonestGrowth()
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
@@ -979,4 +986,7 @@ func main() {
 
 	fmt.Println("TheMapOfHotSpots - 2026-summer-common problem 5")
 	// sc2026.TheMapOfHotSpots()
+
+	fmt.Println("FunnyQueue - ababin problem 9")
+	abb.FunnyQueue()
 }

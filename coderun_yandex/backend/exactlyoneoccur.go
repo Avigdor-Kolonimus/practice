@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -8,8 +8,8 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/exactly-one-occur
-// ExactlyOneOccur - problem 148
+// https://coderun.yandex.ru/selections/backend/problems/exactly-one-occur
+// ExactlyOneOccur - problem 2
 func ExactlyOneOccur() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -1,4 +1,4 @@
-package problems
+package ababin
 
 import (
 	"bufio"
@@ -256,8 +256,8 @@ func (t *Trie) GetMax() int {
 	return int(t.pool.maxVal[int(t.root)])
 }
 
-// https://coderun.yandex.ru/problem/funny-queue
-// FunnyQueue - problem 573
+// https://coderun.yandex.ru/selections/ababin/problems/funny-queue
+// FunnyQueue - problem 9
 func FunnyQueue() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
