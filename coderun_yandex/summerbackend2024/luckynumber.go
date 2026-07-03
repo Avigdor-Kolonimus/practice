@@ -1,4 +1,4 @@
-package problems
+package summerbackend2024
 
 import (
 	"bufio"
@@ -76,8 +76,8 @@ func nextS(a []int, s int) []int {
 	return nil
 }
 
-// https://coderun.yandex.ru/problem/lucky-number
-// LuckyLumber - problem 416
+// https://coderun.yandex.ru/selections/2024-summer-backend/problems/lucky-number
+// LuckyLumber - problem 24
 func LuckyLumber() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

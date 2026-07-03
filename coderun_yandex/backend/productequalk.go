@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -14,8 +14,8 @@ type PairProductEqualK struct {
 	idx int
 }
 
-// https://coderun.yandex.ru/problem/product-equal-k
-// ProductEqualK - problem 298
+// https://coderun.yandex.ru/selections/backend/problems/product-equal-k
+// ProductEqualK - problem 8
 func ProductEqualK() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
