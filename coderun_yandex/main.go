@@ -555,6 +555,9 @@ func main() {
 	fmt.Println("TriangleSimilarity - eserajim problem 2")
 	// e.TriangleSimilarity()
 
+	fmt.Println("Spies - eserajim problem 3")
+	// e.Spies()
+
 	fmt.Println("BoardWithCoins - eserajim problem 4")
 	// e.BoardWithCoins()
 
@@ -875,6 +878,9 @@ func main() {
 
 	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
 	// dgi.RoverWithTwoCompartments()
+
+	fmt.Println("BalanceMoments - dev-go-interview problem 4")
+	// dgi.BalanceMoments()
 
 	fmt.Println("RequestCounter - dev-go-interview problem 5")
 	// dgi.RequestCounter()
