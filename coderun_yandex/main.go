@@ -831,8 +831,17 @@ func main() {
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
 
+	fmt.Println("BookShelf - autumn-intern-2023 problem 1")
+	// ai2023.BookShelf()
+
 	fmt.Println("CalcExpression - autumn-intern-2023 problem 2")
 	// ai2023.CalcExpression()
+
+	fmt.Println("FortuneWheel - autumn-intern-2023 problem 3")
+	// ai2023.FortuneWheel()
+
+	fmt.Println("LisLargeLength - autumn-intern-2023 problem 4")
+	// ai2023.LisLargeLength()
 
 	fmt.Println("TwoCenters - autumn-intern-2023 problem 5")
 	// ai2023.TwoCenters()
