@@ -147,6 +147,9 @@ func main() {
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
 
+	fmt.Println("Motorsport - algorithm-training-september-2025 problem 40")
+	// cy.Motorsport()
+
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
 
@@ -1007,6 +1010,12 @@ func main() {
 
 	fmt.Println("TheMapOfHotSpots - 2026-summer-common problem 5")
 	// sc2026.TheMapOfHotSpots()
+
+	fmt.Println("KoderunCoversTheBeach - 2026-summer-common problem 6")
+	// sc2026.KoderunCoversTheBeach()
+
+	fmt.Println("CyclicalSchedule - 2026-summer-common problem 9")
+	// sc2026.CyclicalSchedule()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
