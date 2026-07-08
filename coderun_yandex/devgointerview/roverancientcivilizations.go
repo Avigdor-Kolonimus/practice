@@ -1,4 +1,4 @@
-package problems
+package devgointerview
 
 import (
 	"bufio"
@@ -8,9 +8,9 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/problem/exactly-one-occur
-// ExactlyOneOccur - problem 148
-func ExactlyOneOccur() {
+// https://coderun.yandex.ru/selections/dev-go-interview/problems/rover-ancient-civilizations
+// RoverAncientCivilizations - problem 14
+func RoverAncientCivilizations() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
 	defer writer.Flush()
@@ -27,34 +27,56 @@ func ExactlyOneOccur() {
 		panic(err)
 	}
 
-	// freq inputs
+	// sequence input
 	line, err = reader.ReadString('\n')
 	if err != nil && err != io.EOF {
 		panic(err)
 	}
 	line = strings.TrimRight(line, "\r\n")
+
 	strNum := strings.Fields(line)
 	if len(strNum) != n {
 		panic("numbers count does not match n")
 	}
 
-	freq := make(map[int]int)
+	sequence := make([]int, n)
 	for i := 0; i < n; i++ {
-		x, err := strconv.Atoi(strNum[i])
+		sequence[i], err = strconv.Atoi(strNum[i])
 		if err != nil {
 			panic(err)
 		}
-
-		freq[x]++
 	}
 
-	answer := 0
-	for _, count := range freq {
-		if count == 1 {
-			answer++
+	pi := make([]int, n)
+	for i := 1; i < n; i++ {
+		j := pi[i-1]
+		for j > 0 && sequence[i] != sequence[j] {
+			j = pi[j-1]
+		}
+
+		if sequence[i] == sequence[j] {
+			j++
+		}
+
+		pi[i] = j
+	}
+
+	p := n - pi[n-1]
+
+	if p == n {
+		writer.WriteString("0\n")
+
+		return
+	}
+
+	for i := p; i < n; i++ {
+		if sequence[i] != sequence[i-p] {
+			writer.WriteString("0\n")
+
+			return
 		}
 	}
 
-	writer.WriteString(strconv.Itoa(answer))
+	writer.WriteString(strconv.Itoa(p))
 	writer.WriteByte('\n')
 }

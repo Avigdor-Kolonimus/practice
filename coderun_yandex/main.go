@@ -21,9 +21,11 @@ import (
 	// sc2025 "coderun_yandex/summercommon2025"
 	// wc2025 "coderun_yandex/wintercommon2025"
 	// nya "coderun_yandex/newyearadventures"
+	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/frontend"
 	mobdv "coderun_yandex/mobiledev"
+	sc2026 "coderun_yandex/summercommon2026"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -145,8 +147,8 @@ func main() {
 	fmt.Println("Banner - algorithm-training-september-2025 problem 39")
 	// cy.Banner()
 
-	fmt.Println("MedianOutOfThree - problem 1")
-	// prb.MedianOutOfThree()
+	fmt.Println("Motorsport - algorithm-training-september-2025 problem 40")
+	// cy.Motorsport()
 
 	fmt.Println("KnightMove - problem 2")
 	// prb.KnightMove()
@@ -358,9 +360,6 @@ func main() {
 	fmt.Println("SymbolsSetMinSusbstr - problem 146")
 	// prb.SymbolsSetMinSusbstr()
 
-	fmt.Println("ExactlyOneOccur - problem 148")
-	// prb.ExactlyOneOccur()
-
 	fmt.Println("Arrangementlaptops - problem 181")
 	// prb.Arrangementlaptops()
 
@@ -442,11 +441,8 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("ProductEqualK - problem 298")
-	// prb.ProductEqualK()
-
-	fmt.Println("FunnyQueue - problem 573")
-	// prb.FunnyQueue()
+	fmt.Println("Number - problem 575")
+	// prb.Number()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -562,6 +558,9 @@ func main() {
 	fmt.Println("TriangleSimilarity - eserajim problem 2")
 	// e.TriangleSimilarity()
 
+	fmt.Println("Spies - eserajim problem 3")
+	// e.Spies()
+
 	fmt.Println("BoardWithCoins - eserajim problem 4")
 	// e.BoardWithCoins()
 
@@ -571,8 +570,23 @@ func main() {
 	fmt.Println("LinearPostman - eserajim problem 6")
 	// e.LinearPostman()
 
+	fmt.Println("ExactlyOneOccur - backend problem 2")
+	// b.ExactlyOneOccur()
+
+	fmt.Println("MedianOutOfThree - backend problem 6")
+	// b.MedianOutOfThree()
+
+	fmt.Println("ProductEqualK - backend problem 8")
+	// b.ProductEqualK()
+
+	fmt.Println("RandomSwaps - backend problem 9")
+	// b.RandomSwaps()
+
 	fmt.Println("Recipes - backend problem 10")
 	// b.Recipes()
+
+	fmt.Println("SquareAndCircle - backend problem 11")
+	// b.SquareAndCircle()
 
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
@@ -648,6 +662,9 @@ func main() {
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
+
+	fmt.Println("LuckyLumber - 2024-summer-backend problem 24")
+	// sb2024.LuckyLumber()
 
 	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
 	// sb2024.BiggestSquare()
@@ -817,8 +834,20 @@ func main() {
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
 
+	fmt.Println("BookShelf - autumn-intern-2023 problem 1")
+	// ai2023.BookShelf()
+
 	fmt.Println("CalcExpression - autumn-intern-2023 problem 2")
 	// ai2023.CalcExpression()
+
+	fmt.Println("FortuneWheel - autumn-intern-2023 problem 3")
+	// ai2023.FortuneWheel()
+
+	fmt.Println("LisLargeLength - autumn-intern-2023 problem 4")
+	// ai2023.LisLargeLength()
+
+	fmt.Println("TwoCenters - autumn-intern-2023 problem 5")
+	// ai2023.TwoCenters()
 
 	fmt.Println("Round - winter-intern-2024 problem 4")
 	// wi2024.Round()
@@ -865,11 +894,23 @@ func main() {
 	fmt.Println("RoverWithTwoCompartments - dev-go-interview problem 3")
 	// dgi.RoverWithTwoCompartments()
 
-	fmt.Println("RequestCounter - dev-go-interview problem 6")
+	fmt.Println("BalanceMoments - dev-go-interview problem 4")
+	// dgi.BalanceMoments()
+
+	fmt.Println("RequestCounter - dev-go-interview problem 5")
 	// dgi.RequestCounter()
 
 	fmt.Println("IncomeDuringRushHour - dev-go-interview problem 6")
 	// dgi.IncomeDuringRushHour()
+
+	fmt.Println("NameDay - dev-go-interview problem 7")
+	// dgi.NameDay()
+
+	fmt.Println("HonestGrowth - dev-go-interview problem 13")
+	// dgi.HonestGrowth()
+
+	fmt.Println("RoverAncientCivilizations - dev-go-interview problem 14")
+	// dgi.RoverAncientCivilizations()
 
 	fmt.Println("ExtraShares - dev-go-interview problem 15")
 	dgi.ExtraShares()
@@ -954,4 +995,37 @@ func main() {
 
 	fmt.Println("Game - mobile-dev problem 28")
 	mobdv.Game()
+
+	fmt.Println("BikeRental - 2026-summer-common problem 1")
+	sc2026.BikeRental()
+
+	fmt.Println("SummerBikeTour - 2026-summer-common problem 2")
+	// sc2026.SummerBikeTour()
+
+	fmt.Println("BehindTheScenes - 2026-summer-common problem 3")
+	// sc2026.BehindTheScenes()
+
+	fmt.Println("TheSolarSequence - 2026-summer-common problem 4")
+	// sc2026.TheSolarSequence()
+
+	fmt.Println("TheMapOfHotSpots - 2026-summer-common problem 5")
+	// sc2026.TheMapOfHotSpots()
+
+	fmt.Println("KoderunCoversTheBeach - 2026-summer-common problem 6")
+	// sc2026.KoderunCoversTheBeach()
+
+	fmt.Println("IdealSummerRoute - 2026-summer-common problem 7")
+	// sc2026.IdealSummerRoute()
+
+	fmt.Println("IslandTour - 2026-summer-common problem 8")
+	// sc2026.IslandTour()
+
+	fmt.Println("CyclicalSchedule - 2026-summer-common problem 9")
+	// sc2026.CyclicalSchedule()
+
+	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
+	// sc2026.BeachSudoku()
+
+	fmt.Println("FunnyQueue - ababin problem 9")
+	abb.FunnyQueue()
 }

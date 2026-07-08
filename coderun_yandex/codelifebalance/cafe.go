@@ -134,7 +134,9 @@ func Cafe() {
 	// Output
 	writer.WriteString(strconv.Itoa(minCost))
 	writer.WriteByte('\n')
-	writer.WriteString(strconv.Itoa(k1) + " " + strconv.Itoa(len(usedDays)))
+	writer.WriteString(strconv.Itoa(k1))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(len(usedDays)))
 	writer.WriteByte('\n')
 	for i := len(usedDays) - 1; i >= 0; i-- {
 		writer.WriteString(strconv.Itoa(usedDays[i]))

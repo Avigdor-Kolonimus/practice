@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -21,8 +21,8 @@ func median(a, b, c int) int {
 	return c
 }
 
-// https://coderun.yandex.ru/problem/median-out-of-three
-// MedianOutOfThree - problem 1
+// https://coderun.yandex.ru/selections/backend/problems/median-out-of-three
+// MedianOutOfThree - problem 6
 func MedianOutOfThree() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

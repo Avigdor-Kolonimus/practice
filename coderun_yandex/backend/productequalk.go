@@ -1,4 +1,4 @@
-package problems
+package backend
 
 import (
 	"bufio"
@@ -14,8 +14,8 @@ type PairProductEqualK struct {
 	idx int
 }
 
-// https://coderun.yandex.ru/problem/product-equal-k
-// ProductEqualK - problem 298
+// https://coderun.yandex.ru/selections/backend/problems/product-equal-k
+// ProductEqualK - problem 8
 func ProductEqualK() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
@@ -132,4 +132,79 @@ func ProductEqualK() {
 
 		return
 	}
+
+	ln := len(a)
+
+	dp := make([][]struct {
+		ok   bool
+		path []int
+	}, 32)
+
+	for i := range dp {
+		dp[i] = make([]struct {
+			ok   bool
+			path []int
+		}, len(del)+1)
+	}
+
+	dp[0][0].ok = true
+
+	// DP
+	for i := ln - 1; i >= 0; i-- {
+		val := a[i].val
+		idx := a[i].idx
+
+		for j := 31; j >= 1; j-- {
+			for _, d := range del {
+				if d%val != 0 {
+					continue
+				}
+
+				from := mp[d/val]
+				to := mp[d]
+
+				if dp[j-1][from].ok && !dp[j][to].ok {
+					prev := dp[j-1][from].path
+
+					newPath := make([]int, len(prev), len(prev)+1)
+					copy(newPath, prev)
+					newPath = append(newPath, idx)
+
+					dp[j][to].ok = true
+					dp[j][to].path = newPath
+				}
+			}
+		}
+	}
+
+	// find answer
+	start := k - len(count)
+	if start < 0 {
+		start = 0
+	}
+
+	var res []int
+
+	for kk := start; kk <= k; kk++ {
+		if kk >= len(dp) {
+			continue
+		}
+		if dp[kk][mp[m]].ok {
+			res = append(res, dp[kk][mp[m]].path...)
+
+			for i := 0; i < k-kk && i < len(count); i++ {
+				res = append(res, count[i].idx)
+			}
+			break
+		}
+	}
+
+	// output
+	for i, v := range res {
+		writer.WriteString(strconv.Itoa(v + 1))
+		if i+1 < len(res) {
+			writer.WriteByte(' ')
+		}
+	}
+	writer.WriteByte('\n')
 }
