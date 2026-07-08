@@ -1014,8 +1014,17 @@ func main() {
 	fmt.Println("KoderunCoversTheBeach - 2026-summer-common problem 6")
 	// sc2026.KoderunCoversTheBeach()
 
+	fmt.Println("IdealSummerRoute - 2026-summer-common problem 7")
+	// sc2026.IdealSummerRoute()
+
+	fmt.Println("IslandTour - 2026-summer-common problem 8")
+	// sc2026.IslandTour()
+
 	fmt.Println("CyclicalSchedule - 2026-summer-common problem 9")
 	// sc2026.CyclicalSchedule()
+
+	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
+	// sc2026.BeachSudoku()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
