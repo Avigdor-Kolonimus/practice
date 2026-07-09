@@ -849,6 +849,15 @@ func main() {
 	fmt.Println("TwoCenters - autumn-intern-2023 problem 5")
 	// ai2023.TwoCenters()
 
+	fmt.Println("Inversions - winter-intern-2024 problem 1")
+	// wi2024.Inversions()
+
+	fmt.Println("Lap - winter-intern-2024 problem 2")
+	// wi2024.Lap()
+
+	fmt.Println("Lap2 - winter-intern-2024 problem 3")
+	// wi2024.Lap2()
+
 	fmt.Println("Round - winter-intern-2024 problem 4")
 	// wi2024.Round()
 
