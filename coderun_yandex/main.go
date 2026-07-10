@@ -648,8 +648,14 @@ func main() {
 	fmt.Println("SuperMarathon - 2024-summer-backend problem 3")
 	// sb2024.SuperMarathon()
 
+	fmt.Println("FourPoints - 2024-summer-backend problem 4")
+	// sb2024.FourPoints()
+
 	fmt.Println("GCD - 2024-summer-backend problem 9")
 	// sb2024.GCD()
+
+	fmt.Println("DivisorsNumber - 2024-summer-backend problem 12")
+	// sb2024.DivisorsNumber()
 
 	fmt.Println("CoupleOfLetters - 2024-summer-backend problem 13")
 	// sb2024.CoupleOfLetters()
