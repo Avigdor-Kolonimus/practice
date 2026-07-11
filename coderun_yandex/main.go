@@ -666,6 +666,9 @@ func main() {
 	fmt.Println("SplittingIntoTerms - 2024-summer-backend problem 15")
 	// sb2024.SplittingIntoTerms()
 
+	fmt.Println("Crystals - 2024-summer-backend problem 17")
+	// sb2024.Crystals()
+
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
 
