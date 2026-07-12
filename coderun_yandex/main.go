@@ -1044,6 +1044,9 @@ func main() {
 	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
 	// sc2026.BeachSudoku()
 
+	fmt.Println("TheCleaningRobot - 2026-summer-common problem 15")
+	// sc2026.TheCleaningRobot()
+
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
 }
