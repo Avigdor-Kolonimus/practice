@@ -666,6 +666,9 @@ func main() {
 	fmt.Println("SplittingIntoTerms - 2024-summer-backend problem 15")
 	// sb2024.SplittingIntoTerms()
 
+	fmt.Println("Crystals - 2024-summer-backend problem 17")
+	// sb2024.Crystals()
+
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
 
@@ -1040,6 +1043,9 @@ func main() {
 
 	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
 	// sc2026.BeachSudoku()
+
+	fmt.Println("TheCleaningRobot - 2026-summer-common problem 15")
+	// sc2026.TheCleaningRobot()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
