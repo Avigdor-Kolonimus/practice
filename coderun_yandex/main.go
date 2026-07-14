@@ -651,6 +651,9 @@ func main() {
 	fmt.Println("FourPoints - 2024-summer-backend problem 4")
 	// sb2024.FourPoints()
 
+	fmt.Println("SubstitutionCodeV2 - 2024-summer-backend problem 8")
+	// sb2024.SubstitutionCodeV2()
+
 	fmt.Println("GCD - 2024-summer-backend problem 9")
 	// sb2024.GCD()
 
@@ -1046,6 +1049,9 @@ func main() {
 
 	fmt.Println("VacationPhotos - 2026-summer-common problem 12")
 	// sc2026.VacationPhotos()
+
+	fmt.Println("SetUpDeckChairs - 2026-summer-common problem 14")
+	// sc2026.SetUpDeckChairs()
 
 	fmt.Println("TheCleaningRobot - 2026-summer-common problem 15")
 	// sc2026.TheCleaningRobot()
