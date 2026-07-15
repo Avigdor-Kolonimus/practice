@@ -624,6 +624,9 @@ func main() {
 	fmt.Println("CalendarFormatting - backend problem 43")
 	// b.CalendarFormatting()
 
+	fmt.Println("CardGame - backend problem 44")
+	// b.CardGame()
+
 	fmt.Println("DiversityImprovement - backend problem 47")
 	// b.DiversityImprovement()
 
