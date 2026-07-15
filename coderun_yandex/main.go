@@ -624,6 +624,9 @@ func main() {
 	fmt.Println("CalendarFormatting - backend problem 43")
 	// b.CalendarFormatting()
 
+	fmt.Println("CardGame - backend problem 44")
+	// b.CardGame()
+
 	fmt.Println("DiversityImprovement - backend problem 47")
 	// b.DiversityImprovement()
 
@@ -648,8 +651,17 @@ func main() {
 	fmt.Println("SuperMarathon - 2024-summer-backend problem 3")
 	// sb2024.SuperMarathon()
 
+	fmt.Println("FourPoints - 2024-summer-backend problem 4")
+	// sb2024.FourPoints()
+
+	fmt.Println("SubstitutionCodeV2 - 2024-summer-backend problem 8")
+	// sb2024.SubstitutionCodeV2()
+
 	fmt.Println("GCD - 2024-summer-backend problem 9")
 	// sb2024.GCD()
+
+	fmt.Println("DivisorsNumber - 2024-summer-backend problem 12")
+	// sb2024.DivisorsNumber()
 
 	fmt.Println("CoupleOfLetters - 2024-summer-backend problem 13")
 	// sb2024.CoupleOfLetters()
@@ -659,6 +671,9 @@ func main() {
 
 	fmt.Println("SplittingIntoTerms - 2024-summer-backend problem 15")
 	// sb2024.SplittingIntoTerms()
+
+	fmt.Println("Crystals - 2024-summer-backend problem 17")
+	// sb2024.Crystals()
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
@@ -849,6 +864,15 @@ func main() {
 	fmt.Println("TwoCenters - autumn-intern-2023 problem 5")
 	// ai2023.TwoCenters()
 
+	fmt.Println("Inversions - winter-intern-2024 problem 1")
+	// wi2024.Inversions()
+
+	fmt.Println("Lap - winter-intern-2024 problem 2")
+	// wi2024.Lap()
+
+	fmt.Println("Lap2 - winter-intern-2024 problem 3")
+	// wi2024.Lap2()
+
 	fmt.Println("Round - winter-intern-2024 problem 4")
 	// wi2024.Round()
 
@@ -1025,6 +1049,15 @@ func main() {
 
 	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
 	// sc2026.BeachSudoku()
+
+	fmt.Println("VacationPhotos - 2026-summer-common problem 12")
+	// sc2026.VacationPhotos()
+
+	fmt.Println("SetUpDeckChairs - 2026-summer-common problem 14")
+	// sc2026.SetUpDeckChairs()
+
+	fmt.Println("TheCleaningRobot - 2026-summer-common problem 15")
+	// sc2026.TheCleaningRobot()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
