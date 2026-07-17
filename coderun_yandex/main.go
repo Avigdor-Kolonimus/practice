@@ -603,6 +603,9 @@ func main() {
 	fmt.Println("DayofweekYaIntern - backend problem 32")
 	// b.DayofweekYaIntern()
 
+	fmt.Println("DsuYaIntern - backend problem 33")
+	// b.DsuYaIntern()
+
 	fmt.Println("KolyaAndDataCenters - backend problem 35")
 	// b.KolyaAndDataCenters()
 
