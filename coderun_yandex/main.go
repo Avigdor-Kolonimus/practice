@@ -588,6 +588,9 @@ func main() {
 	fmt.Println("SquareAndCircle - backend problem 11")
 	// b.SquareAndCircle()
 
+	fmt.Println("Meetings - backend problem `9")
+	// b.Meetings()
+
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
 
