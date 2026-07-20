@@ -777,6 +777,9 @@ func main() {
 	fmt.Println("Venue - 2025-summer-common problem 21")
 	// sc2025.Venue()
 
+	fmt.Println("AncientTunnelSolve - 2025-summer-common problem 22")
+	// sc2025.AncientTunnelSolve()
+
 	fmt.Println("ThermalPanels - 2025-winter-common problem 1")
 	// wc2025.ThermalPanels()
 
