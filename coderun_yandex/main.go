@@ -1065,6 +1065,9 @@ func main() {
 	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
 	// sc2026.BeachSudoku()
 
+	fmt.Println("ManhattanVacation - 2026-summer-common problem 11")
+	// sc2026.ManhattanVacation()
+
 	fmt.Println("VacationPhotos - 2026-summer-common problem 12")
 	// sc2026.VacationPhotos()
 
