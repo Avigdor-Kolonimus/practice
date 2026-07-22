@@ -225,6 +225,9 @@ func main() {
 	fmt.Println("SpaceScavenger - problem 34")
 	// prb.SpaceScavenger()
 
+	fmt.Println("TrafficLanes - problem 35")
+	// prb.TrafficLanes()
+
 	fmt.Println("CuttingOfBars - problem 36")
 	// prb.CuttingOfBars()
 
@@ -588,6 +591,9 @@ func main() {
 	fmt.Println("SquareAndCircle - backend problem 11")
 	// b.SquareAndCircle()
 
+	fmt.Println("Meetings - backend problem `9")
+	// b.Meetings()
+
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
 
@@ -602,6 +608,9 @@ func main() {
 
 	fmt.Println("DayofweekYaIntern - backend problem 32")
 	// b.DayofweekYaIntern()
+
+	fmt.Println("DsuYaIntern - backend problem 33")
+	// b.DsuYaIntern()
 
 	fmt.Println("KolyaAndDataCenters - backend problem 35")
 	// b.KolyaAndDataCenters()
@@ -671,6 +680,9 @@ func main() {
 
 	fmt.Println("SplittingIntoTerms - 2024-summer-backend problem 15")
 	// sb2024.SplittingIntoTerms()
+
+	fmt.Println("CycleCreation - 2024-summer-backend problem 16")
+	// sb2024.CycleCreation()
 
 	fmt.Println("Crystals - 2024-summer-backend problem 17")
 	// sb2024.Crystals()
@@ -764,6 +776,12 @@ func main() {
 
 	fmt.Println("Cryptogram - 2025-summer-common problem 20")
 	// sc2025.Cryptogram()
+
+	fmt.Println("Venue - 2025-summer-common problem 21")
+	// sc2025.Venue()
+
+	fmt.Println("AncientTunnelSolve - 2025-summer-common problem 22")
+	// sc2025.AncientTunnelSolve()
 
 	fmt.Println("ThermalPanels - 2025-winter-common problem 1")
 	// wc2025.ThermalPanels()
@@ -1049,6 +1067,9 @@ func main() {
 
 	fmt.Println("BeachSudoku - 2026-summer-common problem 10")
 	// sc2026.BeachSudoku()
+
+	fmt.Println("ManhattanVacation - 2026-summer-common problem 11")
+	// sc2026.ManhattanVacation()
 
 	fmt.Println("VacationPhotos - 2026-summer-common problem 12")
 	// sc2026.VacationPhotos()
