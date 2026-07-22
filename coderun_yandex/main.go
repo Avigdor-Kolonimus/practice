@@ -225,6 +225,9 @@ func main() {
 	fmt.Println("SpaceScavenger - problem 34")
 	// prb.SpaceScavenger()
 
+	fmt.Println("TrafficLanes - problem 35")
+	// prb.TrafficLanes()
+
 	fmt.Println("CuttingOfBars - problem 36")
 	// prb.CuttingOfBars()
 
