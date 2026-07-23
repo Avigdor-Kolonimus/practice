@@ -444,9 +444,6 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
-	fmt.Println("Number - problem 575")
-	// prb.Number()
-
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
 
@@ -848,6 +845,12 @@ func main() {
 
 	fmt.Println("RemovingDuplicates - yandex-interview problem 6")
 	yi.RemovingDuplicates()
+
+	fmt.Println("Number - atolstikov problem 1")
+	// atl.Number()
+
+	fmt.Println("FrequencyLimitation - atolstikov problem 2")
+	// atl.FrequencyLimitation()
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
