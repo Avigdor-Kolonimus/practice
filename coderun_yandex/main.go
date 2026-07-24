@@ -852,6 +852,9 @@ func main() {
 	fmt.Println("FrequencyLimitation - atolstikov problem 2")
 	// atl.FrequencyLimitation()
 
+	fmt.Println("LabWork - atolstikov problem 4")
+	// atl.LabWork()
+
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
 
