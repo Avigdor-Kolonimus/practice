@@ -291,6 +291,9 @@ func main() {
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
 
+	fmt.Println("Sales - problem 71")
+	// prb.Sales()
+
 	fmt.Println("BankAccounts - problem 72")
 	// prb.BankAccounts()
 
