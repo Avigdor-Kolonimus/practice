@@ -291,6 +291,9 @@ func main() {
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
 
+	fmt.Println("Sales - problem 71")
+	// prb.Sales()
+
 	fmt.Println("BankAccounts - problem 72")
 	// prb.BankAccounts()
 
@@ -851,6 +854,9 @@ func main() {
 
 	fmt.Println("FrequencyLimitation - atolstikov problem 2")
 	// atl.FrequencyLimitation()
+
+	fmt.Println("LabWork - atolstikov problem 4")
+	// atl.LabWork()
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
