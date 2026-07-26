@@ -855,6 +855,9 @@ func main() {
 	fmt.Println("FrequencyLimitation - atolstikov problem 2")
 	// atl.FrequencyLimitation()
 
+	fmt.Println("CheckeredBoard - atolstikov problem 3")
+	// atl.CheckeredBoard()
+
 	fmt.Println("LabWork - atolstikov problem 4")
 	// atl.LabWork()
 
