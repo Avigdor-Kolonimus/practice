@@ -864,6 +864,9 @@ func main() {
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
 
+	fmt.Println("Ambulance - mgustokashin problem 1")
+	// mg.Ambulance()
+
 	fmt.Println("RunManhattan - mgustokashin problem 2")
 	// mg.RunManhattan()
 
