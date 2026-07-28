@@ -882,6 +882,9 @@ func main() {
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
 
+	fmt.Println("DestroyTheBarracks - mgustokashin problem 9")
+	// mg.DestroyTheBarracks()
+
 	fmt.Println("BookShelf - autumn-intern-2023 problem 1")
 	// ai2023.BookShelf()
 
