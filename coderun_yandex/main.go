@@ -663,6 +663,9 @@ func main() {
 	fmt.Println("FourPoints - 2024-summer-backend problem 4")
 	// sb2024.FourPoints()
 
+	fmt.Println("TeamContest - 2024-summer-backend problem 7")
+	// sb2024.TeamContest()
+
 	fmt.Println("SubstitutionCodeV2 - 2024-summer-backend problem 8")
 	// sb2024.SubstitutionCodeV2()
 
