@@ -1,4 +1,4 @@
-package problems
+package atolstikov
 
 import (
 	"bufio"
@@ -16,8 +16,8 @@ func gcdNumber(a, b int) int {
 	return a
 }
 
-// https://coderun.yandex.ru/problem/number
-// Number - problem 575
+// https://coderun.yandex.ru/selections/atolstikov/problems/number
+// Number - problem 1
 func Number() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

@@ -291,6 +291,9 @@ func main() {
 	fmt.Println("Pyramid - problem 70")
 	// prb.Pyramid()
 
+	fmt.Println("Sales - problem 71")
+	// prb.Sales()
+
 	fmt.Println("BankAccounts - problem 72")
 	// prb.BankAccounts()
 
@@ -443,9 +446,6 @@ func main() {
 
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
-
-	fmt.Println("Number - problem 575")
-	// prb.Number()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -600,6 +600,9 @@ func main() {
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
+	fmt.Println("TwoCliques - backend problem 27")
+	// b.TwoCliques()
+
 	fmt.Println("BusesYaIntern - backend problem 30")
 	// b.BusesYaIntern()
 
@@ -662,6 +665,9 @@ func main() {
 
 	fmt.Println("FourPoints - 2024-summer-backend problem 4")
 	// sb2024.FourPoints()
+
+	fmt.Println("TeamContest - 2024-summer-backend problem 7")
+	// sb2024.TeamContest()
 
 	fmt.Println("SubstitutionCodeV2 - 2024-summer-backend problem 8")
 	// sb2024.SubstitutionCodeV2()
@@ -849,8 +855,23 @@ func main() {
 	fmt.Println("RemovingDuplicates - yandex-interview problem 6")
 	yi.RemovingDuplicates()
 
+	fmt.Println("Number - atolstikov problem 1")
+	// atl.Number()
+
+	fmt.Println("FrequencyLimitation - atolstikov problem 2")
+	// atl.FrequencyLimitation()
+
+	fmt.Println("CheckeredBoard - atolstikov problem 3")
+	// atl.CheckeredBoard()
+
+	fmt.Println("LabWork - atolstikov problem 4")
+	// atl.LabWork()
+
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
+
+	fmt.Println("Ambulance - mgustokashin problem 1")
+	// mg.Ambulance()
 
 	fmt.Println("RunManhattan - mgustokashin problem 2")
 	// mg.RunManhattan()
@@ -866,6 +887,9 @@ func main() {
 
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
+
+	fmt.Println("DestroyTheBarracks - mgustokashin problem 9")
+	// mg.DestroyTheBarracks()
 
 	fmt.Println("BookShelf - autumn-intern-2023 problem 1")
 	// ai2023.BookShelf()
