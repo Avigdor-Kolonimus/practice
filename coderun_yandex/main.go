@@ -600,6 +600,9 @@ func main() {
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
+	fmt.Println("TwoCliques - backend problem 27")
+	// b.TwoCliques()
+
 	fmt.Println("BusesYaIntern - backend problem 30")
 	// b.BusesYaIntern()
 
