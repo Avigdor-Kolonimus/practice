@@ -888,6 +888,9 @@ func main() {
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
 
+	fmt.Println("TsarLeonidas - mgustokashin problem 8")
+	// mg.TsarLeonidas()
+
 	fmt.Println("DestroyTheBarracks - mgustokashin problem 9")
 	// mg.DestroyTheBarracks()
 
