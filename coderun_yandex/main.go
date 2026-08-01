@@ -411,6 +411,9 @@ func main() {
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
 
+	fmt.Println("ObservationStudents - problem 232")
+	// prb.ObservationStudents()
+
 	fmt.Println("SeatingArrangements - problem 235")
 	// prb.SeatingArrangements()
 
