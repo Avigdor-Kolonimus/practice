@@ -417,6 +417,9 @@ func main() {
 	fmt.Println("SeatingArrangements - problem 235")
 	// prb.SeatingArrangements()
 
+	fmt.Println("ChildrenParty - problem 238")
+	// prb.ChildrenParty()
+
 	fmt.Println("SecondMaximum - problem 240")
 	// prb.SecondMaximum()
 
