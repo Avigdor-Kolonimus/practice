@@ -648,6 +648,9 @@ func main() {
 	fmt.Println("CardGame - backend problem 44")
 	// b.CardGame()
 
+	fmt.Println("DiscountCoupons - backend problem 46")
+	// b.DiscountCoupons()
+
 	fmt.Println("DiversityImprovement - backend problem 47")
 	// b.DiversityImprovement()
 
