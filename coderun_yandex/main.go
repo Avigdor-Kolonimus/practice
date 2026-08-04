@@ -411,8 +411,14 @@ func main() {
 	fmt.Println("Wires - problem 230")
 	// prb.Wires()
 
+	fmt.Println("ObservationStudents - problem 232")
+	// prb.ObservationStudents()
+
 	fmt.Println("SeatingArrangements - problem 235")
 	// prb.SeatingArrangements()
+
+	fmt.Println("ChildrenParty - problem 238")
+	// prb.ChildrenParty()
 
 	fmt.Println("SecondMaximum - problem 240")
 	// prb.SecondMaximum()
@@ -446,6 +452,9 @@ func main() {
 
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
+
+	fmt.Println("Phi - problem 627")
+	// prb.Phi()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -638,6 +647,9 @@ func main() {
 
 	fmt.Println("CardGame - backend problem 44")
 	// b.CardGame()
+
+	fmt.Println("DiscountCoupons - backend problem 46")
+	// b.DiscountCoupons()
 
 	fmt.Println("DiversityImprovement - backend problem 47")
 	// b.DiversityImprovement()
@@ -887,6 +899,9 @@ func main() {
 
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
+
+	fmt.Println("TsarLeonidas - mgustokashin problem 8")
+	// mg.TsarLeonidas()
 
 	fmt.Println("DestroyTheBarracks - mgustokashin problem 9")
 	// mg.DestroyTheBarracks()
