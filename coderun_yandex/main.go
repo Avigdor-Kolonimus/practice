@@ -648,6 +648,9 @@ func main() {
 	fmt.Println("CardGame - backend problem 44")
 	// b.CardGame()
 
+	fmt.Println("DiscountCoupons - backend problem 46")
+	// b.DiscountCoupons()
+
 	fmt.Println("DiversityImprovement - backend problem 47")
 	// b.DiversityImprovement()
 
@@ -983,6 +986,9 @@ func main() {
 
 	fmt.Println("NameDay - dev-go-interview problem 7")
 	// dgi.NameDay()
+
+	fmt.Println("BusiestRestaurants - dev-go-interview problem 8")
+	// dgi.BusiestRestaurants()
 
 	fmt.Println("HonestGrowth - dev-go-interview problem 13")
 	// dgi.HonestGrowth()
