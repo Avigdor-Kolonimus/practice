@@ -987,6 +987,9 @@ func main() {
 	fmt.Println("NameDay - dev-go-interview problem 7")
 	// dgi.NameDay()
 
+	fmt.Println("BusiestRestaurants - dev-go-interview problem 8")
+	// dgi.BusiestRestaurants()
+
 	fmt.Println("HonestGrowth - dev-go-interview problem 13")
 	// dgi.HonestGrowth()
 
