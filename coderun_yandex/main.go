@@ -990,6 +990,9 @@ func main() {
 	fmt.Println("BusiestRestaurants - dev-go-interview problem 8")
 	// dgi.BusiestRestaurants()
 
+	fmt.Println("ScooterParking - dev-go-interview problem 9")
+	// dgi.ScooterParking()
+
 	fmt.Println("HonestGrowth - dev-go-interview problem 13")
 	// dgi.HonestGrowth()
 
