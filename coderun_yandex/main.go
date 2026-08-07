@@ -993,6 +993,9 @@ func main() {
 	fmt.Println("ScooterParking - dev-go-interview problem 9")
 	// dgi.ScooterParking()
 
+	fmt.Println("CTFTeamScore - dev-go-interview problem 12")
+	// dgi.CTFTeamScore()
+
 	fmt.Println("HonestGrowth - dev-go-interview problem 13")
 	// dgi.HonestGrowth()
 
