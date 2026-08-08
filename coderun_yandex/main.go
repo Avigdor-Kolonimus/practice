@@ -423,6 +423,9 @@ func main() {
 	fmt.Println("SecondMaximum - problem 240")
 	// prb.SecondMaximum()
 
+	fmt.Println("Bypass - problem 241")
+	// prb.Bypass()
+
 	fmt.Println("LeafConclusion - problem 242")
 	// prb.LeafConclusion()
 
