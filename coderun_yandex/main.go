@@ -459,6 +459,9 @@ func main() {
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
 
+	fmt.Println("IvanAndOpensource - problem 316")
+	// prb.IvanAndOpensource()
+
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
 
