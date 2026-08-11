@@ -255,6 +255,9 @@ func main() {
 	fmt.Println("StudentsAndLectures - problem 48")
 	// prb.StudentsAndLectures()
 
+	fmt.Println("HackPentagon - problem 49")
+	// prb.HackPentagon()
+
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
 
