@@ -1008,6 +1008,9 @@ func main() {
 	fmt.Println("ScooterParking - dev-go-interview problem 9")
 	// dgi.ScooterParking()
 
+	fmt.Println("ReservePeriods - dev-go-interview problem 10")
+	// dgi.ReservePeriods()
+
 	fmt.Println("CTFTeamScore - dev-go-interview problem 12")
 	// dgi.CTFTeamScore()
 

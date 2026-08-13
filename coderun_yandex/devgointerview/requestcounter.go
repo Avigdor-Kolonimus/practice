@@ -37,7 +37,7 @@ func RequestCounter() {
 
 	// request input
 	data := make([]int, n)
-	for i := 0; i < n; i++ {
+	for i := range n {
 		line, err = reader.ReadString('\n')
 		if err != nil && err != io.EOF {
 			panic(err)
