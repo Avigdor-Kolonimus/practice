@@ -255,6 +255,9 @@ func main() {
 	fmt.Println("StudentsAndLectures - problem 48")
 	// prb.StudentsAndLectures()
 
+	fmt.Println("HackPentagon - problem 49")
+	// prb.HackPentagon()
+
 	fmt.Println("FrequentWord - problem 50")
 	// prb.FrequentWord()
 
@@ -417,11 +420,17 @@ func main() {
 	fmt.Println("SeatingArrangements - problem 235")
 	// prb.SeatingArrangements()
 
+	fmt.Println("Coevals - problem 237")
+	// prb.Coevals()
+
 	fmt.Println("ChildrenParty - problem 238")
 	// prb.ChildrenParty()
 
 	fmt.Println("SecondMaximum - problem 240")
 	// prb.SecondMaximum()
+
+	fmt.Println("Bypass - problem 241")
+	// prb.Bypass()
 
 	fmt.Println("LeafConclusion - problem 242")
 	// prb.LeafConclusion()
@@ -452,6 +461,9 @@ func main() {
 
 	fmt.Println("PyramidSorting - problem 252")
 	// prb.PyramidSorting()
+
+	fmt.Println("IvanAndOpensource - problem 316")
+	// prb.IvanAndOpensource()
 
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
@@ -659,6 +671,9 @@ func main() {
 
 	fmt.Println("MergeJSONs2 - backend problem 50")
 	// b.MergeJSONs2()
+
+	fmt.Println("PlaneBoarding - backend problem 51")
+	// b.PlaneBoarding()
 
 	fmt.Println("RocksAndJewels - backend problem 52")
 	// b.RocksAndJewels()
@@ -992,6 +1007,12 @@ func main() {
 
 	fmt.Println("ScooterParking - dev-go-interview problem 9")
 	// dgi.ScooterParking()
+
+	fmt.Println("ReservePeriods - dev-go-interview problem 10")
+	// dgi.ReservePeriods()
+
+	fmt.Println("CTFTeamScore - dev-go-interview problem 12")
+	// dgi.CTFTeamScore()
 
 	fmt.Println("HonestGrowth - dev-go-interview problem 13")
 	// dgi.HonestGrowth()
