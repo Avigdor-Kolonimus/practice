@@ -468,6 +468,9 @@ func main() {
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
 
+	fmt.Println("AirlineTickets - problem 754")
+	// prb.AirlineTickets()
+
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
 
