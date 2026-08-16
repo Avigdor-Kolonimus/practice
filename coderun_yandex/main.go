@@ -393,6 +393,9 @@ func main() {
 	fmt.Println("ControlAccent - problem 205")
 	// prb.ControlAccent()
 
+	fmt.Println("AdditionalCheckCheating - problem 207")
+	// prb.AdditionalCheckCheating()
+
 	fmt.Println("CityOfChe - problem 211")
 	// prb.CityOfChe()
 
