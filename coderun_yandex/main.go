@@ -303,6 +303,9 @@ func main() {
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
 
+	fmt.Println("SpaceSettlement - problem 77")
+	// prb.SpaceSettlement()
+
 	fmt.Println("Square - problem 78")
 	// prb.Square()
 
