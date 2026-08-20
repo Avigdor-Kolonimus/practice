@@ -636,6 +636,9 @@ func main() {
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
 
+	fmt.Println("SubscriptionService - backend problem 25")
+	// b.SubscriptionService()
+
 	fmt.Println("TwoCliques - backend problem 27")
 	// b.TwoCliques()
 
