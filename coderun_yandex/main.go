@@ -471,6 +471,9 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
+	fmt.Println("Sandwiches - problem 569")
+	// prb.Sandwiches()
+
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
 
