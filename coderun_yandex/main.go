@@ -609,6 +609,9 @@ func main() {
 	fmt.Println("ExactlyOneOccur - backend problem 2")
 	// b.ExactlyOneOccur()
 
+	fmt.Println("Lollipops - backend problem 5")
+	// b.Lollipops()
+
 	fmt.Println("MedianOutOfThree - backend problem 6")
 	// b.MedianOutOfThree()
 
