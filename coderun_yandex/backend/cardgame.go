@@ -75,7 +75,7 @@ func CardGame() {
 
 	dp[0][0][N] = 1
 
-	for i := 0; i < N; i++ {
+	for i := range N {
 		A := a[i]
 		for sum_x := 0; sum_x <= halfS; sum_x++ {
 			for sum_delta_idx := 0; sum_delta_idx <= 2*N; sum_delta_idx++ {
@@ -88,13 +88,15 @@ func CardGame() {
 						break
 					}
 					var delta int
-					if x == 0 {
+					switch x {
+					case 0:
 						delta = -1
-					} else if x == A {
+					case A:
 						delta = 1
-					} else {
+					default:
 						delta = 0
 					}
+
 					new_delta_idx := sum_delta_idx + delta
 					if new_delta_idx >= 0 && new_delta_idx <= 2*N {
 						ways := (val * C[A][x]) % MOD

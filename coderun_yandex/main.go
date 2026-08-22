@@ -303,6 +303,9 @@ func main() {
 	fmt.Println("Substring - problem 75")
 	// prb.Substring()
 
+	fmt.Println("SpaceSettlement - problem 77")
+	// prb.SpaceSettlement()
+
 	fmt.Println("Square - problem 78")
 	// prb.Square()
 
@@ -393,6 +396,9 @@ func main() {
 	fmt.Println("ControlAccent - problem 205")
 	// prb.ControlAccent()
 
+	fmt.Println("AdditionalCheckCheating - problem 207")
+	// prb.AdditionalCheckCheating()
+
 	fmt.Println("CityOfChe - problem 211")
 	// prb.CityOfChe()
 
@@ -465,8 +471,14 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
+	fmt.Println("Sandwiches - problem 569")
+	// prb.Sandwiches()
+
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
+
+	fmt.Println("AirlineTickets - problem 754")
+	// prb.AirlineTickets()
 
 	fmt.Println("DictionarySynonyms - hr-tech-interview problem 1")
 	// hti.DictionarySynonyms()
@@ -597,6 +609,9 @@ func main() {
 	fmt.Println("ExactlyOneOccur - backend problem 2")
 	// b.ExactlyOneOccur()
 
+	fmt.Println("Lollipops - backend problem 5")
+	// b.Lollipops()
+
 	fmt.Println("MedianOutOfThree - backend problem 6")
 	// b.MedianOutOfThree()
 
@@ -612,14 +627,23 @@ func main() {
 	fmt.Println("SquareAndCircle - backend problem 11")
 	// b.SquareAndCircle()
 
-	fmt.Println("Meetings - backend problem `9")
+	fmt.Println("Meetings - backend problem 9")
 	// b.Meetings()
+
+	fmt.Println("Autocomplete - backend problem 13")
+	// b.Autocomplete()
+
+	fmt.Println("Library - backend problem 18")
+	// b.Library()
 
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
 
 	fmt.Println("ServerError - backend problem 24")
 	// b.ServerError()
+
+	fmt.Println("SubscriptionService - backend problem 25")
+	// b.SubscriptionService()
 
 	fmt.Println("TwoCliques - backend problem 27")
 	// b.TwoCliques()
