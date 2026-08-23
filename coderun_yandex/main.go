@@ -633,6 +633,9 @@ func main() {
 	fmt.Println("Autocomplete - backend problem 13")
 	// b.Autocomplete()
 
+	fmt.Println("FindRLEStringLength - backend problem 16")
+	// b.FindRLEStringLength()
+
 	fmt.Println("Library - backend problem 18")
 	// b.Library()
 
