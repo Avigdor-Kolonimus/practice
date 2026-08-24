@@ -1038,6 +1038,9 @@ func main() {
 	fmt.Println("ReservePeriods - dev-go-interview problem 10")
 	// dgi.ReservePeriods()
 
+	fmt.Println("CouriersOnLine - dev-go-interview problem 11")
+	// dgi.CouriersOnLine()
+
 	fmt.Println("CTFTeamScore - dev-go-interview problem 12")
 	// dgi.CTFTeamScore()
 
