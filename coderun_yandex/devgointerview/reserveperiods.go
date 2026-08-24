@@ -56,7 +56,7 @@ func ReservePeriods() {
 
 	// If k == 0, every subarray is valid.
 	if k == 0 {
-		ans := n*n + 1/2
+		ans := n * n
 		writer.WriteString(strconv.Itoa(ans))
 		writer.WriteByte('\n')
 
