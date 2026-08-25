@@ -1,4 +1,4 @@
-package problems
+package ababin
 
 import (
 	"bufio"
@@ -27,8 +27,8 @@ func abs(x int) int {
 	return x
 }
 
-// https://coderun.yandex.ru/problem/sandwiches
-// Sandwiches - problem 569
+// https://coderun.yandex.ru/selections/ababin/problems/sandwiches
+// Sandwiches - problem 5
 func Sandwiches() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)

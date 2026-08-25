@@ -471,9 +471,6 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
-	fmt.Println("Sandwiches - problem 569")
-	// prb.Sandwiches()
-
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
 
@@ -1175,6 +1172,12 @@ func main() {
 
 	fmt.Println("TheCleaningRobot - 2026-summer-common problem 15")
 	// sc2026.TheCleaningRobot()
+
+	fmt.Println("PacmanSpeedrun - ababin problem 2")
+	// abb.PacmanSpeedrun()
+
+	fmt.Println("Sandwiches - ababin problem 5")
+	// abb.Sandwiches()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
