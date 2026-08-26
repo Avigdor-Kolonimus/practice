@@ -1173,6 +1173,9 @@ func main() {
 	fmt.Println("TheCleaningRobot - 2026-summer-common problem 15")
 	// sc2026.TheCleaningRobot()
 
+	fmt.Println("BonsaiTree - ababin problem 1")
+	// abb.BonsaiTree()
+
 	fmt.Println("PacmanSpeedrun - ababin problem 2")
 	// abb.PacmanSpeedrun()
 
