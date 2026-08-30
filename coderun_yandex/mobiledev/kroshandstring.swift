@@ -2,7 +2,7 @@ import Foundation
 
 // https://coderun.yandex.ru/selections/2024-summer-mobile-dev/problems/krosh-and-string
 // KroshAndString - problem 17
-func nain(){
+func main(){
     let _ = readLine()
     var input = readLine()!
     var array = [String]()
