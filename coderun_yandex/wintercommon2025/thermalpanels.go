@@ -77,6 +77,8 @@ func ThermalPanels() {
 
 	w, h := solveThermalPanels(r, b)
 
-	writer.WriteString(strconv.Itoa(w) + " " + strconv.Itoa(h))
+	writer.WriteString(strconv.Itoa(w))
+	writer.WriteByte(' ')
+	writer.WriteString(strconv.Itoa(h))
 	writer.WriteByte('\n')
 }
