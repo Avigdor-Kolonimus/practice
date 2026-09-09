@@ -23,7 +23,7 @@ import (
 	// nya "coderun_yandex/newyearadventures"
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
-	front "coderun_yandex/frontend"
+	front "coderun_yandex/first2023frontend"
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
 	yi "coderun_yandex/yandexinterview"
