@@ -1,4 +1,4 @@
-package frontend
+package first2023frontend
 
 import (
 	"bufio"
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/selections/frontend/problems/calculator
+// https://coderun.yandex.ru/selections/first-2023-frontend/problems/calculator
 // Calculator - problem 4
 func Calculator() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
