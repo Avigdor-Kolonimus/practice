@@ -1,0 +1,46 @@
+:root {
+    --red: #ff0000;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heart {
+    width: 512px;
+    height: 512px;
+    position: relative;
+    overflow: hidden;
+}
+
+.circle {
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    border-radius: 50%;
+    background: var(--red);
+}
+
+.circle-left {
+    left: 60px;
+    top: 60px;
+}
+
+.circle-right {
+    left: 220px;
+    top: 60px;
+}
+
+.diamond {
+    position: absolute;
+    width: 232px;
+    height: 232px;
+    background: var(--red);
+
+    left: 140px;
+    top: 136px;
+
+    transform: rotate(45deg);
+}
