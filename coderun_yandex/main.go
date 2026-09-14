@@ -918,6 +918,9 @@ func main() {
 	fmt.Println("LabWork - atolstikov problem 4")
 	// atl.LabWork()
 
+	fmt.Println("Elevator - atolstikov problem 10")
+	// atl.Elevator()
+
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
 
