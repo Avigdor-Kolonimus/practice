@@ -198,6 +198,9 @@ func main() {
 	fmt.Println("CorruptedXML - problem 21")
 	// prb.CorruptedXML()
 
+	fmt.Println("DeadEnds - problem 24")
+	// prb.DeadEnds()
+
 	fmt.Println("CommercialCalculator - problem 25")
 	// prb.CommercialCalculator()
 
