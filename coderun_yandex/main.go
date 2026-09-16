@@ -882,6 +882,9 @@ func main() {
 	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
 	// wc2025.LandOfArchitecturalStorms()
 
+	fmt.Println("Cableway - 2025-winter-common problem 16")
+	// wc2025.Cableway()
+
 	fmt.Println("ProtectiveField - 2025-winter-common problem 17")
 	// wc2025.ProtectiveField()
 
