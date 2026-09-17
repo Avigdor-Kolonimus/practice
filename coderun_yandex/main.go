@@ -216,6 +216,9 @@ func main() {
 	fmt.Println("NumberOfTriangles - problem 29")
 	// prb.NumberOfTriangles()
 
+	fmt.Println("Buratino - problem 30")
+	// prb.Buratino()
+
 	fmt.Println("AnExcitingGame - problem 31")
 	// prb.AnExcitingGame()
 
