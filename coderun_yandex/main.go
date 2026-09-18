@@ -198,6 +198,9 @@ func main() {
 	fmt.Println("CorruptedXML - problem 21")
 	// prb.CorruptedXML()
 
+	fmt.Println("DeadEnds - problem 24")
+	// prb.DeadEnds()
+
 	fmt.Println("CommercialCalculator - problem 25")
 	// prb.CommercialCalculator()
 
@@ -212,6 +215,9 @@ func main() {
 
 	fmt.Println("NumberOfTriangles - problem 29")
 	// prb.NumberOfTriangles()
+
+	fmt.Println("Buratino - problem 30")
+	// prb.Buratino()
 
 	fmt.Println("AnExcitingGame - problem 31")
 	// prb.AnExcitingGame()
@@ -341,6 +347,9 @@ func main() {
 
 	fmt.Println("Histogram - problem 91")
 	// prb.Histogram()
+
+	fmt.Println("ControlWork - problem 92")
+	// prb.ControlWork()
 
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
@@ -879,6 +888,9 @@ func main() {
 	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
 	// wc2025.LandOfArchitecturalStorms()
 
+	fmt.Println("Cableway - 2025-winter-common problem 16")
+	// wc2025.Cableway()
+
 	fmt.Println("ProtectiveField - 2025-winter-common problem 17")
 	// wc2025.ProtectiveField()
 
@@ -917,6 +929,9 @@ func main() {
 
 	fmt.Println("LabWork - atolstikov problem 4")
 	// atl.LabWork()
+
+	fmt.Println("Elevator - atolstikov problem 10")
+	// atl.Elevator()
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
