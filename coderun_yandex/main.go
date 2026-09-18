@@ -348,6 +348,9 @@ func main() {
 	fmt.Println("Histogram - problem 91")
 	// prb.Histogram()
 
+	fmt.Println("ControlWork - problem 92")
+	// prb.ControlWork()
+
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
