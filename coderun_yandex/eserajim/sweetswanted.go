@@ -70,8 +70,7 @@ func SweetsWanted() {
 	totalSum := prefixSum[n]
 	maxVal := candyJar[n-1]
 
-	ans := int(1 << 62)
-
+	ans := int(1 << 30)
 	for i := 0; i < n; i++ {
 		x := candyJar[i]
 

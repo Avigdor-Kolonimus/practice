@@ -96,7 +96,7 @@ func StylishClothes() {
 	}
 
 	i, j := 0, 0
-	bestDiff := int(1e18)
+	bestDiff := int(1 << 30)
 	bestShirt, bestPants := 0, 0
 	for i < n && j < m {
 		diff := abs(sliceShirt[i] - slicePants[j])

@@ -209,7 +209,7 @@ func solve(n, q, l, r int, b, c []int) int64 {
 
 // https://coderun.yandex.ru/selections/2025-winter-common/problems/cableway
 // Cableway - problem 16
-func main() {
+func Cableway() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
 	defer writer.Flush()

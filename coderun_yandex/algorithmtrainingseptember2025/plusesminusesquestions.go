@@ -84,7 +84,7 @@ func PlusesMinusesQuestions() {
 		}
 	}
 
-	maxDiff := math.MinInt64
+	maxDiff := math.MinInt
 	for i := range n {
 		for j := range m {
 			diff := lineSum[i] - colSum[j]

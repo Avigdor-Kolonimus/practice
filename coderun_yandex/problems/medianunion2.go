@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	INFMEDIAN2 = int(1 << 60)
+	INFMEDIAN2 = int(1 << 30)
 )
 
 func leftMedian2(a, b []int) int {
