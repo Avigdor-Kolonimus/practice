@@ -33,8 +33,7 @@ func LargestProductTwoNumbers() {
 	}
 
 	max1, max2 := math.MinInt, math.MinInt
-	min1, min2 := math.MaxInt64, math.MaxInt64
-
+	min1, min2 := math.MaxInt, math.MaxInt
 	for _, num := range nums {
 		input, err := strconv.Atoi(num)
 		if err != nil {

@@ -479,7 +479,7 @@ func main() {
 
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
-	
+
 	fmt.Println("KroshAndGame - problem 591")
 	// prb.KroshAndGame()
 
@@ -890,6 +890,9 @@ func main() {
 
 	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
 	// wc2025.LandOfArchitecturalStorms()
+
+	fmt.Println("SnowstormIntensifying - 2025-winter-common problem 15")
+	// wc2025.SnowstormIntensifying()
 
 	fmt.Println("Cableway - 2025-winter-common problem 16")
 	// wc2025.Cableway()
