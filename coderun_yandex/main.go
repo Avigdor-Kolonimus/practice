@@ -723,11 +723,17 @@ func main() {
 	fmt.Println("BallsAndBaskets - 2024-summer-backend problem 1")
 	// sb2024.BallsAndBaskets()
 
+	fmt.Println("Tables - 2024-summer-backend problem 2")
+	// sb2024.Tables()
+
 	fmt.Println("SuperMarathon - 2024-summer-backend problem 3")
 	// sb2024.SuperMarathon()
 
 	fmt.Println("FourPoints - 2024-summer-backend problem 4")
 	// sb2024.FourPoints()
+
+	fmt.Println("VacuumCleaner - 2024-summer-backend problem 6")
+	// sb2024.VacuumCleaner()
 
 	fmt.Println("TeamContest - 2024-summer-backend problem 7")
 	// sb2024.TeamContest()
