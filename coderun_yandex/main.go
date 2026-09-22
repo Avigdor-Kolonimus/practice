@@ -636,8 +636,8 @@ func main() {
 	fmt.Println("SquareAndCircle - backend problem 11")
 	// b.SquareAndCircle()
 
-	fmt.Println("Meetings - backend problem 9")
-	// b.Meetings()
+	fmt.Println("AreaBetweenCurves - backend problem 12")
+	// b.AreaBetweenCurves()
 
 	fmt.Println("Autocomplete - backend problem 13")
 	// b.Autocomplete()
@@ -647,6 +647,9 @@ func main() {
 
 	fmt.Println("Library - backend problem 18")
 	// b.Library()
+
+	fmt.Println("Meetings - backend problem 19")
+	// b.Meetings()
 
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
