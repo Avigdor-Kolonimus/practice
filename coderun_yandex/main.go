@@ -945,6 +945,9 @@ func main() {
 	fmt.Println("LabWork - atolstikov problem 4")
 	// atl.LabWork()
 
+	fmt.Println("OptimalPlaylist - atolstikov problem 5")
+	// atl.OptimalPlaylist()
+
 	fmt.Println("Elevator - atolstikov problem 10")
 	// atl.Elevator()
 
