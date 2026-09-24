@@ -486,6 +486,9 @@ func main() {
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
 
+	fmt.Println("SubstitutionsPlaying - problem 464")
+	// prb.SubstitutionsPlaying()
+
 	fmt.Println("AirlineTickets - problem 754")
 	// prb.AirlineTickets()
 
