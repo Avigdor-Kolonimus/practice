@@ -24,6 +24,7 @@ import (
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/first2023frontend"
+	f23md "coderun_yandex/first2023mobiledev"
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
 	yi "coderun_yandex/yandexinterview"
@@ -1220,4 +1221,7 @@ func main() {
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
+
+	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
+	f23md.HardestLetter()
 }
