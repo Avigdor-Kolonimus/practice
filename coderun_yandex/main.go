@@ -24,6 +24,7 @@ import (
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/first2023frontend"
+	f23md "coderun_yandex/first2023mobiledev"
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
 	yi "coderun_yandex/yandexinterview"
@@ -480,8 +481,14 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
+	fmt.Println("KroshAndGame - problem 591")
+	// prb.KroshAndGame()
+
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
+
+	fmt.Println("SubstitutionsPlaying - problem 464")
+	// prb.SubstitutionsPlaying()
 
 	fmt.Println("AirlineTickets - problem 754")
 	// prb.AirlineTickets()
@@ -633,8 +640,8 @@ func main() {
 	fmt.Println("SquareAndCircle - backend problem 11")
 	// b.SquareAndCircle()
 
-	fmt.Println("Meetings - backend problem 9")
-	// b.Meetings()
+	fmt.Println("AreaBetweenCurves - backend problem 12")
+	// b.AreaBetweenCurves()
 
 	fmt.Println("Autocomplete - backend problem 13")
 	// b.Autocomplete()
@@ -644,6 +651,9 @@ func main() {
 
 	fmt.Println("Library - backend problem 18")
 	// b.Library()
+
+	fmt.Println("Meetings - backend problem 19")
+	// b.Meetings()
 
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
@@ -720,11 +730,17 @@ func main() {
 	fmt.Println("BallsAndBaskets - 2024-summer-backend problem 1")
 	// sb2024.BallsAndBaskets()
 
+	fmt.Println("Tables - 2024-summer-backend problem 2")
+	// sb2024.Tables()
+
 	fmt.Println("SuperMarathon - 2024-summer-backend problem 3")
 	// sb2024.SuperMarathon()
 
 	fmt.Println("FourPoints - 2024-summer-backend problem 4")
 	// sb2024.FourPoints()
+
+	fmt.Println("VacuumCleaner - 2024-summer-backend problem 6")
+	// sb2024.VacuumCleaner()
 
 	fmt.Println("TeamContest - 2024-summer-backend problem 7")
 	// sb2024.TeamContest()
@@ -888,6 +904,9 @@ func main() {
 	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
 	// wc2025.LandOfArchitecturalStorms()
 
+	fmt.Println("SnowstormIntensifying - 2025-winter-common problem 15")
+	// wc2025.SnowstormIntensifying()
+
 	fmt.Println("Cableway - 2025-winter-common problem 16")
 	// wc2025.Cableway()
 
@@ -929,6 +948,9 @@ func main() {
 
 	fmt.Println("LabWork - atolstikov problem 4")
 	// atl.LabWork()
+
+	fmt.Println("OptimalPlaylist - atolstikov problem 5")
+	// atl.OptimalPlaylist()
 
 	fmt.Println("Elevator - atolstikov problem 10")
 	// atl.Elevator()
@@ -1199,4 +1221,7 @@ func main() {
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
+
+	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
+	f23md.HardestLetter()
 }
