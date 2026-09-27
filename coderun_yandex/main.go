@@ -1224,4 +1224,10 @@ func main() {
 
 	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
 	f23md.HardestLetter()
+
+	fmt.Println("ResourceDownloading - first-2023-mobile-dev problem 7")
+	// f23md.ResourceDownloading()
+
+	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
+	// f23md.SegmentsWithMinMex()
 }
