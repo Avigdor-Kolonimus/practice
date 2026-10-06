@@ -1231,6 +1231,12 @@ func main() {
 	fmt.Println("StickPeople - first-2023-mobile-dev problem 8")
 	// f23md.StickPeople()
 
+	fmt.Println("UpgradeYourHero - first-2023-mobile-dev problem 10")
+	// f23md.UpgradeYourHero()
+
+	fmt.Println("DistanceToRootMob - first-2023-mobile-dev problem 14")
+	// f23md.DistanceToRootMob()
+
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
 }
