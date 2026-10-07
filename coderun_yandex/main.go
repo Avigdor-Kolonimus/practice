@@ -1237,6 +1237,12 @@ func main() {
 	fmt.Println("DistanceToRootMob - first-2023-mobile-dev problem 14")
 	// f23md.DistanceToRootMob()
 
+	fmt.Println("FanRidesharing - first-2023-mobile-dev problem 15")
+	// f23md.FanRidesharing()
+
+	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
+	// f23md.Needlewoman()
+
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
 }
