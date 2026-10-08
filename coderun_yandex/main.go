@@ -1224,4 +1224,31 @@ func main() {
 
 	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
 	f23md.HardestLetter()
+
+	fmt.Println("ResourceDownloading - first-2023-mobile-dev problem 7")
+	// f23md.ResourceDownloading()
+
+	fmt.Println("StickPeople - first-2023-mobile-dev problem 8")
+	// f23md.StickPeople()
+
+	fmt.Println("UpgradeYourHero - first-2023-mobile-dev problem 10")
+	// f23md.UpgradeYourHero()
+
+	fmt.Println("DistanceToRootMob - first-2023-mobile-dev problem 14")
+	// f23md.DistanceToRootMob()
+
+	fmt.Println("FanRidesharing - first-2023-mobile-dev problem 15")
+	// f23md.FanRidesharing()
+
+	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
+	// f23md.Needlewoman()
+
+	fmt.Println("PostingOfLetters - first-2023-mobile-dev problem 22")
+	// f23md.PostingOfLetters()
+
+	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
+	// f23md.Sequences()
+
+	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
+	// f23md.SegmentsWithMinMex()
 }
