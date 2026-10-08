@@ -1243,6 +1243,12 @@ func main() {
 	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
 	// f23md.Needlewoman()
 
+	fmt.Println("PostingOfLetters - first-2023-mobile-dev problem 22")
+	// f23md.PostingOfLetters()
+
+	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
+	// f23md.Sequences()
+
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
 }
