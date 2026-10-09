@@ -1165,7 +1165,10 @@ func main() {
 	fmt.Println("Calculator - frontend problem 4")
 	front.Calculator()
 
-	fmt.Println("Game - mobile-dev problem 28")
+	fmt.Println("NamesAndSurnames - 2024-summer-mobile-dev problem 4")
+	// mobdv.NamesAndSurnames()
+
+	fmt.Println("Game - 2024-summer-mobile-dev problem 28")
 	mobdv.Game()
 
 	fmt.Println("BikeRental - 2026-summer-common problem 1")
@@ -1248,6 +1251,9 @@ func main() {
 
 	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
 	// f23md.Sequences()
+
+	fmt.Println("StandupOrder - first-2023-mobile-dev problem 34")
+	// f23md.StandupOrder()
 
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
