@@ -1168,6 +1168,12 @@ func main() {
 	fmt.Println("NamesAndSurnames - 2024-summer-mobile-dev problem 4")
 	// mobdv.NamesAndSurnames()
 
+	fmt.Println("SeventhChord - 2024-summer-mobile-dev problem 12")
+	// mobdv.SeventhChord()
+
+	fmt.Println("NumbersGame - 2024-summer-mobile-dev problem 24")
+	// mobdv.NumbersGame()
+
 	fmt.Println("Game - 2024-summer-mobile-dev problem 28")
 	mobdv.Game()
 
