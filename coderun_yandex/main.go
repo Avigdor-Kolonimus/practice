@@ -24,6 +24,7 @@ import (
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/first2023frontend"
+	f23ml "coderun_yandex/first2023ml"
 	f23md "coderun_yandex/first2023mobiledev"
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
@@ -1171,6 +1172,9 @@ func main() {
 	fmt.Println("SeventhChord - 2024-summer-mobile-dev problem 12")
 	// mobdv.SeventhChord()
 
+	fmt.Println("KeepingInTouch - 2024-summer-mobile-dev problem 19")
+	// mobdv.KeepingInTouch()
+
 	fmt.Println("NumbersGame - 2024-summer-mobile-dev problem 24")
 	// mobdv.NumbersGame()
 
@@ -1263,4 +1267,7 @@ func main() {
 
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
+
+	fmt.Println("Dcov3999 - first-2023-ml problem 24")
+	f23ml.Dcov3999()
 }
