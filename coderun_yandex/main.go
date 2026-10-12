@@ -28,6 +28,7 @@ import (
 	f23md "coderun_yandex/first2023mobiledev"
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
+	sda2024 "coderun_yandex/summerdataanalytics2024"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -1270,4 +1271,10 @@ func main() {
 
 	fmt.Println("Dcov3999 - first-2023-ml problem 24")
 	f23ml.Dcov3999()
+
+	fmt.Println("Darkstore - 2024-summer-data-analytics problem 16")
+	sda2024.Darkstore()
+
+	fmt.Println("Codemaster - 2024-summer-data-analytics problem 17")
+	// sda2024.Codemaster()
 }
