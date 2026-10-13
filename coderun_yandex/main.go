@@ -1236,6 +1236,9 @@ func main() {
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
 
+	fmt.Println("CountryWith3TypesOfRoads - first-2023-mobile-dev problem 3")
+	// f23md.CountryWith3TypesOfRoads()
+
 	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
 	f23md.HardestLetter()
 
