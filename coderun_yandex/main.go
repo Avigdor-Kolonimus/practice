@@ -1242,6 +1242,9 @@ func main() {
 	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
 	f23md.HardestLetter()
 
+	fmt.Println("MagicSubstring - first-2023-mobile-dev problem 5")
+	// f23md.MagicSubstring()
+
 	fmt.Println("ResourceDownloading - first-2023-mobile-dev problem 7")
 	// f23md.ResourceDownloading()
 
