@@ -1245,6 +1245,9 @@ func main() {
 	fmt.Println("MagicSubstring - first-2023-mobile-dev problem 5")
 	// f23md.MagicSubstring()
 
+	fmt.Println("PerfectWord - first-2023-mobile-dev problem 6")
+	// f23md.PerfectWord()
+
 	fmt.Println("ResourceDownloading - first-2023-mobile-dev problem 7")
 	// f23md.ResourceDownloading()
 
