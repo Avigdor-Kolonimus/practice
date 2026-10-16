@@ -24,9 +24,11 @@ import (
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
 	front "coderun_yandex/first2023frontend"
+	f23ml "coderun_yandex/first2023ml"
 	f23md "coderun_yandex/first2023mobiledev"
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
+	sda2024 "coderun_yandex/summerdataanalytics2024"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -1165,7 +1167,19 @@ func main() {
 	fmt.Println("Calculator - frontend problem 4")
 	front.Calculator()
 
-	fmt.Println("Game - mobile-dev problem 28")
+	fmt.Println("NamesAndSurnames - 2024-summer-mobile-dev problem 4")
+	// mobdv.NamesAndSurnames()
+
+	fmt.Println("SeventhChord - 2024-summer-mobile-dev problem 12")
+	// mobdv.SeventhChord()
+
+	fmt.Println("KeepingInTouch - 2024-summer-mobile-dev problem 19")
+	// mobdv.KeepingInTouch()
+
+	fmt.Println("NumbersGame - 2024-summer-mobile-dev problem 24")
+	// mobdv.NumbersGame()
+
+	fmt.Println("Game - 2024-summer-mobile-dev problem 28")
 	mobdv.Game()
 
 	fmt.Println("BikeRental - 2026-summer-common problem 1")
@@ -1222,8 +1236,17 @@ func main() {
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
 
+	fmt.Println("CountryWith3TypesOfRoads - first-2023-mobile-dev problem 3")
+	// f23md.CountryWith3TypesOfRoads()
+
 	fmt.Println("HardestLetter - first-2023-mobile-dev problem 4")
 	f23md.HardestLetter()
+
+	fmt.Println("MagicSubstring - first-2023-mobile-dev problem 5")
+	// f23md.MagicSubstring()
+
+	fmt.Println("PerfectWord - first-2023-mobile-dev problem 6")
+	// f23md.PerfectWord()
 
 	fmt.Println("ResourceDownloading - first-2023-mobile-dev problem 7")
 	// f23md.ResourceDownloading()
@@ -1240,6 +1263,9 @@ func main() {
 	fmt.Println("FanRidesharing - first-2023-mobile-dev problem 15")
 	// f23md.FanRidesharing()
 
+	fmt.Println("MaxNumSplit - first-2023-mobile-dev problem 17")
+	// f23md.MaxNumSplit()
+
 	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
 	// f23md.Needlewoman()
 
@@ -1249,6 +1275,18 @@ func main() {
 	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
 	// f23md.Sequences()
 
+	fmt.Println("StandupOrder - first-2023-mobile-dev problem 34")
+	// f23md.StandupOrder()
+
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
+
+	fmt.Println("Dcov3999 - first-2023-ml problem 24")
+	f23ml.Dcov3999()
+
+	fmt.Println("Darkstore - 2024-summer-data-analytics problem 16")
+	sda2024.Darkstore()
+
+	fmt.Println("Codemaster - 2024-summer-data-analytics problem 17")
+	// sda2024.Codemaster()
 }
