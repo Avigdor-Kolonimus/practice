@@ -1263,6 +1263,9 @@ func main() {
 	fmt.Println("FanRidesharing - first-2023-mobile-dev problem 15")
 	// f23md.FanRidesharing()
 
+	fmt.Println("MaxNumSplit - first-2023-mobile-dev problem 17")
+	// f23md.MaxNumSplit()
+
 	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
 	// f23md.Needlewoman()
 
