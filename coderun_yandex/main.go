@@ -1257,6 +1257,9 @@ func main() {
 	fmt.Println("UpgradeYourHero - first-2023-mobile-dev problem 10")
 	// f23md.UpgradeYourHero()
 
+	fmt.Println("Woods - first-2023-mobile-dev problem 11")
+	// f23md.Woods()
+
 	fmt.Println("DistanceToRootMob - first-2023-mobile-dev problem 14")
 	// f23md.DistanceToRootMob()
 
@@ -1274,6 +1277,9 @@ func main() {
 
 	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
 	// f23md.Sequences()
+
+	fmt.Println("Flight - first-2023-mobile-dev problem 27")
+	// f23md.Flight()
 
 	fmt.Println("StandupOrder - first-2023-mobile-dev problem 34")
 	// f23md.StandupOrder()
