@@ -1260,6 +1260,9 @@ func main() {
 	fmt.Println("Woods - first-2023-mobile-dev problem 11")
 	// f23md.Woods()
 
+	fmt.Println("ColoredRectangles - first-2023-mobile-dev problem 13")
+	// f23md.ColoredRectangles()
+
 	fmt.Println("DistanceToRootMob - first-2023-mobile-dev problem 14")
 	// f23md.DistanceToRootMob()
 
@@ -1271,6 +1274,9 @@ func main() {
 
 	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
 	// f23md.Needlewoman()
+
+	fmt.Println("NeighborParity - first-2023-mobile-dev problem 20")
+	// f23md.NeighborParity()
 
 	fmt.Println("PostingOfLetters - first-2023-mobile-dev problem 22")
 	// f23md.PostingOfLetters()
