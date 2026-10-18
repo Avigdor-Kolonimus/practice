@@ -7,10 +7,11 @@ import (
 	"strings"
 )
 
-func abs(x int64) int64 {
+func abs[T ~int | ~int64](x T) T {
 	if x < 0 {
 		return -x
 	}
+
 	return x
 }
 
