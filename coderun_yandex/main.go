@@ -1281,8 +1281,14 @@ func main() {
 	fmt.Println("PostingOfLetters - first-2023-mobile-dev problem 22")
 	// f23md.PostingOfLetters()
 
+	fmt.Println("RleRotate - first-2023-mobile-dev problem 23")
+	// f23md.RleRotate()
+
 	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
 	// f23md.Sequences()
+
+	fmt.Println("Sunbath - first-2023-mobile-dev problem 26")
+	// f23md.Sunbath()
 
 	fmt.Println("Flight - first-2023-mobile-dev problem 27")
 	// f23md.Flight()
