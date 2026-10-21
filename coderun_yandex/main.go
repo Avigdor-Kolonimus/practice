@@ -1173,11 +1173,17 @@ func main() {
 	fmt.Println("LifeInColours - 2024-summer-mobile-dev problem 7")
 	// mobdv.LifeInColours()
 
+	fmt.Println("KroshAndPath - 2024-summer-mobile-dev problem 11")
+	// mobdv.KroshAndPath()
+
 	fmt.Println("SeventhChord - 2024-summer-mobile-dev problem 12")
 	// mobdv.SeventhChord()
 
 	fmt.Println("FixWords - 2024-summer-mobile-dev problem 13")
 	// mobdv.FixWords()
+
+	fmt.Println("JollyDelivery - 2024-summer-mobile-dev problem 18")
+	// mobdv.JollyDelivery()
 
 	fmt.Println("KeepingInTouch - 2024-summer-mobile-dev problem 19")
 	// mobdv.KeepingInTouch()
