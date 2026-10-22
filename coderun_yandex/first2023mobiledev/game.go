@@ -1,4 +1,4 @@
-package mobiledev
+package first2023mobiledev
 
 import (
 	"bufio"
@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-// https://coderun.yandex.ru/selections/mobile-dev/problems/game
+// https://coderun.yandex.ru/selections/first-2023-mobile-dev/problems/game
 // Game - problem 28
 func Game() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
