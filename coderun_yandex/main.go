@@ -1191,8 +1191,11 @@ func main() {
 	fmt.Println("NumbersGame - 2024-summer-mobile-dev problem 24")
 	// mobdv.NumbersGame()
 
-	fmt.Println("Game - 2024-summer-mobile-dev problem 28")
-	mobdv.Game()
+	fmt.Println("DeadBattery2 - 2024-summer-mobile-dev problem 28")
+	mobdv.DeadBattery2()
+
+	fmt.Println("KeepingInTouch2 - 2024-summer-mobile-dev problem 29")
+	// mobdv.KeepingInTouch2()
 
 	fmt.Println("BikeRental - 2026-summer-common problem 1")
 	sc2026.BikeRental()
@@ -1307,6 +1310,9 @@ func main() {
 
 	fmt.Println("StandupOrder - first-2023-mobile-dev problem 34")
 	// f23md.StandupOrder()
+
+	fmt.Println("Game - first-2023-mobile-dev problem 28")
+	// f23md.Game()
 
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
