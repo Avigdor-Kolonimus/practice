@@ -23,6 +23,7 @@ import (
 	// nya "coderun_yandex/newyearadventures"
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
+	sda2023 "coderun_yandex/first2023dataanalytics"
 	front "coderun_yandex/first2023frontend"
 	f23ml "coderun_yandex/first2023ml"
 	f23md "coderun_yandex/first2023mobiledev"
@@ -1325,4 +1326,10 @@ func main() {
 
 	fmt.Println("Codemaster - 2024-summer-data-analytics problem 17")
 	// sda2024.Codemaster()
+
+	fmt.Println("CompetitionSort - first-2023-data-analytics problem 37")
+	// sda2023.CompetitionSort()
+
+	fmt.Println("Cuts - first-2023-data-analytics problem 38")
+	sda2023.Cuts()
 }
