@@ -23,6 +23,7 @@ import (
 	// nya "coderun_yandex/newyearadventures"
 	abb "coderun_yandex/ababin"
 	atm2026 "coderun_yandex/algorithmtrainingmarch2026"
+	sda2023 "coderun_yandex/first2023dataanalytics"
 	front "coderun_yandex/first2023frontend"
 	f23ml "coderun_yandex/first2023ml"
 	f23md "coderun_yandex/first2023mobiledev"
@@ -1170,8 +1171,20 @@ func main() {
 	fmt.Println("NamesAndSurnames - 2024-summer-mobile-dev problem 4")
 	// mobdv.NamesAndSurnames()
 
+	fmt.Println("LifeInColours - 2024-summer-mobile-dev problem 7")
+	// mobdv.LifeInColours()
+
+	fmt.Println("KroshAndPath - 2024-summer-mobile-dev problem 11")
+	// mobdv.KroshAndPath()
+
 	fmt.Println("SeventhChord - 2024-summer-mobile-dev problem 12")
 	// mobdv.SeventhChord()
+
+	fmt.Println("FixWords - 2024-summer-mobile-dev problem 13")
+	// mobdv.FixWords()
+
+	fmt.Println("JollyDelivery - 2024-summer-mobile-dev problem 18")
+	// mobdv.JollyDelivery()
 
 	fmt.Println("KeepingInTouch - 2024-summer-mobile-dev problem 19")
 	// mobdv.KeepingInTouch()
@@ -1179,8 +1192,11 @@ func main() {
 	fmt.Println("NumbersGame - 2024-summer-mobile-dev problem 24")
 	// mobdv.NumbersGame()
 
-	fmt.Println("Game - 2024-summer-mobile-dev problem 28")
-	mobdv.Game()
+	fmt.Println("DeadBattery2 - 2024-summer-mobile-dev problem 28")
+	mobdv.DeadBattery2()
+
+	fmt.Println("KeepingInTouch2 - 2024-summer-mobile-dev problem 29")
+	// mobdv.KeepingInTouch2()
 
 	fmt.Println("BikeRental - 2026-summer-common problem 1")
 	sc2026.BikeRental()
@@ -1257,6 +1273,12 @@ func main() {
 	fmt.Println("UpgradeYourHero - first-2023-mobile-dev problem 10")
 	// f23md.UpgradeYourHero()
 
+	fmt.Println("Woods - first-2023-mobile-dev problem 11")
+	// f23md.Woods()
+
+	fmt.Println("ColoredRectangles - first-2023-mobile-dev problem 13")
+	// f23md.ColoredRectangles()
+
 	fmt.Println("DistanceToRootMob - first-2023-mobile-dev problem 14")
 	// f23md.DistanceToRootMob()
 
@@ -1269,14 +1291,29 @@ func main() {
 	fmt.Println("Needlewoman - first-2023-mobile-dev problem 19")
 	// f23md.Needlewoman()
 
+	fmt.Println("NeighborParity - first-2023-mobile-dev problem 20")
+	// f23md.NeighborParity()
+
 	fmt.Println("PostingOfLetters - first-2023-mobile-dev problem 22")
 	// f23md.PostingOfLetters()
+
+	fmt.Println("RleRotate - first-2023-mobile-dev problem 23")
+	// f23md.RleRotate()
 
 	fmt.Println("Sequences - first-2023-mobile-dev problem 24")
 	// f23md.Sequences()
 
+	fmt.Println("Sunbath - first-2023-mobile-dev problem 26")
+	// f23md.Sunbath()
+
+	fmt.Println("Flight - first-2023-mobile-dev problem 27")
+	// f23md.Flight()
+
 	fmt.Println("StandupOrder - first-2023-mobile-dev problem 34")
 	// f23md.StandupOrder()
+
+	fmt.Println("Game - first-2023-mobile-dev problem 28")
+	// f23md.Game()
 
 	fmt.Println("SegmentsWithMinMex - first-2023-mobile-dev problem 33")
 	// f23md.SegmentsWithMinMex()
@@ -1289,4 +1326,10 @@ func main() {
 
 	fmt.Println("Codemaster - 2024-summer-data-analytics problem 17")
 	// sda2024.Codemaster()
+
+	fmt.Println("CompetitionSort - first-2023-data-analytics problem 37")
+	// sda2023.CompetitionSort()
+
+	fmt.Println("Cuts - first-2023-data-analytics problem 38")
+	sda2023.Cuts()
 }

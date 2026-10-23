@@ -7,8 +7,6 @@ import (
 	"strings"
 )
 
-var stepColors = [3]byte{'g', 'y', 'r'}
-
 // https://coderun.yandex.ru/selections/first-2023-mobile-dev/problems/country-with-3-types-of-roads
 // CountryWith3TypesOfRoads - problem 3
 func CountryWith3TypesOfRoads() {
