@@ -1183,6 +1183,9 @@ func main() {
 	fmt.Println("FixWords - 2024-summer-mobile-dev problem 13")
 	// mobdv.FixWords()
 
+	fmt.Println("Tos23 - 2024-summer-mobile-dev problem 16")
+	// mobdv.Tos23()
+
 	fmt.Println("JollyDelivery - 2024-summer-mobile-dev problem 18")
 	// mobdv.JollyDelivery()
 
@@ -1326,6 +1329,9 @@ func main() {
 
 	fmt.Println("Codemaster - 2024-summer-data-analytics problem 17")
 	// sda2024.Codemaster()
+
+	fmt.Println("Corners - first-2023-data-analytics problem 2")
+	// sda2023.Corners()
 
 	fmt.Println("CompetitionSort - first-2023-data-analytics problem 37")
 	// sda2023.CompetitionSort()
