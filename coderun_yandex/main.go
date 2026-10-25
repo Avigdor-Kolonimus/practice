@@ -1183,6 +1183,9 @@ func main() {
 	fmt.Println("FixWords - 2024-summer-mobile-dev problem 13")
 	// mobdv.FixWords()
 
+	fmt.Println("ForwardToThePast - 2024-summer-mobile-dev problem 15")
+	// mobdv.ForwardToThePast()
+
 	fmt.Println("Tos23 - 2024-summer-mobile-dev problem 16")
 	// mobdv.Tos23()
 
@@ -1200,6 +1203,9 @@ func main() {
 
 	fmt.Println("KeepingInTouch2 - 2024-summer-mobile-dev problem 29")
 	// mobdv.KeepingInTouch2()
+
+	fmt.Println("SeventhChord2 - 2024-summer-mobile-dev problem 30")
+	// mobdv.SeventhChord2()
 
 	fmt.Println("BikeRental - 2026-summer-common problem 1")
 	sc2026.BikeRental()
