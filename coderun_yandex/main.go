@@ -30,6 +30,7 @@ import (
 	mobdv "coderun_yandex/mobiledev"
 	sc2026 "coderun_yandex/summercommon2026"
 	sda2024 "coderun_yandex/summerdataanalytics2024"
+	sml2024 "coderun_yandex/summerml2024"
 	yi "coderun_yandex/yandexinterview"
 )
 
@@ -1344,4 +1345,10 @@ func main() {
 
 	fmt.Println("Cuts - first-2023-data-analytics problem 38")
 	sda2023.Cuts()
+
+	fmt.Println("Concatenation - 2024-summer-ml problem 23")
+	// sml2024.Concatenation()
+
+	fmt.Println("CompressionMedal - 2024-summer-ml problem 25")
+	sml2024.CompressionMedal()
 }
