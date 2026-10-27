@@ -626,6 +626,9 @@ func main() {
 	fmt.Println("ExactlyOneOccur - backend problem 2")
 	// b.ExactlyOneOccur()
 
+	fmt.Println("GraphSplit - backend problem 4")
+	// b.GraphSplit()
+
 	fmt.Println("Lollipops - backend problem 5")
 	// b.Lollipops()
 
@@ -688,6 +691,9 @@ func main() {
 
 	fmt.Println("MediansYaIntern - backend problem 36")
 	// b.MediansYaIntern()
+
+	fmt.Println("NumberSystem - backend problem 37")
+	// b.NumberSystem()
 
 	fmt.Println("PermutationYaIntern - backend problem 39")
 	// b.PermutationYaIntern()
