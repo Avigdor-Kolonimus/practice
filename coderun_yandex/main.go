@@ -662,6 +662,9 @@ func main() {
 	fmt.Println("Meetings - backend problem 19")
 	// b.Meetings()
 
+	fmt.Println("Mobilization - backend problem 21")
+	// b.Mobilization()
+
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
 
@@ -673,6 +676,9 @@ func main() {
 
 	fmt.Println("TwoCliques - backend problem 27")
 	// b.TwoCliques()
+
+	fmt.Println("WarehousePallets - backend problem 28")
+	// b.WarehousePallets()
 
 	fmt.Println("BusesYaIntern - backend problem 30")
 	// b.BusesYaIntern()
