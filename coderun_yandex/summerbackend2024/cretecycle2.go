@@ -18,7 +18,7 @@ type EdgeCreteCycle2 struct {
 }
 
 var (
-	n, m int
+	n int
 
 	graph [][]EdgeCreteCycle2
 	edges [][2]int

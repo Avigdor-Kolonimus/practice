@@ -755,6 +755,9 @@ func main() {
 	fmt.Println("FourPoints - 2024-summer-backend problem 4")
 	// sb2024.FourPoints()
 
+	fmt.Println("NearestBusStop - 2024-summer-backend problem 5")
+	// sb2024.NearestBusStop()
+
 	fmt.Println("VacuumCleaner - 2024-summer-backend problem 6")
 	// sb2024.VacuumCleaner()
 
@@ -784,6 +787,9 @@ func main() {
 
 	fmt.Println("Crystals - 2024-summer-backend problem 17")
 	// sb2024.Crystals()
+
+	fmt.Println("MegaPizza - 2024-summer-backend problem 18")
+	// sb2024.MegaPizza()
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
