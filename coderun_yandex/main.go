@@ -926,6 +926,9 @@ func main() {
 	fmt.Println("LandOfArchitecturalStorms - 2025-winter-common problem 13")
 	// wc2025.LandOfArchitecturalStorms()
 
+	fmt.Println("Snowflakes - 2025-winter-common problem 14")
+	// wc2025.Snowflakes()
+
 	fmt.Println("SnowstormIntensifying - 2025-winter-common problem 15")
 	// wc2025.SnowstormIntensifying()
 
@@ -943,6 +946,9 @@ func main() {
 
 	fmt.Println("SolarProcessor - 2025-winter-common problem 20")
 	// wc2025.SolarProcessor()
+
+	fmt.Println("EnergyStrike - 2025-winter-common problem 21")
+	// wc2025.EnergyStrike()
 
 	fmt.Println("Anagrams - yandex-interview problem 2")
 	// yi.Anagrams()
