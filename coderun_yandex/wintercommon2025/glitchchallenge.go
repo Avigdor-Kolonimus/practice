@@ -67,57 +67,6 @@ func factorizeFactorialSmall(n, threshold int) map[int]int {
 	return result
 }
 
-func processLargePrimes(low, high int, callback func(int)) {
-	if low > high {
-		return
-	}
-
-	sqrtHigh := intSqrt(high)
-	basePrimes := sieve(sqrtHigh)
-
-	segmentSize := 100000
-	for segmentLow := low; segmentLow <= high; segmentLow += segmentSize {
-		segmentHigh := min(segmentLow+segmentSize-1, high)
-
-		segment := make([]bool, segmentHigh-segmentLow+1)
-		for i := range segment {
-			segment[i] = true
-		}
-
-		for _, p := range basePrimes {
-			start := max(((segmentLow+p-1)/p)*p, p*p)
-			for j := start; j <= segmentHigh; j += p {
-				segment[j-segmentLow] = false
-			}
-		}
-
-		for i, isPrime := range segment {
-			if isPrime {
-				num := segmentLow + i
-				if num >= 2 {
-					callback(num)
-				}
-			}
-		}
-	}
-}
-
-func intSqrt(n int) int {
-	if n < 2 {
-		return n
-	}
-	left, right := 1, n
-	for left < right {
-		mid := (left + right + 1) / 2
-		if mid*mid <= n {
-			left = mid
-		} else {
-			right = mid - 1
-		}
-	}
-	return left
-}
-
 func legendre(n, p int) int {
 	result := 0
 	power := p
