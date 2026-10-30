@@ -9,7 +9,7 @@ import (
 
 const (
 	MOD_CABLEWAY int64 = 998244353
-	MAX_N              = 3000
+	MAX_N        int   = 3000
 )
 
 // prefix[n][k] = S(n,0) + S(n,1) + ... + S(n,k)
@@ -20,13 +20,6 @@ func init() {
 
 	for n := 1; n <= MAX_N; n++ {
 		for k := 1; k <= n; k++ {
-			// S(n,k) recurrence summed over 0..k:
-			//
-			// P(n,k) =
-			// P(n-1,k-1) + (n-1) * P(n-1,k)
-			//
-			// For k == n, P(n-1,k) means the whole row,
-			// i.e. P(n-1,n-1).
 
 			prevK := k
 			if prevK > n-1 {
@@ -81,46 +74,6 @@ func (fs *FastScannerCabelway) NextInt() int {
 	}
 
 	return res * sign
-}
-
-func countCycles(n int, next []int, inDeg []bool, outDeg []bool) int {
-	visited := make([]bool, n+1)
-
-	for v := 1; v <= n; v++ {
-		if inDeg[v] {
-			continue
-		}
-
-		cur := v
-
-		for cur != 0 && !visited[cur] {
-			visited[cur] = true
-
-			if !outDeg[cur] {
-				break
-			}
-
-			cur = next[cur]
-		}
-	}
-
-	cycles := 0
-	for v := 1; v <= n; v++ {
-		if visited[v] {
-			continue
-		}
-
-		cycles++
-
-		cur := v
-
-		for !visited[cur] {
-			visited[cur] = true
-			cur = next[cur]
-		}
-	}
-
-	return cycles
 }
 
 func solve(n, q, l, r int, b, c []int) int64 {
