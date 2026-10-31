@@ -6,10 +6,6 @@ import (
 	"strconv"
 )
 
-func validateCityWallDestructionInput(n int) bool {
-	return n >= 1 && n <= 300_000
-}
-
 func solveCityWallDestruction(n int, a []int) int {
 	if n == 0 {
 		return 0
