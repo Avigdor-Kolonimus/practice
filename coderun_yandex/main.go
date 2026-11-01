@@ -701,6 +701,9 @@ func main() {
 	fmt.Println("NumberSystem - backend problem 37")
 	// b.NumberSystem()
 
+	fmt.Println("Pallets - backend problem 38")
+	// b.Pallets()
+
 	fmt.Println("PermutationYaIntern - backend problem 39")
 	// b.PermutationYaIntern()
 
@@ -892,6 +895,9 @@ func main() {
 
 	fmt.Println("FindNicePieceSolve - 2025-summer-common problem 24")
 	// sc2025.FindNicePieceSolve()
+
+	fmt.Println("OpenEndSolve - 2025-summer-common problem 25")
+	// sc2025.OpenEndSolve()
 
 	fmt.Println("ThermalPanels - 2025-winter-common problem 1")
 	// wc2025.ThermalPanels()
