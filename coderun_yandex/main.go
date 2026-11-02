@@ -665,6 +665,9 @@ func main() {
 	fmt.Println("Mobilization - backend problem 21")
 	// b.Mobilization()
 
+	fmt.Println("MtfEncodingDecoding - backend problem 22")
+	// b.MtfEncodingDecoding()
+
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
 
@@ -793,6 +796,9 @@ func main() {
 
 	fmt.Println("MegaPizza - 2024-summer-backend problem 18")
 	// sb2024.MegaPizza()
+
+	fmt.Println("Microwave - 2024-summer-backend problem 19")
+	// sb2024.Microwave()
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
