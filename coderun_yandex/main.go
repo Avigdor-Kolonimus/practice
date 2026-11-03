@@ -395,6 +395,9 @@ func main() {
 	fmt.Println("SystemOfLinearQquations2 - problem 188")
 	// prb.SystemOfLinearQquations2()
 
+	fmt.Println("MaximTriangle - problem 196")
+	// prb.MaximTriangle()
+
 	fmt.Println("Cubes - problem 199")
 	// prb.Cubes()
 
@@ -418,6 +421,9 @@ func main() {
 
 	fmt.Println("BeautyAboveAll - problem 212")
 	// prb.BeautyAboveAll()
+
+	fmt.Println("Robot - problem 217")
+	// prb.Robot()
 
 	fmt.Println("Triangles - problem 221")
 	// prb.Triangles()

@@ -44,32 +44,6 @@ func inorder(writer *bufio.Writer, node *NodeBSL) {
 	inorder(writer, node.right)
 }
 
-// Root → Left → Right
-func preorder(writer *bufio.Writer, node *NodeBSL) {
-	if node == nil {
-		return
-	}
-
-	writer.WriteString(strconv.Itoa(node.val))
-	writer.WriteByte('\n')
-
-	preorder(writer, node.left)
-	preorder(writer, node.right)
-}
-
-// Left → Right → Root
-func postorder(writer *bufio.Writer, node *NodeBSL) {
-	if node == nil {
-		return
-	}
-
-	postorder(writer, node.left)
-	postorder(writer, node.right)
-
-	writer.WriteString(strconv.Itoa(node.val))
-	writer.WriteByte('\n')
-}
-
 // https://coderun.yandex.ru/problem/fork-conclusion
 // ForkConclusion - problem 87
 func ForkConclusion() {

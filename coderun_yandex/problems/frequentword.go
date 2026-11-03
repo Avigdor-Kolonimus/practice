@@ -28,6 +28,10 @@ func FrequentWord() {
 		}
 	}
 
+	if err := scanner.Err(); err != nil {
+		panic(err)
+	}
+
 	writer.WriteString(ans)
 	writer.WriteByte('\n')
 }
