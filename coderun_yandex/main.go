@@ -446,6 +446,9 @@ func main() {
 	fmt.Println("SeatingArrangements - problem 235")
 	// prb.SeatingArrangements()
 
+	fmt.Println("Advertising - problem 236")
+	// prb.Advertising()
+
 	fmt.Println("Coevals - problem 237")
 	// prb.Coevals()
 
@@ -491,14 +494,17 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
+	fmt.Println("QuestionsAboutMaximum - problem 417")
+	// prb.QuestionsAboutMaximum()
+
+	fmt.Println("SubstitutionsPlaying - problem 464")
+	// prb.SubstitutionsPlaying()
+
 	fmt.Println("KroshAndGame - problem 591")
 	// prb.KroshAndGame()
 
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
-
-	fmt.Println("SubstitutionsPlaying - problem 464")
-	// prb.SubstitutionsPlaying()
 
 	fmt.Println("AirlineTickets - problem 754")
 	// prb.AirlineTickets()
