@@ -251,8 +251,14 @@ func main() {
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
 
+	fmt.Println("RadioBatic - problem 40")
+	// prb.RadioBatic()
+
 	fmt.Println("Troop - problem 41")
 	// prb.Troop()
+
+	fmt.Println("Mugs - problem 42")
+	// prb.Mugs()
 
 	fmt.Println("TwoHorses - problem 43")
 	// prb.TwoHorses()
