@@ -269,6 +269,12 @@ func main() {
 	fmt.Println("ToyMaze - problem 45")
 	// prb.ToyMaze()
 
+	fmt.Println("Robots - problem 46")
+	// prb.Robots()
+
+	fmt.Println("Stalker - problem 47")
+	// prb.Stalker()
+
 	fmt.Println("StudentsAndLectures - problem 48")
 	// prb.StudentsAndLectures()
 
