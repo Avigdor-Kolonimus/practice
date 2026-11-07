@@ -251,8 +251,14 @@ func main() {
 	fmt.Println("FirstVertex - problem 39")
 	// prb.FirstVertex()
 
+	fmt.Println("RadioBatic - problem 40")
+	// prb.RadioBatic()
+
 	fmt.Println("Troop - problem 41")
 	// prb.Troop()
+
+	fmt.Println("Mugs - problem 42")
+	// prb.Mugs()
 
 	fmt.Println("TwoHorses - problem 43")
 	// prb.TwoHorses()
@@ -262,6 +268,12 @@ func main() {
 
 	fmt.Println("ToyMaze - problem 45")
 	// prb.ToyMaze()
+
+	fmt.Println("Robots - problem 46")
+	// prb.Robots()
+
+	fmt.Println("Stalker - problem 47")
+	// prb.Stalker()
 
 	fmt.Println("StudentsAndLectures - problem 48")
 	// prb.StudentsAndLectures()
@@ -395,6 +407,9 @@ func main() {
 	fmt.Println("SystemOfLinearQquations2 - problem 188")
 	// prb.SystemOfLinearQquations2()
 
+	fmt.Println("MaximTriangle - problem 196")
+	// prb.MaximTriangle()
+
 	fmt.Println("Cubes - problem 199")
 	// prb.Cubes()
 
@@ -419,6 +434,9 @@ func main() {
 	fmt.Println("BeautyAboveAll - problem 212")
 	// prb.BeautyAboveAll()
 
+	fmt.Println("Robot - problem 217")
+	// prb.Robot()
+
 	fmt.Println("Triangles - problem 221")
 	// prb.Triangles()
 
@@ -439,6 +457,9 @@ func main() {
 
 	fmt.Println("SeatingArrangements - problem 235")
 	// prb.SeatingArrangements()
+
+	fmt.Println("Advertising - problem 236")
+	// prb.Advertising()
 
 	fmt.Println("Coevals - problem 237")
 	// prb.Coevals()
@@ -485,14 +506,17 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
+	fmt.Println("QuestionsAboutMaximum - problem 417")
+	// prb.QuestionsAboutMaximum()
+
+	fmt.Println("SubstitutionsPlaying - problem 464")
+	// prb.SubstitutionsPlaying()
+
 	fmt.Println("KroshAndGame - problem 591")
 	// prb.KroshAndGame()
 
 	fmt.Println("Phi - problem 627")
 	// prb.Phi()
-
-	fmt.Println("SubstitutionsPlaying - problem 464")
-	// prb.SubstitutionsPlaying()
 
 	fmt.Println("AirlineTickets - problem 754")
 	// prb.AirlineTickets()
@@ -665,6 +689,9 @@ func main() {
 	fmt.Println("Mobilization - backend problem 21")
 	// b.Mobilization()
 
+	fmt.Println("MtfEncodingDecoding - backend problem 22")
+	// b.MtfEncodingDecoding()
+
 	fmt.Println("PhoneFormatting - backend problem 23")
 	// b.PhoneFormatting()
 
@@ -700,6 +727,9 @@ func main() {
 
 	fmt.Println("NumberSystem - backend problem 37")
 	// b.NumberSystem()
+
+	fmt.Println("Pallets - backend problem 38")
+	// b.Pallets()
 
 	fmt.Println("PermutationYaIntern - backend problem 39")
 	// b.PermutationYaIntern()
@@ -790,6 +820,9 @@ func main() {
 
 	fmt.Println("MegaPizza - 2024-summer-backend problem 18")
 	// sb2024.MegaPizza()
+
+	fmt.Println("Microwave - 2024-summer-backend problem 19")
+	// sb2024.Microwave()
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
@@ -886,6 +919,15 @@ func main() {
 
 	fmt.Println("AncientTunnelSolve - 2025-summer-common problem 22")
 	// sc2025.AncientTunnelSolve()
+
+	fmt.Println("DangerCoreSolve - 2025-summer-common problem 23")
+	// sc2025.DangerCoreSolve()
+
+	fmt.Println("FindNicePieceSolve - 2025-summer-common problem 24")
+	// sc2025.FindNicePieceSolve()
+
+	fmt.Println("OpenEndSolve - 2025-summer-common problem 25")
+	// sc2025.OpenEndSolve()
 
 	fmt.Println("ThermalPanels - 2025-winter-common problem 1")
 	// wc2025.ThermalPanels()

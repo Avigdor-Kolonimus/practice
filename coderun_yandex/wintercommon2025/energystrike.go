@@ -66,30 +66,6 @@ func intersections(a PointEnergyStrike, r1 float64, b PointEnergyStrike, r2 floa
 	return []PointEnergyStrike{p1, p2}
 }
 
-func circumcenter(a, b, c PointEnergyStrike) (PointEnergyStrike, bool) {
-	d := 2 * (a.x*(b.y-c.y) +
-		b.x*(c.y-a.y) +
-		c.x*(a.y-b.y))
-
-	if math.Abs(d) < 1e-12 {
-		return PointEnergyStrike{}, false
-	}
-
-	aa := a.x*a.x + a.y*a.y
-	bb := b.x*b.x + b.y*b.y
-	cc := c.x*c.x + c.y*c.y
-
-	x := (aa*(b.y-c.y) +
-		bb*(c.y-a.y) +
-		cc*(a.y-b.y)) / d
-
-	y := (aa*(c.x-b.x) +
-		bb*(a.x-c.x) +
-		cc*(b.x-a.x)) / d
-
-	return PointEnergyStrike{x, y}, true
-}
-
 func buildStaticCandidates(points []PointEnergyStrike) []PointEnergyStrike {
 	n := len(points)
 	candidates := make([]PointEnergyStrike, 0, 100)
