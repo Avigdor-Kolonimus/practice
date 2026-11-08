@@ -1022,11 +1022,17 @@ func main() {
 	fmt.Println("OptimalPlaylist - atolstikov problem 5")
 	// atl.OptimalPlaylist()
 
+	fmt.Println("RestoreAlphabet - atolstikov problem 6")
+	// atl.RestoreAlphabet()
+
 	fmt.Println("Elevator - atolstikov problem 10")
 	// atl.Elevator()
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
+
+	fmt.Println("TrafficIssue - atolstikov problem 12")
+	// atl.TrafficIssue()
 
 	fmt.Println("Ambulance - mgustokashin problem 1")
 	// mg.Ambulance()
