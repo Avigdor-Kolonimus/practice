@@ -1025,6 +1025,9 @@ func main() {
 	fmt.Println("RestoreAlphabet - atolstikov problem 6")
 	// atl.RestoreAlphabet()
 
+	fmt.Println("RelatableCounter - atolstikov problem 8")
+	// atl.RelatableCounter()
+
 	fmt.Println("Elevator - atolstikov problem 10")
 	// atl.Elevator()
 
@@ -1048,6 +1051,9 @@ func main() {
 
 	fmt.Println("Buses - mgustokashin problem 5")
 	// mg.Buses()
+
+	fmt.Println("AmbitiousSnail - mgustokashin problem 6")
+	// mg.AmbitiousSnail()
 
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
