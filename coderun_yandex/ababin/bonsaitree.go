@@ -117,13 +117,6 @@ func powMod(a int64, e int32) int64 {
 	return result
 }
 
-func nextInt(reader *bufio.Reader) int {
-	line, _ := reader.ReadString('\n')
-	value, _ := strconv.Atoi(strings.TrimSpace(line))
-
-	return value
-}
-
 // https://coderun.yandex.ru/selections/ababin/problems/bonsai-tree
 // BonsaiTree - problem 1
 func BonsaiTree() {
