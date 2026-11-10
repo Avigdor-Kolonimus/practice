@@ -1334,8 +1334,14 @@ func main() {
 	fmt.Println("PacmanSpeedrun - ababin problem 2")
 	// abb.PacmanSpeedrun()
 
+	fmt.Println("DarkStartsAndWin - ababin problem 3")
+	// abb.DarkStartsAndWin()
+
 	fmt.Println("Sandwiches - ababin problem 5")
 	// abb.Sandwiches()
+
+	fmt.Println("RecurrentSequence - ababin problem 6")
+	// abb.RecurrentSequence()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
