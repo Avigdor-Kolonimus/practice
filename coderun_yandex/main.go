@@ -1172,6 +1172,12 @@ func main() {
 	fmt.Println("EditingARoute - relizarov problem 1")
 	rv.EditingARoute()
 
+	fmt.Println("EquationAdjustment - relizarov problem 2")
+	// rv.EquationAdjustment()
+
+	fmt.Println("DivisibilityTest - relizarov problem 3")
+	// rv.DivisibilityTest()
+
 	fmt.Println("DominoPlacement - algorithm-training-march-2026 problem 1")
 	// atm2026.DominoPlacement()
 
