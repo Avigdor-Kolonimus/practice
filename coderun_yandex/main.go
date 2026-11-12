@@ -1178,6 +1178,12 @@ func main() {
 	fmt.Println("DivisibilityTest - relizarov problem 3")
 	// rv.DivisibilityTest()
 
+	fmt.Println("UniqueCode - relizarov problem 4")
+	// rv.UniqueCode()
+
+	fmt.Println("JsScriptsMinification - relizarov problem 5")
+	// rv.JsScriptsMinification()
+
 	fmt.Println("DominoPlacement - algorithm-training-march-2026 problem 1")
 	// atm2026.DominoPlacement()
 
