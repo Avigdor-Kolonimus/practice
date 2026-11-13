@@ -677,6 +677,9 @@ func main() {
 	fmt.Println("Autocomplete - backend problem 13")
 	// b.Autocomplete()
 
+	fmt.Println("DecryptMessage - backend problem 14")
+	// b.DecryptMessage()
+
 	fmt.Println("FindRLEStringLength - backend problem 16")
 	// b.FindRLEStringLength()
 
@@ -823,6 +826,9 @@ func main() {
 
 	fmt.Println("Microwave - 2024-summer-backend problem 19")
 	// sb2024.Microwave()
+
+	fmt.Println("NestedCycle - 2024-summer-backend problem 22")
+	// sb2024.NestedCycle()
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
