@@ -347,6 +347,9 @@ func main() {
 	fmt.Println("Security - problem 83")
 	// prb.Security()
 
+	fmt.Println("NguBuilding - problem 84")
+	// prb.NguBuilding()
+
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
 
@@ -1360,6 +1363,9 @@ func main() {
 
 	fmt.Println("RecurrentSequence - ababin problem 6")
 	// abb.RecurrentSequence()
+
+	fmt.Println("EasyProduction - ababin problem 8")
+	// abb.EasyProduction()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
