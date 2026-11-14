@@ -347,6 +347,9 @@ func main() {
 	fmt.Println("Security - problem 83")
 	// prb.Security()
 
+	fmt.Println("NguBuilding - problem 84")
+	// prb.NguBuilding()
+
 	fmt.Println("DepthAddedElements - problem 86")
 	// prb.DepthAddedElements()
 
@@ -677,6 +680,9 @@ func main() {
 	fmt.Println("Autocomplete - backend problem 13")
 	// b.Autocomplete()
 
+	fmt.Println("DecryptMessage - backend problem 14")
+	// b.DecryptMessage()
+
 	fmt.Println("FindRLEStringLength - backend problem 16")
 	// b.FindRLEStringLength()
 
@@ -823,6 +829,9 @@ func main() {
 
 	fmt.Println("Microwave - 2024-summer-backend problem 19")
 	// sb2024.Microwave()
+
+	fmt.Println("NestedCycle - 2024-summer-backend problem 22")
+	// sb2024.NestedCycle()
 
 	fmt.Println("TwoTeams - 2024-summer-backend problem 23")
 	// sb2024.TwoTeams()
@@ -1022,11 +1031,20 @@ func main() {
 	fmt.Println("OptimalPlaylist - atolstikov problem 5")
 	// atl.OptimalPlaylist()
 
+	fmt.Println("RestoreAlphabet - atolstikov problem 6")
+	// atl.RestoreAlphabet()
+
+	fmt.Println("RelatableCounter - atolstikov problem 8")
+	// atl.RelatableCounter()
+
 	fmt.Println("Elevator - atolstikov problem 10")
 	// atl.Elevator()
 
 	fmt.Println("InfinitySum - atolstikov problem 11")
 	// atl.InfinitySum()
+
+	fmt.Println("TrafficIssue - atolstikov problem 12")
+	// atl.TrafficIssue()
 
 	fmt.Println("Ambulance - mgustokashin problem 1")
 	// mg.Ambulance()
@@ -1042,6 +1060,9 @@ func main() {
 
 	fmt.Println("Buses - mgustokashin problem 5")
 	// mg.Buses()
+
+	fmt.Println("AmbitiousSnail - mgustokashin problem 6")
+	// mg.AmbitiousSnail()
 
 	fmt.Println("BuildASquare - mgustokashin problem 7")
 	// mg.BuildASquare()
@@ -1159,6 +1180,18 @@ func main() {
 
 	fmt.Println("EditingARoute - relizarov problem 1")
 	rv.EditingARoute()
+
+	fmt.Println("EquationAdjustment - relizarov problem 2")
+	// rv.EquationAdjustment()
+
+	fmt.Println("DivisibilityTest - relizarov problem 3")
+	// rv.DivisibilityTest()
+
+	fmt.Println("UniqueCode - relizarov problem 4")
+	// rv.UniqueCode()
+
+	fmt.Println("JsScriptsMinification - relizarov problem 5")
+	// rv.JsScriptsMinification()
 
 	fmt.Println("DominoPlacement - algorithm-training-march-2026 problem 1")
 	// atm2026.DominoPlacement()
@@ -1322,8 +1355,17 @@ func main() {
 	fmt.Println("PacmanSpeedrun - ababin problem 2")
 	// abb.PacmanSpeedrun()
 
+	fmt.Println("DarkStartsAndWin - ababin problem 3")
+	// abb.DarkStartsAndWin()
+
 	fmt.Println("Sandwiches - ababin problem 5")
 	// abb.Sandwiches()
+
+	fmt.Println("RecurrentSequence - ababin problem 6")
+	// abb.RecurrentSequence()
+
+	fmt.Println("EasyProduction - ababin problem 8")
+	// abb.EasyProduction()
 
 	fmt.Println("FunnyQueue - ababin problem 9")
 	abb.FunnyQueue()
