@@ -839,6 +839,9 @@ func main() {
 	fmt.Println("LuckyLumber - 2024-summer-backend problem 24")
 	// sb2024.LuckyLumber()
 
+	fmt.Println("PairedCodes - 2024-summer-backend problem 26")
+	// sb2024.PairedCodes()
+
 	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
 	// sb2024.BiggestSquare()
 
@@ -1072,6 +1075,9 @@ func main() {
 
 	fmt.Println("DestroyTheBarracks - mgustokashin problem 9")
 	// mg.DestroyTheBarracks()
+
+	fmt.Println("EchpochmakPacking - mgustokashin problem 10")
+	// mg.EchpochmakPacking()
 
 	fmt.Println("BookShelf - autumn-intern-2023 problem 1")
 	// ai2023.BookShelf()
