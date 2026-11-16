@@ -437,6 +437,9 @@ func main() {
 	fmt.Println("BeautyAboveAll - problem 212")
 	// prb.BeautyAboveAll()
 
+	fmt.Println("ScoreHypercheckers - problem 215")
+	// prb.ScoreHypercheckers()
+
 	fmt.Println("Robot - problem 217")
 	// prb.Robot()
 
@@ -829,6 +832,9 @@ func main() {
 
 	fmt.Println("Microwave - 2024-summer-backend problem 19")
 	// sb2024.Microwave()
+
+	fmt.Println("Invervals - 2024-summer-backend problem 21")
+	// sb2024.Invervals()
 
 	fmt.Println("NestedCycle - 2024-summer-backend problem 22")
 	// sb2024.NestedCycle()
