@@ -869,6 +869,9 @@ func main() {
 	fmt.Println("FairDivision - 2024-summer-backend problem 32")
 	// sb2024.FairDivision()
 
+	fmt.Println("GraphDegradation - 2024-summer-backend problem 33")
+	// sb2024.GraphDegradation()
+
 	fmt.Println("CreteCycle2 - 2024-summer-backend problem 34")
 	// sb2024.CreteCycle2()
 
