@@ -155,14 +155,14 @@ func main() {
 	fmt.Println("Motorsport - algorithm-training-september-2025 problem 40")
 	// cy.Motorsport()
 
-	fmt.Println("KnightMove - problem 2")
-	// prb.KnightMove()
-
 	fmt.Println("CheapestWay - problem 2")
 	// prb.CheapestWay()
 
 	fmt.Println("PrintTheRouteOfTheMaximumCost - problem 3")
 	// prb.PrintTheRouteOfTheMaximumCost()
+
+	fmt.Println("KnightMove - problem 4")
+	// prb.KnightMove()
 
 	fmt.Println("NopWithResponseRecovery - problem 6")
 	// prb.NopWithResponseRecovery()
@@ -511,6 +511,9 @@ func main() {
 
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
+
+	fmt.Println("Party - problem 408")
+	// prb.Party()
 
 	fmt.Println("QuestionsAboutMaximum - problem 417")
 	// prb.QuestionsAboutMaximum()
