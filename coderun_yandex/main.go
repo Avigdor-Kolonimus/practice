@@ -881,6 +881,9 @@ func main() {
 	fmt.Println("CreteCycle2 - 2024-summer-backend problem 34")
 	// sb2024.CreteCycle2()
 
+	fmt.Println("GCD2 - 2024-summer-backend problem 35")
+	// sb2024.GCD2()
+
 	fmt.Println("SolveCoderunWelcome - 2025-summer-common problem 1")
 	// sc2025.SolveCoderunWelcome(9, 8)
 
