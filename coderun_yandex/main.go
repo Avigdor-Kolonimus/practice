@@ -155,14 +155,14 @@ func main() {
 	fmt.Println("Motorsport - algorithm-training-september-2025 problem 40")
 	// cy.Motorsport()
 
-	fmt.Println("KnightMove - problem 2")
-	// prb.KnightMove()
-
 	fmt.Println("CheapestWay - problem 2")
 	// prb.CheapestWay()
 
 	fmt.Println("PrintTheRouteOfTheMaximumCost - problem 3")
 	// prb.PrintTheRouteOfTheMaximumCost()
+
+	fmt.Println("KnightMove - problem 4")
+	// prb.KnightMove()
 
 	fmt.Println("NopWithResponseRecovery - problem 6")
 	// prb.NopWithResponseRecovery()
@@ -371,6 +371,9 @@ func main() {
 	fmt.Println("ControlWork - problem 92")
 	// prb.ControlWork()
 
+	fmt.Println("SNTP - problem 94")
+	// prb.SNTP()
+
 	fmt.Println("RectangleSum - problem 95")
 	// prb.RectangleSum()
 
@@ -436,6 +439,9 @@ func main() {
 
 	fmt.Println("BeautyAboveAll - problem 212")
 	// prb.BeautyAboveAll()
+
+	fmt.Println("ScoreHypercheckers - problem 215")
+	// prb.ScoreHypercheckers()
 
 	fmt.Println("Robot - problem 217")
 	// prb.Robot()
@@ -509,11 +515,17 @@ func main() {
 	fmt.Println("IvanAndOpensource - problem 316")
 	// prb.IvanAndOpensource()
 
+	fmt.Println("Party - problem 408")
+	// prb.Party()
+
 	fmt.Println("QuestionsAboutMaximum - problem 417")
 	// prb.QuestionsAboutMaximum()
 
 	fmt.Println("SubstitutionsPlaying - problem 464")
 	// prb.SubstitutionsPlaying()
+
+	fmt.Println("SashaAndCircles - problem 568")
+	// prb.SashaAndCircles()
 
 	fmt.Println("KroshAndGame - problem 591")
 	// prb.KroshAndGame()
@@ -830,6 +842,9 @@ func main() {
 	fmt.Println("Microwave - 2024-summer-backend problem 19")
 	// sb2024.Microwave()
 
+	fmt.Println("Invervals - 2024-summer-backend problem 21")
+	// sb2024.Invervals()
+
 	fmt.Println("NestedCycle - 2024-summer-backend problem 22")
 	// sb2024.NestedCycle()
 
@@ -838,6 +853,9 @@ func main() {
 
 	fmt.Println("LuckyLumber - 2024-summer-backend problem 24")
 	// sb2024.LuckyLumber()
+
+	fmt.Println("PairedCodes - 2024-summer-backend problem 26")
+	// sb2024.PairedCodes()
 
 	fmt.Println("BiggestSquare - 2024-summer-backend problem 26")
 	// sb2024.BiggestSquare()
@@ -860,8 +878,14 @@ func main() {
 	fmt.Println("FairDivision - 2024-summer-backend problem 32")
 	// sb2024.FairDivision()
 
+	fmt.Println("GraphDegradation - 2024-summer-backend problem 33")
+	// sb2024.GraphDegradation()
+
 	fmt.Println("CreteCycle2 - 2024-summer-backend problem 34")
 	// sb2024.CreteCycle2()
+
+	fmt.Println("GCD2 - 2024-summer-backend problem 35")
+	// sb2024.GCD2()
 
 	fmt.Println("SolveCoderunWelcome - 2025-summer-common problem 1")
 	// sc2025.SolveCoderunWelcome(9, 8)
@@ -1072,6 +1096,9 @@ func main() {
 
 	fmt.Println("DestroyTheBarracks - mgustokashin problem 9")
 	// mg.DestroyTheBarracks()
+
+	fmt.Println("EchpochmakPacking - mgustokashin problem 10")
+	// mg.EchpochmakPacking()
 
 	fmt.Println("BookShelf - autumn-intern-2023 problem 1")
 	// ai2023.BookShelf()

@@ -12,7 +12,7 @@ func validateKnightMoveInput(n int) bool {
 }
 
 // https://coderun.yandex.ru/problem/knight-move
-// KnightMove - problem 2
+// KnightMove - problem 4
 func KnightMove() {
 	reader := bufio.NewReaderSize(os.Stdin, 1<<20)
 	writer := bufio.NewWriterSize(os.Stdout, 1<<20)
